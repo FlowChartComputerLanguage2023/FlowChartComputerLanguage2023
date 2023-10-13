@@ -1,0 +1,507 @@
+/Language=Fortran, F
+/function=ABS
+/function=abs
+/function=ACOS
+/function=AINT
+/function=amax0
+/function=amax1
+/function=amin0
+/function=amin1
+/function=AMOD
+/function=ASIN
+/function=ATAN
+/function=ATAN2
+/function=CCOS
+/function=CEILING
+/function=CLOG
+/function=COS
+/function=COSH
+/function=CSIN
+/function=CSQRT
+/function=DABS
+/function=DACOS
+/function=DASIN
+/function=DBLE
+/function=DCOS
+/function=DDIM
+/function=DEXP
+/function=DINT
+/function=dmax1
+/function=dmin1
+/function=DMOD
+/function=DNINT
+/function=DSIGN
+/function=DSIN
+/function=DSQRT
+/function=DTAN
+/function=enum
+/function=floor
+/function=iabs
+/function=idim
+/function=idint
+/function=IDNINT
+/function=ifix
+/function=INT
+/function=isign
+/function=LOG
+/function=LOG10
+/function=MAX
+/function=max0
+/function=max1
+/function=MIN
+/function=min0
+/function=min1
+/function=MOD
+/function=NINT
+/function=RANDOM_NUMBER
+/function=RANDOM_SEED
+/function=SINH
+/function=sqrt
+/function=TAN
+/function=TANH
+/function=value
+/keyword=abstract
+/keyword=all
+/keyword=allocatable
+/keyword=allocate
+/keyword=ANINT
+/keyword=assign
+/keyword=associate
+/keyword=asynchronous
+/keyword=backspace
+/keyword=bind
+/keyword=block
+/keyword=block data
+/keyword=bstract
+/keyword=CABS
+/keyword=call
+/keyword=case
+/keyword=CEXP
+/keyword=class
+/keyword=close
+/keyword=CMPLX
+/keyword=codimension
+/keyword=common
+/keyword=concurrent
+/keyword=contains
+/keyword=contiguous
+/keyword=continue
+/keyword=critical
+/keyword=cycle
+/keyword=data
+/keyword=DATAN
+/keyword=DATAN2
+/keyword=deallocate
+/keyword=deferred
+/keyword=dimension
+/keyword=do
+/keyword=do concurrent
+/keyword=dprod
+/keyword=elemental
+/keyword=else
+/keyword=else if
+/keyword=elsewhere
+/keyword=end
+/keyword=endfile
+/keyword=endif
+/keyword=entry
+/keyword=enum
+/keyword=enumerator
+/keyword=equivalence
+/keyword=error
+/keyword=error stop
+/keyword=exit?
+/keyword=EXP
+/keyword=extends
+/keyword=external
+/keyword=final
+/keyword=float
+/keyword=flush
+/keyword=forall
+/keyword=format
+/keyword=function
+/keyword=generic
+/keyword=goto
+/keyword=if
+/keyword=images
+/keyword=implicit
+/keyword=import
+/keyword=include
+/keyword=inquire
+/keyword=intent
+/keyword=interface
+/keyword=intrinsic
+/keyword=LGE
+/keyword=LGT
+/keyword=LLE
+/keyword=LLT
+/keyword=lock
+/keyword=LOGICAL
+/keyword=MASK
+/keyword=memory
+/keyword=module
+/keyword=MODULO
+/keyword=MVBITS
+/keyword=namelist
+/keyword=ndnint
+/keyword=non_overridable
+/keyword=nopass
+/keyword=nullify
+/keyword=only
+/keyword=open
+/keyword=operator
+/keyword=optional
+/keyword=PACK
+/keyword=parameter
+/keyword=pass
+/keyword=pause
+/keyword=pointer
+/keyword=print
+/keyword=private
+/keyword=procedure
+/keyword=program
+/keyword=protected
+/keyword=public
+/keyword=pure.
+/keyword=read
+/keyword=real
+/keyword=recursive
+/keyword=result
+/keyword=return
+/keyword=rewind
+/keyword=rewrite
+/keyword=save
+/keyword=select
+/keyword=sequence
+/keyword=sign
+/keyword=sngl
+/keyword=stop
+/keyword=submodule
+/keyword=subroutine
+/keyword=sync
+/keyword=sync all
+/keyword=sync images
+/keyword=sync memory
+/keyword=SYSTEM_CLOCK
+/keyword=target
+/keyword=then
+/keyword=unlock.
+/keyword=use
+/keyword=value
+/keyword=VECTOR
+/keyword=volatile
+/keyword=wait.
+/keyword=where.
+/keyword=while
+/keyword=write.
+/operator=-
+/operator=;
+/operator=:
+/operator=::
+/operator=!
+/operator=.and.
+/operator=.eq.
+/operator=.eqv.
+/operator=.ge.
+/operator=.gt.
+/operator=.LE.
+/operator=.lt.
+/operator=.ne.
+/operator=.neqv.
+/operator=.not.
+/operator=.or.
+/operator=*
+/operator=**
+/operator=/
+/operator=//
+/operator=/=
+/operator=&
+/operator=+
+/operator=<
+/operator=<=
+/operator==
+/operator=>
+/operator=>=
+/Grammar = format-specification ::= format-item-list?
+/Grammar = format-item ::= r? data-edit-desc | control-edit-desc | r? format-item-list
+/Grammar = r ::= int-literal-constant
+/Grammar = data-edit-desc ::= I w clause_a? | F w . d | ES w . d clause_e | L w | A 'w'?
+/Grammar = clause_a ::= '.' 'm'
+/Grammar = clause_e ::= 'E' | 'e'
+/Grammar = w ::= int-literal-constant
+/Grammar = m ::= int-literal-constant
+/Grammar = d ::= int-literal-constant
+/Grammar = e ::= int-literal-constant
+/Grammar = control-edit-desc ::= position-edit-desc | r? / | : | sign-edit-desc
+/Grammar = position-edit-desc ::= T n | TL n | TR n
+/Grammar = n ::= int-literal-constant
+/Grammar = sign-edit-desc ::= S | SP | SS
+/Grammar = main-program ::= program-stmt use-stmt? ... derived-type-def? ... specification-part? ... execution-part? end-program-stmt
+/Grammar = main-program ::= program-stmt use-stmt? ... specification-part? execution-part? subprogram-part? end-program-stmt
+/Grammar = program-stmt ::= PROGRAM program-name
+/Grammar = end-program-stmt ::= END PROGRAM program-name
+/Grammar = private-module ::= module-stmt use-stmt? ... PRIVATE? specification-part? subprogram-part? end-module-stmt
+/Grammar = x module ::= public-module | private-module
+/Grammar = y public-module ::= module-stmt use-stmt use-stmt? ... PUBLIC end-module-stmt
+/Grammar = module-stmt ::= MODULE module-name
+/Grammar = end-module-stmt ::= END MODULE module-name
+/Grammar = use-stmt ::= USE module-name clause_b | USE module-name , ONLY : only-list?
+/Grammar = clause_b ::= ',' rename-list
+/Grammar = rename ::= local-name => use-name
+/Grammar = only ::= generic-spec | only-use-name | only-rename
+/Grammar = only-use-name ::= use-name
+/Grammar = only-rename ::= local-name => use-name
+/Grammar = interface-block ::= INTERFACE generic-spec? interface-specification? ... END INTERFACE generic-spec?
+/Grammar = interface-specification ::= interface-body | module-procedure-stmt
+/Grammar = interface-body ::= function-stmt specification-part? end-function-stmt | subroutine-stmt specification-part? end-subroutine-stmt
+/Grammar = module-procedure-stmt ::= MODULE PROCEDURE procedure-name-list
+/Grammar = generic-spec ::= generic-name | OPERATOR defined-operator | ASSIGNMENT =
+/Grammar = intrinsic-stmt ::= INTRINSIC :: intrinsic-procedure-name-list
+/Grammar = r9999 intrinsic-procedure-name-list ::= abs | acos | adjustl | adjustr | aimag | aint | all | allocated | anint | any | asin | associated | atan | atan2 | bit_size | btest | ceiling | char | cmplx | conjg | cos | cosh | count | cpu_time | cshift | date_and_time | digits | dot_product | eoshift | epsilon | exp | exponent | floor | fraction | huge | iand | ibclr | ibits | ibset | ichar | ieor | index | int | ior | ishft | ishftc | kind | lbound | len | len_trim | log | log10 | logical | matmul | max | maxexponent | maxloc | maxval | merge | min | minexponent | minloc | minval | modulo | mvbits | nearest | nint | not | null | pack | precision | present | product | radix | random_number | random_seed | range | real | repeat | reshape | rrspacing | scale | scan | selected_int_kind | selected_real_kind | set_exponent | shape | sign | sin | sinh | size | spacing | spread | sqrt | sum | system_clock | tan | tanh | tiny | transpose | trim | ubound | unpack | verify |
+/Grammar = function-reference ::= function-name actual-arg-spec-list?
+/Grammar = call-stmt ::= CALL subroutine-name actual-arg-spec-list?
+/Grammar = actual-arg-spec ::= clause_c actual-arg
+/Grammar = clause_c ::= keyword '='
+/Grammar = keyword ::= dummy-arg-name
+/Grammar = actual-arg ::= expr | variable | procedure-name
+/Grammar = function-subprogram ::= function-stmt specification-part? execution-part? end-function-stmt
+/Grammar = function-stmt ::= prefix? FUNCTION function-name dummy-arg-name-list RESULT result-name
+/Grammar = prefix ::= prefix-spec prefix-spec? ...
+/Grammar = prefix-spec ::= RECURSIVE | PURE | ELEMENTAL
+/Grammar = end-function-stmt ::= END FUNCTION function-name
+/Grammar = subroutine-subprogram ::= subroutine-stmt specification-part? execution-part? end-subroutine-stmt
+/Grammar = subroutine-stmt ::= prefix? SUBROUTINE subroutine-name dummy-arg-list?
+/Grammar = dummy-arg ::= dummy-arg-name
+/Grammar = end-subroutine-stmt ::= END SUBROUTINE subroutine-name
+/Grammar = return-stmt ::= RETURN
+/Grammar = program ::= program-unit program-unit? ...
+/Grammar = program-unit ::= main-program | module
+/Grammar = specification-part ::= declaration-construct? ...
+/Grammar = declaration-construct ::= interface-block | derived-type-def | type-declaration-stmt | intrinsic-stmt | access-stmt | optional-stmt
+/Grammar = execution-part ::= executable-construct? ...
+/Grammar = subprogram-part ::= CONTAINS subprogram subprogram? ...
+/Grammar = subprogram ::= function-subprogram | subroutine-subprogram
+/Grammar = executable-construct ::= action-stmt | case-construct | do-construct | if-construct | where-construct | forall-construct
+/Grammar = action-stmt ::= allocate-stmt | assignment-stmt | backspace-stmt | call-stmt | close-stmt | continue-stmt | cycle-stmt | deallocate-stmt | endfile-stmt | exit-stmt | forall-stmt | goto-stmt | if-stmt | inquire-stmt | open-stmt | pointer-assignment-stmt | print-stmt | read-stmt | return-stmt | rewind-stmt | stop-stmt | where-stmt | write-stmt
+/Grammar = character ::= alphanumeric-character | special-character
+/Grammar = alphanumeric-character ::= letter | digit | underscore
+/Grammar = underscore ::= _
+/Grammar = name ::= letter alphanumeric-character? ... rface endmodule end module endprogram end program endselect end select endsubroutine end subroutine endtype end type endwhere end where inout in out selectcase select case
+/Grammar = constant ::= literal-constant | named-constant
+/Grammar = literal-constant ::= int-literal-constant | real-literal-constant | complex-literal-constant | logical-literal-constant | char-literal-constant
+/Grammar = named-constant ::= name
+/Grammar = int-constant ::= constant
+/Grammar = char-constant ::= constant
+/Grammar = intrinsic-operator ::= power-op | mult-op | add-op | concat-op | rel-op | not-op | and-op | or-op | equiv-op
+/Grammar = defined-operator ::= defined-unary-op | defined-binary-op | extended-intrinsic-op
+/Grammar = extended-intrinsic-op ::= intrinsic-operator
+/Grammar = label ::= digit? digit? digit? digit? digit?
+/Grammar = signed-digit-string ::= sign? digit-string
+/Grammar = digit-string ::= digit digit? ...
+/Grammar = signed-int-literal-constant ::= sign? int-literal-constant
+/Grammar = int-literal-constant ::= digit-string clause_d?
+/Grammar = clause_d ::= '_' kind-param
+/Grammar = kind-param ::= scalar-int-constant-name
+/Grammar = sign ::= '+' | '-' |
+/Grammar = signed-real-literal-constant ::= sign? real-literal-constant
+/Grammar = real-literal-constant ::= significand clause_f? clause_g?
+/Grammar = clause_f ::= exponent-letter exponent
+/Grammar = clause_g ::= '_' kind-param
+/Grammar = significand ::= digit-string . digit-string
+/Grammar = exponent-letter ::= E
+/Grammar = exponent ::= signed-digit-string
+/Grammar = complex-literal-constant ::=real-part , imag-part
+/Grammar = real-part ::= signed-real-literal-constant
+/Grammar = imag-part ::= signed-real-literal-constant
+/Grammar = char-literal-constant ::= " rep-char? ... " Note: Within a char-literal-constant the quote delimiter may be doubled to indicate a single instance of the delimiter.
+/Grammar = logical-literal-constant ::= .TRUE. clause_h | .FALSE. clause_h
+/Grammar = clause_h ::= '_' kind-param
+/Grammar = 
+/Grammar = derived-type-def ::= derived-type-stmt private-stmt? component-def-stmt component-def-stmt? ... end-type-stmt
+/Grammar = derived-type-stmt ::= TYPE clause_j :: type-name
+/Grammar = clause_j ::= ',' access-spec
+/Grammar = private-stmt ::= PRIVATE
+/Grammar = component-def-stmt ::= type-spec clause_k :: component-decl-list
+/Grammar = clause_k ::= ',' component-attr-spec-list
+/Grammar = component-attr-spec ::= POINTER | DIMENSION component-array-spec
+/Grammar = component-array-spec ::= explicit-shape-spec-list | deferred-shape-spec-list in the explicit-shape-spec shall be a constant specification expression.
+/Grammar = component-decl ::= component-name initialization?
+/Grammar = end-type-stmt ::= END TYPE type-name
+/Grammar = structure-constructor ::= type-name expr-list
+/Grammar = array-constructor ::= '(' / ac-value-list / ')'
+/Grammar = ac-value ::= expr | ac-implied-do
+/Grammar = ac-implied-do ::= ac-value-list , implied-do-control
+/Grammar = implied-do-control ::= do-variable = scalar-int-expr , scalar-int-expr & clause_L?
+/Grammar = clause_L ::= ',' scalar-int-expr
+/Grammar = type-declaration-stmt ::= type-spec clause_m? ... :: entity-decl-list
+/Grammar = clause_m ::= ',' atr-spec
+/Grammar = type-spec ::= INTEGER kind-selector? | REAL kind-selector? | CHARACTER char-selector | COMPLEX kind-selector? | LOGICAL kind-selector? | TYPE type-name
+/Grammar = attr-spec ::= PARAMETER | access-spec | ALLOCATABLE | DIMENSION array-spec | INTENT intent-spec | OPTIONAL | POINTER | SAVE | TARGET
+/Grammar = entity-decl ::= object-name initialization?
+/Grammar = initialization ::= = initialization-expr | => NULL '(' ')'
+/Grammar = kind-selector ::= KIND = scalar-int-constant-name
+/Grammar = char-selector ::= LEN = char-len-param-value
+/Grammar = char-len-param-value ::= specification-expr | '*'
+/Grammar = access-spec ::= PUBLIC | PRIVATE
+/Grammar = intent-spec ::= IN | OUT | INOUT
+/Grammar = array-spec ::= explicit-shape-spec-list | assumed-shape-spec-list | deferred-shape-spec-list
+/Grammar = explicit-shape-spec ::= clause_n? upper-bound
+/Grammar = clause_n ::= lower-bound ':'
+/Grammar = lower-bound ::= specification-expr
+/Grammar = upper-bound ::= specification-expr
+/Grammar = assumed-shape-spec ::= lower-bound? :
+/Grammar = deferred-shape-spec ::= :
+/Grammar = optional-stmt ::= OPTIONAL :: dummy-arg-name-list
+/Grammar = access-stmt ::= access-spec :: access-id-list
+/Grammar = access-id ::= procedure-name | generic-spec
+/Grammar = variable ::= scalar-variable-name | array-variable-name | subobject
+/Grammar = subobject ::= array-element | array-section | structure-component | substring
+/Grammar = logical-variable ::= variable
+/Grammar = default-logical-variable ::= variable
+/Grammar = char-variable ::= variable
+/Grammar = int-variable ::= variable
+/Grammar = default-int-variable ::= variable
+/Grammar = substring ::= parent-string '(' substring-range ')'
+/Grammar = parent-string ::= scalar-variable-name | array-element | scalar-structure-component
+/Grammar = substring-range ::= scalar-int-expr? : scalar-int-expr?
+/Grammar = data-ref ::= part-ref clause_p ...
+/Grammar = clause_p ::= '%' part-ref
+/Grammar = part-ref ::= part-name section-subscript-list?
+/Grammar = structure-component ::= data-ref
+/Grammar = array-element ::= data-ref
+/Grammar = array-section ::= data-ref substring-range?
+/Grammar = subscript ::= scalar-int-expr
+/Grammar = section-subscript ::= subscript | subscript-triplet | vector-subscript
+/Grammar = subscript-triplet ::= subscript? : subscript? clause_q?
+/Grammar = clause_q ::= ':' stride
+/Grammar = stride ::= scalar-int-expr
+/Grammar = vector-subscript ::= int-expr
+/Grammar = allocate-stmt ::= ALLOCATE '(' allocation-list clause_r? ')'
+/Grammar = clause_r ::= ',' 'STAT '=' stat-variable
+/Grammar = stat-variable ::= scalar-int-variable
+/Grammar = allocation ::= allocate-object allocate-shape-spec-list?
+/Grammar = allocate-object ::= variable-name | structure-component
+/Grammar = allocate-shape-spec ::= clause_s? allocate-upper-bound
+/Grammar = clause_s ::= allocate-lower-bound
+/Grammar = allocate-lower-bound ::= scalar-int-expr
+/Grammar = allocate-upper-bound ::= scalar-int-expr
+/Grammar = pointer-object ::= variable-name | structure-component
+/Grammar = deallocate-stmt ::= DEALLOCATE '(' allocate-object-list clause_t? ')'
+/Grammar = clause_t ::= ',' '=' stat-variable
+/Grammar = primary ::= constant | constant-subobject | variable | array-constructor | structure-constructor | function-reference | '(' expr ')'
+/Grammar = constant-subobject ::= subobject
+/Grammar = level-1-expr ::= defined-unary-op? primary
+/Grammar = defined-unary-op ::= . letter letter? ...
+/Grammar = mult-operand ::= level-1-expr clause_u
+/Grammar = clause_u ::= power-op mult-operand
+/Grammar = add-operand ::= clause_v mult-operand
+/Grammar = clause_v ::= add-operand mult-op
+/Grammar = level-2-expr ::= clause_w add-operand
+/Grammar = clause_w ::= level-2-expr? add-op?
+/Grammar = power-op ::= **
+/Grammar = mult-op ::= '*' | /
+/Grammar = add-op ::= '+' | '-'
+/Grammar = level-3-expr ::= level-3-expr concat-op? level-2-expr
+/Grammar = concat-op ::= //
+/Grammar = level-4-expr ::= level-3-expr rel-op? level-3-expr
+/Grammar = rel-op ::= == | /= | < | <= | > | >=
+/Grammar = and-operand ::= not-op? level-4-expr
+/Grammar = or-operand ::= clause_x and-operand
+/Grammar = clause_x ::= or-operand and-op
+/Grammar = equiv-operand ::= clause_y? or-operand
+/Grammar = clause_y ::= equiv-operand or-op
+/Grammar = level-5-expr ::= clause_z equiv-operand
+/Grammar = clause_z ::= level-5-expr equiv-op
+/Grammar = not-op ::= .NOT.
+/Grammar = and-op ::= .AND.
+/Grammar = or-op ::= .OR.
+/Grammar = equiv-op ::= .EQV. | .NEQV.
+/Grammar = expr ::= clause001? level-5-expr
+/Grammar = clause001 ::= expr defined-binary-op
+/Grammar = defined-binary-op ::= . letter letter? ... .
+/Grammar = logical-expr ::= expr
+/Grammar = char-expr ::= expr
+/Grammar = int-expr ::= expr
+/Grammar = numeric-expr ::= expr
+/Grammar = initialization-expr ::= expr
+/Grammar = char-initialization-expr ::= char-expr
+/Grammar = int-initialization-expr ::= int-expr
+/Grammar = logical-initialization-expr ::= logical-expr
+/Grammar = specification-expr ::= scalar-int-expr
+/Grammar = assignment-stmt ::= variable = expr
+/Grammar = pointer-assignment-stmt ::= pointer-object => target
+/Grammar = target ::= variable | expr
+/Grammar = where-stmt ::= WHERE '(' mask-expr ')' where-assignment-stmt
+/Grammar = where-construct ::= where-construct-stmt where-body-construct? ... masked-elsewhere-stmt? where-body-construct? ... elsewhere-stmt? where-body-construct? ... end-where-stmt
+/Grammar = where-construct-stmt ::= WHERE '(' mask-expr ')'
+/Grammar = where-body-construct ::= where-assignment-stmt | where-stmt | where-construct
+/Grammar = where-assignment-stmt ::= assignment-stmt
+/Grammar = mask-expr ::= logical-expr
+/Grammar = masked-elsewhere-stmt ::= ELSEWHERE '(' mask-expr ')'
+/Grammar = elsewhere-stmt ::= ELSEWHERE
+/Grammar = end-where-stmt ::= ENDWHERE
+/Grammar = forall-construct ::= forall-construct-stmt forall-body-construct? ... end-forall-stmt
+/Grammar = forall-construct-stmt ::= FORALL '(' forall-triplet-spec-list clause002? ')'
+/Grammar = clause002 ::= ',' scalar-mask-expr
+/Grammar = forall-triplet-spec ::= index-name = subscript : subscript clause003
+/Grammar = clause003 ::= ':' stride
+/Grammar = forall-body-construct ::= forall-assignment-stmt | where-construct | where-stmt | forall-construct | forall-stmt
+/Grammar = forall-assignment-stmt ::= assignment-stmt | pointer-assignment-stmt
+/Grammar = end-forall-stmt ::= END FORALL
+/Grammar = forall-stmt ::= FORALL '(' forall-triplet-spec-list clause004? ')' & forall-assignment-stmt
+/Grammar = clause004 ::= ',' scalar-mask-expr
+/Grammar = block ::= executable-construct? ...
+/Grammar = if-construct ::= if-then-stmt block clause005? ... clause005? end-if-stmt
+/Grammar = clause005 ::= else-if-stmt block
+/Grammar = if-then-stmt ::= IF '(' scalar-logical-expr ')' THEN
+/Grammar = else-if-stmt ::= ELSEIF '(' scalar-logical-expr ')' THEN
+/Grammar = else-stmt ::= ELSE
+/Grammar = end-if-stmt ::= ENDIF
+/Grammar = if-stmt ::= IF '(' scalar-logical-expr ')' action-stmt
+/Grammar = case-construct ::= select-case-stmt clause006? ... clause007? end-select-stmt
+/Grammar = clause006 ::= case-stmt block
+/Grammar = clause007 ::= 'CASE' 'DEFAULT' block
+/Grammar = select-case-stmt ::= SELECT CASE '(' case-expr ')'
+/Grammar = case-stmt ::= CASE case-selector
+/Grammar = end-select-stmt ::= END SELECT
+/Grammar = case-expr ::= scalar-int-expr | scalar-char-expr
+/Grammar = case-selector ::= '(' case-value-range-list ')'
+/Grammar = case-value-range ::= case-value | case-value : | : case-value | case-value : case-value
+/Grammar = case-value ::= scalar-int-initialization-expr | scalar-char-initialization-expr
+/Grammar = do-construct ::= block-do-construct
+/Grammar = block-do-construct ::= do-stmt do-block end-do
+/Grammar = do-stmt ::= clause008? DO loop-control?
+/Grammar = clause008 ::= do-construct-name ':'
+/Grammar = loop-control ::= do-variable = scalar-int-expr, scalar-int-expr '&' clause010?
+/Grammar = clause010 ::= ',' scalar-int-expr
+/Grammar = do-variable ::= scalar-int-variable
+/Grammar = do-block ::= block
+/Grammar = end-do ::= ENDDO do-construct-name?
+/Grammar = cycle-stmt ::= CYCLE do-construct-name?
+/Grammar = exit-stmt ::= EXIT do-construct-name?
+/Grammar = goto-stmt ::= GO TO label
+/Grammar = continue-stmt ::= label CONTINUE
+/Grammar = stop-stmt ::= STOP
+/Grammar = io-unit ::= external-file-unit | '*' | internal-file-unit
+/Grammar = external-file-unit ::= scalar-int-expr
+/Grammar = internal-file-unit ::= char-variable
+/Grammar = open-stmt ::= OPEN '(' connect-spec-list ')'
+/Grammar = connect-spec ::= UNIT = external-file-unit | IOSTAT = scalar-default-int-variable | FILE = file-name-expr | STATUS = scalar-char-expr | ACCESS = scalar-char-expr | FORM = scalar-char-expr | RECL = scalar-int-expr | POSITION = scalar-char-expr | ACTION = scalar-char-expr
+/Grammar = file-name-expr ::= scalar-char-expr
+/Grammar = close-stmt ::= CLOSE '(' close-spec-list ')'
+/Grammar = close-spec ::= UNIT = external-file-unit | IOSTAT = scalar-default-int-variable | STATUS = scalar-char-expr
+/Grammar = read-stmt ::= READ '(' io-control-spec-list ')' input-item-list? | READ format clause011?
+/Grammar = clause011 ::= ',' input-item-list
+/Grammar = write-stmt ::= WRITE '(' io-control-spec-list ')' output-item-list?
+/Grammar = print-stmt ::= PRINT format clause012
+/Grammar = clause012 ::= ',' output-item-list
+/Grammar = io-control-spec ::= UNIT = io-unit | FMT = format | REC = scalar-int-expr | IOSTAT = scalar-default-int-variable | ADVANCE = scalar-char-expr | SIZE = scalar-default-int-variable
+/Grammar = format ::= char-expr | '*'
+/Grammar = input-item ::= variable | '(' variable-list , implied-do-control ')'
+/Grammar = output-item ::= expr | '(' expr-list , implied-do-control ')'
+/Grammar = backspace-stmt ::= BACKSPACE '(' position-spec-list ')'
+/Grammar = endfile-stmt ::= ENDFILE '(' position-spec-list ')'
+/Grammar = rewind-stmt ::= REWIND '(' position-spec-list ')'
+/Grammar = position-spec ::= UNIT = external-file-unit | IOSTAT = scalar-default-int-variable
+/Grammar = inquire-stmt ::= INQUIRE '(' inquire-spec-list ')' | INQUIRE '(' IOLENGTH = scalar-default-int-variable ')' output-item-list
+/Grammar = inquire-spec ::= UNIT = external-file-unit | FILE = file-name-expr | IOSTAT = scalar-default-int-variable | EXIST = scalar-default-logical-variable | OPENED = scalar-default-logical-variable | NUMBER = scalar-default-int-variable | NAMED = scalar-default-logical-variable | NAME = scalar-char-variable | ACCESS = scalar-char-variable | SEQUENTIAL = scalar-char-variable | DIRECT = scalar-char-variable | FORM = scalar-char-variable | FORMATTED = scalar-char-variable | UNFORMATTED = scalar-char-variable | RECL = scalar-default-int-variable | NEXTREC = scalar-default-int-variable | POSITION = scalar-char-variable | ACTION = scalar-char-variable | READ = scalar-char-variable | WRITE = scalar-char-variable | READWRITE = scalar-char-variable

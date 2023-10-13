@@ -1,0 +1,236 @@
+/language=Go
+/ignore=https://github.com/go-lang-plugin-org/go-lang-idea-plugin/blob/master/grammars/go.bnf
+/keyword=break
+/keyword=case
+/keyword=chan
+/keyword=const
+/keyword=continue
+/keyword=default
+/keyword=defer
+/keyword=else
+/keyword=fallthrough
+/keyword=for
+/keyword=func
+/keyword=go
+/keyword=goto
+/keyword=if
+/keyword=import
+/keyword=interface
+/keyword=map
+/keyword=package
+/keyword=range
+/keyword=return
+/keyword=select
+/keyword=struct
+/keyword=switch
+/keyword=type
+/keyword=var
+/operator=^
+/operator=^=
+/operator=-
+/operator=--
+/operator=-=
+/operator=,
+/operator=;
+/operator=:
+/operator=:=
+/operator=!
+/operator=!=
+/operator=...
+/operator='.
+/operator=(
+/operator=)
+/operator=[
+/operator=]
+/operator={
+/operator=}
+/operator=*
+/operator=*=
+/operator=/
+/operator=/=
+/operator=&
+/operator=&^
+/operator=&^=
+/operator=&&
+/operator=&=
+/operator=%
+/operator=%=
+/operator=+
+/operator=++
+/operator=+=
+/operator=<
+/operator=<-
+/operator=<<
+/operator=<<=
+/operator=<=
+/operator==
+/operator===
+/operator=>
+/operator=>=
+/operator=>>
+/operator=>>=
+/operator=|
+/operator=|=
+/operator=||
+/Grammar = File ::= PackageClause semi ImportList TopLevelDeclaration* {pin(".*")=1}
+/Grammar = ImportList ::= (ImportDeclaration semi)+|<<emptyImportList>>  methods=[addImport]
+/Grammar = private semi ::= '<NL>' | ';' | <<eof>>
+/Grammar = PackageClause ::= package identifier {pin=1 methods=[getName] stubClass="com.goide.stubs.GoPackageClauseStub"}
+/Grammar = ImportDeclaration ::= import ( ImportSpec | '(' ImportSpecs? ')' ) { pin(".*")=1 methods=[addImportSpec]}
+/Grammar = private ImportSpecs ::= ImportSpec (semi ImportSpec)* semi? {pin=1}
+/Grammar = ImportSpec ::= [ '.' | identifier ] ImportString { stubClass="com.goide.stubs.GoImportSpecStub"  methods=[getAlias getLocalPackageName shouldGoDeeper isForSideEffects isDot getPath getName isCImport] }
+/Grammar = ImportString ::= StringLiteral {methods=[getReferences resolve getPath getPathTextRange]}
+/Grammar = Type ::= TypeName | TypeLit | ParType {stubClass="com.goide.stubs.GoTypeStub" methods=[getUnderlyingType shouldGoDeeper]}
+/Grammar = ParType ::= '(' Type ')' {methods=[getActualType]}
+/Grammar = private TypeName ::= TypeReferenceExpression QualifiedTypeReferenceExpression?
+/Grammar = TypeReferenceExpression ::= identifier { methods=[getReference getQualifier resolve resolveType] }
+/Grammar = left QualifiedTypeReferenceExpression ::= '.' identifier {elementType=TypeReferenceExpression}
+/Grammar = private TypeLit ::= ArrayOrSliceType  | StructType | PointerType | FunctionType | InterfaceType | MapType | ChannelType
+/Grammar = ArrayOrSliceType ::= '[' ('...'|Expression?) ']' Type {pin=1}
+/Grammar = StructType ::= struct '{' Fields? '}' {pin=1}
+/Grammar = private Fields ::= FieldDeclaration (semi FieldDeclaration)* semi? {pin=1}
+/Grammar = FieldDeclaration ::= (FieldDefinitionList Type | AnonymousFieldDefinition) Tag?
+/Grammar = Tag ::= StringLiteral
+/Grammar = private FieldDefinitionList ::= FieldDefinition (',' FieldDefinition)*
+/Grammar = FieldDefinition ::= identifier { stubClass="com.goide.stubs.GoFieldDefinitionStub"}
+/Grammar = AnonymousFieldDefinition ::= Type { stubClass="com.goide.stubs.GoAnonymousFieldDefinitionStub"  methods=[getIdentifier getName getTypeReferenceExpression getGoTypeInner]}
+/Grammar = PointerType ::= '*' Type {pin=1}
+/Grammar = FunctionType ::= func Signature {pin=1 implements="com.goide.psi.GoSignatureOwner"}
+/Grammar = Signature ::= Parameters Result? { pin=1 stubClass="com.goide.stubs.GoSignatureStub"}
+/Grammar = Result ::= '(' TypeListNoPin ')' | Type | Parameters { stubClass="com.goide.stubs.GoResultStub" methods=[isVoid]}
+/Grammar = Parameters ::= '(' [ (ParameterList ','?| TypeListNoPin) ] ')' { pin=1 stubClass="com.goide.stubs.GoParametersStub"}
+/Grammar = private ParameterList ::= ParameterDeclaration (',' (ParameterDeclaration | &')'))* {pin(".*")=1}
+/Grammar = ParameterDeclaration ::= ParamDefinitionListNoPin? '...'? Type | Type {  stubClass="com.goide.stubs.GoParameterDeclarationStub" methods = [isVariadic]}
+/Grammar = private ParamDefinitionListNoPin ::= ParamDefinition &(!('.' | ')')) (',' ParamDefinition)* 
+/Grammar = ParamDefinition ::= identifier { stubClass="com.goide.stubs.GoParamDefinitionStub" methods = [isVariadic]}
+/Grammar = InterfaceType ::= interface '{' MethodSpecs? '}' { pin(".*")=1 methods=[getMethods getBaseTypesReferences]}
+/Grammar = private MethodSpecs ::= MethodSpec (semi MethodSpec)* semi? {pin=1}
+/Grammar = MethodSpec ::= TypeName &(!'(') | identifier Signature { stubClass="com.goide.stubs.GoMethodSpecStub" methods=[getGoTypeInner getName]}
+/Grammar = MapType ::= map '[' Type ']' Type {  pin=1  methods = [  keyType="Type[0]"  valueType="Type[1]"  ] }
+/Grammar = ChannelType ::= ChanTypePrefix Type {pin=1} 
+/Grammar = private ChanTypePrefix ::= chan '<-'? | '<-' chan {pin(".*")=1}
+/Grammar = BlockWithConsume ::= <<consumeBlock>> | BlockInner {elementType=Block} 
+/Grammar = Block ::= BlockInner {methods=[processDeclarations]} 
+/Grammar = private BlockInner ::= '{' ('}' | (<<withOff Statements "BLOCK?" "PAR">> | (!() Statements)) '}') {pin(".*")=1}
+/Grammar = private Statements ::= StatementWithSemi*
+/Grammar = private StatementWithSemi ::= Statement (semi|&'}') { pin=1 recoverWhile=StatementRecover }
+/Grammar = Statement ::= ConstDeclaration | TypeDeclaration | VarDeclaration | LabeledStatement | SimpleStatement | GoStatement | ReturnStatement | BreakStatement | ContinueStatement | GotoStatement | FallthroughStatement | Block | IfStatement | SwitchStatement | SelectStatement | ForStatement | DeferStatement {methods=[processDeclarations]}
+/Grammar = private StatementRecover ::= !('!' | '&' | '(' | '*' | '+' | '-' | ';' | '<-' | '^' | 'type' | '{' | '|' | '|=' | '||' | '}' | break | case | char | const | continue | decimali | default | defer | else | fallthrough | float | floati | for | func | go | goto | hex | identifier | if | int | interface | map | oct | return | select | string | raw_string | struct | switch | var)
+/Grammar = SimpleStatement ::= ShortVarDeclaration | IncDecStatement | (LeftHandExprList [AssignmentStatement | SendStatement]) {pin(".*")=LeftHandExprList}
+/Grammar = private TopLevelDeclaration ::= !<<eof>> TopDeclaration semi {pin=1 recoverWhile=TopLevelDeclarationRecover}
+/Grammar = private TopDeclaration ::= ConstDeclaration | TypeDeclaration | VarDeclaration | FunctionDeclaration | MethodDeclaration
+/Grammar = private TopLevelDeclarationRecover ::= !(';' |'type' | const | func | var)
+/Grammar = ConstDeclaration ::= const ( ConstSpec | '(' ConstSpecs? ')' ) {pin(".*")=1 methods=[addSpec deleteSpec]}
+/Grammar = private ConstSpecs ::= ConstSpec (semi ConstSpec)* semi? {pin=1}
+/Grammar = ConstSpec ::= ConstDefinitionList [ ('=' ExpressionList | Type '=' ExpressionList) ] { pin(".*")=1  stubClass="com.goide.stubs.GoConstSpecStub" methods=[deleteDefinition]}
+/Grammar = private ConstDefinitionList ::= ConstDefinition ( ',' ConstDefinition )*
+/Grammar = ConstDefinition ::= identifier { stubClass="com.goide.stubs.GoConstDefinitionStub" methods=[getGoTypeInner getValue]}
+/Grammar = LeftHandExprList ::= ExpressionList
+/Grammar = private ExpressionArgList ::= ExpressionOrTypeWithRecover2 (',' (ExpressionOrTypeWithRecover2 | &')'))* {pin(".*")=1}
+/Grammar = private ExpressionOrTypeWithRecover2 ::= <<withOn "PAR" ExpressionOrTypeWithRecover>> | (!() ExpressionOrLiteralTypeExpr) {recoverWhile=ExpressionListRecover}
+/Grammar = private ExpressionOrTypeWithRecover ::= ExpressionOrLiteralTypeExpr {recoverWhile=ExpressionListRecover}
+/Grammar = private ExpressionOrLiteralTypeExpr ::= Expression | LiteralTypeExpr
+/Grammar = private ExpressionList ::= ExpressionWithRecover (',' (ExpressionWithRecover | &')'))* {pin(".*")=1}
+/Grammar = private ExpressionWithRecover ::= Expression {recoverWhile=ExpressionListRecover}
+/Grammar = private ExpressionListRecover ::= !('!' | '!=' | '%' | '%=' | '&&' | '&' | '&=' | '&^' | '&^=' | '(' | ')' | '*' | '*=' | '+' | '++' | '+=' | ',' | '-' | '--' | '-=' | '...' | '/' | '/=' | ':' | ';' | '<' | '<-' | '<<' | '<<=' | '<=' | '<NL>' | '=' | '==' | '>' | '>=' | '>>' | '>>=' | '[' | ']' | '^' | '^=' | 'type' | '{' | '|' | '|=' | '||' | '}' | break | case | chan | char | const | continue | decimali | default | defer | else | fallthrough | float | floati | for | func | go | goto | hex | identifier | if | int | interface | map | oct | return | select | string | raw_string | struct | switch | var)
+/Grammar = TypeDeclaration ::= 'type' ( TypeSpec | '(' TypeSpecs? ')' ) {pin(".*")=1}
+/Grammar = private TypeSpecs ::= TypeSpec (semi TypeSpec)* semi? {pin=1}
+/Grammar = TypeSpec ::= SpecType { methods=[getGoTypeInner getMethods shouldGoDeeper identifier="SpecType/identifier"] stubClass="com.goide.stubs.GoTypeSpecStub"}
+/Grammar = SpecType ::= identifier Type {pin=1 stubClass="com.goide.stubs.GoTypeStub" extends="com.goide.psi.impl.GoTypeImpl" implements=Type}
+/Grammar = VarDeclaration ::= var ( VarSpec | '(' VarSpecs? ')' ) {pin(".*")=1 methods=[addSpec deleteSpec]}
+/Grammar = private VarSpecs ::= VarSpec (semi VarSpec)* semi? {pin=1}
+/Grammar = VarSpec ::= VarDefinitionList ( Type [ '=' ExpressionList ] | '=' ExpressionList ) { pin(".*")=1 methods=[processDeclarations deleteDefinition getRightExpressionsList] stubClass="com.goide.stubs.GoVarSpecStub"}
+/Grammar = private VarDefinitionList ::= VarDefinition ( ',' VarDefinition )*
+/Grammar = VarDefinition ::= identifier { methods=[getGoTypeInner getReference getValue] stubClass="com.goide.stubs.GoVarDefinitionStub"}
+/Grammar = ShortVarDeclaration ::= VarDefinitionList ':=' ExpressionList {pin=2 extends=VarSpec}
+/Grammar = FunctionDeclaration ::= func identifier Signature BlockWithConsume? { pin=2 stubClass="com.goide.stubs.GoFunctionDeclarationStub"}
+/Grammar = MethodDeclaration ::= func Receiver identifier Signature BlockWithConsume? { pin=1 stubClass="com.goide.stubs.GoMethodDeclarationStub" methods=[getReceiverType]}
+/Grammar = Receiver ::= '(' (identifier ReceiverTail | ReceiverTail) ')' { methods=[getGoTypeInner] pin=1 stubClass="com.goide.stubs.GoReceiverStub"}
+/Grammar = private ReceiverTail ::= Type ','?
+/Grammar = Literal ::= int | float | floati | decimali | hex | oct | StringLiteral | char
+/Grammar = StringLiteral ::= string | raw_string {  implements = "com.intellij.psi.PsiLanguageInjectionHost"  methods = [isValidHost updateText createLiteralTextEscaper getDecodedText] }
+/Grammar = OperandName ::= ReferenceExpression QualifiedReferenceExpression? {elementType=ReferenceExpression}
+/Grammar = left QualifiedReferenceExpression ::= '.' identifier {elementType=ReferenceExpression}
+/Grammar = ReferenceExpression ::= identifier { methods=[getReference getQualifier resolve getReadWriteAccess] extends=Expression}
+/Grammar = CompositeLit ::= (LiteralTypeExprInner LiteralValue | TypeName LiteralValue) {pin(".*")="LiteralTypeExprInner"} 
+/Grammar = private LiteralTypeExprInner ::= StructType | ArrayOrSliceType | MapType
+/Grammar = LiteralTypeExpr ::= LiteralTypeExprInner | TypeName
+/Grammar = LiteralValue ::= (<<isModeOff "BLOCK?">> | <<isModeOn "PAR">> | <<prevIsType>>) '{' ElementList? '}' {pin=2}
+/Grammar = private ElementList ::= E ( ',' E? )*
+/Grammar = private E ::= <<withOn "PAR" Element>> | (!() Element) {recoverWhile=E_recover}
+/Grammar = private E_recover ::= !('}'|',')
+/Grammar = Element ::= First [':' Value] {pin(".*")=1}
+/Grammar = private First ::= Key | <<keyOrValueExpression>>
+/Grammar = Key ::= (FieldName &':') | !() Expression 
+/Grammar = FieldName ::= identifier { methods=[getReference getQualifier resolve] }
+/Grammar = Value ::= Expression | LiteralValue
+/Grammar = FunctionLit ::= func Signature Block {pin=1 methods=[processDeclarations]}
+/Grammar = Expression ::= OrExpr | AndExpr | ConditionalExpr | AddExpr | MulExpr | UnaryExpr | ConversionExpr | MaxGroup | ParenthesesExpr {methods=[getGoType] implements="com.goide.psi.GoTypeOwner"}
+/Grammar = fake BinaryExpr ::= Expression+ {  methods=[left="Expression[0]" right="Expression[1]" getOperator] 
+/Grammar = OrExpr ::= Expression '||' Expression
+/Grammar = AndExpr ::= Expression '&&' Expression
+/Grammar = UnaryExpr ::= UnaryOp Expression {methods=[getOperator]}
+/Grammar = ConditionalExpr ::= Expression RelOp Expression
+/Grammar = AddExpr ::= Expression AddOp Expression
+/Grammar = MulExpr ::= Expression MulOp Expression
+/Grammar = ParenthesesExpr ::= '(' <<enterMode "PAR">> Expression <<exitModeSafe "PAR">>')' {pin=1}
+/Grammar = BuiltinCallExpr ::= ReferenceExpression <<isBuiltin>> BuiltinArgumentList {pin=2}
+/Grammar = BuiltinArgumentList ::= '(' [ BuiltinArgsInner ','? ] ')' {pin=1 extends=ArgumentList}
+/Grammar = private BuiltinArgsInner ::= Type [ ',' BuiltinArgsTail ] | BuiltinArgsTail
+/Grammar = private BuiltinArgsTail ::= ExpressionList '...'?
+/Grammar = private MaxGroup ::= CompositeLit  | OperandName | BuiltinCallExpr | CallExpr | TypeAssertionExpr | SelectorExpr | IndexOrSliceExpr | Literal | FunctionLit
+/Grammar = private RelOp ::= '==' | '!=' | '<' | '<=' | '>' | '>='
+/Grammar = private AddOp ::= '+' | '-' | '|' | '^'
+/Grammar = private MulOp ::= '*' | '/' | '%' | '<<' | '>>' | '&' | '&^'
+/Grammar = private UnaryOp ::= '+' | '-' | '!' | '^' | '*' | '&' | '<-'
+/Grammar = SelectorExpr ::= Expression '.' !('(' 'type') Expression
+/Grammar = IndexOrSliceExpr ::= Expression '[' <<enterMode "PAR">> (SliceExprBody | IndexExprBody) <<exitModeSafe "PAR">> ']' {pin=2 methods = [getExpression getIndices]}
+/Grammar = private IndexExprBody ::= Expression SliceExprBodyInner?
+/Grammar = private inner SliceExprBodyInner ::= SliceExprBody
+/Grammar = private SliceExprBody ::= &':' (':' Expression ':' Expression) | (':' Expression?)
+/Grammar = TypeAssertionExpr ::= Expression '.' '(' &(!'type') Type ')'
+/Grammar = CallExpr ::= Expression ArgumentList
+/Grammar = ArgumentList ::= '(' [ ExpressionArgList '...'? ','? ] ')' {pin=1}
+/Grammar = ConversionExpr ::= &ConversionPredicate Type ConversionTail
+/Grammar = private ConversionPredicate ::= ConversionStart | '(' ConversionStart
+/Grammar = private ConversionTail ::= '(' Expression ','? ')' {pin=1}
+/Grammar = private ConversionStart ::= '*' | '<-' | '[' | chan | func | interface | map | struct
+/Grammar = LabeledStatement ::= LabelDefinition ':' Statement? {pin=2}
+/Grammar = LabelDefinition ::= identifier { stubClass="com.goide.stubs.GoLabelDefinitionStub" 
+/Grammar = left SendStatement ::= '<-' Expression {pin=1 methods=[getSendExpression]}
+/Grammar = left AssignmentStatement ::= assign_op ExpressionList {pin=1}
+/Grammar = IncDecStatement ::= Expression ('++' | '--') {pin=2}
+/Grammar = assign_op ::= '=' | '+=' | '-=' | '|=' | '^=' | '*=' | '/=' | '%=' | '<<=' | '>>=' | '&=' | '&^='
+/Grammar = IfStatement ::= if Condition Block ElseStatement?
+/Grammar = ElseStatement ::= else (IfStatement | Block)
+/Grammar = SwitchStatement ::= SwitchStart (TypeSwitchStatement | ExprSwitchStatement)
+/Grammar = SwitchStart ::= switch
+/Grammar = left ExprSwitchStatement ::= Condition '{' ExprCaseClause* '}' {pin=2 extends=SwitchStatement}
+/Grammar = private Condition ::= <<enterMode "BLOCK?">> SimpleStatementOpt Expression? <<exitModeSafe "BLOCK?">>
+/Grammar = private SimpleStatementOpt ::= [SimpleStatement ';'?] 
+/Grammar = ExprCaseClause ::= !'}' ExprSwitchCase ':' Statements? {pin=1 implements="com.goide.psi.GoCaseClause"}
+/Grammar = private ExprSwitchCase ::= case ExpressionList | default {pin(".*")=1} 
+/Grammar = left TypeSwitchStatement ::= (TypeSwitchGuard | SimpleStatement ';'? TypeSwitchGuard) '{' ( TypeCaseClause )* '}' {pin=1 extends=SwitchStatement}
+/Grammar = TypeSwitchGuard ::= [ VarDefinition ':=' ] Expression '.' TypeGuard
+/Grammar = TypeGuard ::= '(' 'type' ')' {pin=2}
+/Grammar = TypeCaseClause ::= !'}' TypeSwitchCase ':' Statements? {pin=1 implements="com.goide.psi.GoCaseClause"}
+/Grammar = private TypeSwitchCase ::= case TypeList | default {pin(".*")=1}
+/Grammar = TypeList ::= Type ( ',' Type )* ','?
+/Grammar = TypeListNoPin ::= Type ( ',' Type )* ','? {elementType=TypeList}
+/Grammar = ForStatement ::= for <<enterMode "BLOCK?">> (ForOrRangeClause Block | Block | Expression Block) <<exitModeSafe "BLOCK?">> {pin(".*")="for|ForOrRangeClause"}
+/Grammar = private ForOrRangeClause ::= (ForClause | RangeClause)
+/Grammar = ForClause ::= SimpleStatement? ';' Expression? ';' SimpleStatement? {methods=[processDeclarations]}
+/Grammar = RangeClause ::= range Expression | ExpressionsOrVariables range Expression {pin(".*")=1 extends=VarSpec methods=[getRangeExpression getLeftExpressionsList getRightExpressionsList]}
+/Grammar = private ExpressionsOrVariables ::= ExpressionList '=' | VarDefinitionList ':='
+/Grammar = GoStatement ::= go Expression
+/Grammar = SelectStatement ::= select '{' CommClause* '}'
+/Grammar = CommClause ::= CommCase ':' Statements? {pin=1}
+/Grammar = CommCase ::= case ( Expression SendStatement | RecvStatement ) | default {pin(".*")="case"}
+/Grammar = RecvStatement ::= ExpressionsOrVariables? Expression {pin=0 extends=VarSpec methods=[getRecvExpression getLeftExpressionsList getRightExpressionsList]}
+/Grammar = ReturnStatement ::= return ExpressionList?
+/Grammar = LabelRef ::= identifier { methods=[getReference] }
+/Grammar = BreakStatement ::= break LabelRef?
+/Grammar = ContinueStatement ::= continue LabelRef?
+/Grammar = GotoStatement ::= goto LabelRef
+/Grammar = FallthroughStatement ::= fallthrough
+/Grammar = DeferStatement ::= defer Expression
