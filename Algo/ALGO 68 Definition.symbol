@@ -1,0 +1,247 @@
+/Language=Algo,ALGO68
+/operator=^
+/operator=#
+/Operator=:
+/Operator=~
+/operator=-
+/operator=:=
+/operator=-:=
+/operator=:/=:
+/operator=:=:
+/operator=:≠:
+/operator=*
+/operator=*:=
+/operator=**
+/operator=/
+/operator=//
+/operator=/:=
+/operator=/=
+/operator=&
+/operator=%
+/operator=%:=
+/operator=%*
+/operator=%*:=
+/operator=%×
+/operator=%×:=
+/operator=↑
+/operator=↓
+/operator=+
+/operator=+:=
+/operator=+*
+/operator=+×
+/operator=+=:
+/operator=÷
+/operator=÷:=
+/operator=÷*
+/operator=÷*:=
+/operator=÷×
+/operator=÷×:=
+/operator=×
+/operator=×:=
+/operator=<
+/operator=<=
+/operator==
+/operator=≠
+/operator=>
+/operator=>=
+/operator=¬
+/operator=∧
+/operator=∨
+/operator=≤
+/operator=≥
+/operator=⊥
+/operator=⌈
+/operator=⌊
+/KEYWORD=ALGOL
+/KEYWORD=FORTRAN
+/KEYWORD=RJ
+/keyword=abs
+/keyword=and
+/keyword=arg
+/Keyword=array
+/Keyword=begin
+/keyword=bin
+/keyword=boolean
+/keyword=divab
+/keyword=down
+/keyword=elem
+/Keyword=else
+/keyword=end
+/keyword=entier
+/keyword=eq
+/Keyword=For
+/keyword=FORMAT
+/Keyword=GO
+/Keyword=TO
+/Keyword=GOTO
+/keyword=ge
+/keyword=gt
+/keyword=if
+/keyword=is
+/keyword=isnt
+/keyword=le
+/keyword=leng
+/keyword=level
+/keyword=integer
+/keyword=lt
+/keyword=lwb
+/keyword=minusab
+/keyword=mod
+/keyword=modab
+/keyword=ne
+/keyword=not
+/keyword=odd
+/keyword=or
+/keyword=over
+/keyword=overab
+/KEYWORD=OWN
+/keyword=plusab
+/keyword=plusto
+/keyword=PROCEDURE
+/keyword=real
+/keyword=repr
+/keyword=round
+/keyword=shl
+/keyword=shorten
+/keyword=shr
+/keyword=simple
+/keyword=STEP
+/keyword=then
+/keyword=UNTIL
+/keyword=WHILE
+/keyword=COMMENT
+/keyword=CODE
+/keyword=switch
+/keyword=timesab
+/keyword=up
+/keyword=upb
+/keyword=VALUE
+/keyword=EQUIV
+/keyword=IMPL
+/keyword=TRUE
+/keyword=FALSE
+/Grammar= actual_parameter_list ::= actual_parameter | actual_parameter_list parameter_delimiter actual_parameter 
+/Grammar= actual_parameter_part ::= empty | actual_parameter_list 
+/Grammar= actual_parameter ::= string | expression | array_identifier | switch_identifier | procedure_identifier 
+/Grammar= adding_operator ::= '+' | '-'
+/Grammar= arithmetic_expression ::= simple_arithmetic | if_clause simple_arithmetic 'ELSE' arithmetic_expression 
+/Grammar= arithmetic_operator ::= '+' | '-' | '*' | '/' | '//' | '**' | '^'
+/Grammar= array_declaration ::= local_or_own array_declarer array_list 
+/Grammar= array_declarer ::= type 'ARRAY' | 'ARRAY'
+/Grammar= array_identifier ::= identifier 
+/Grammar= array_list ::= array_segment | array_list , array_segment 
+/Grammar= array_segment ::= array_identifier bound_pair_list* | array_identifier , array_segment 
+/Grammar= assignment_statement ::= left_part_list arithmetic_expression | left_part_list Boolean_expression 
+/Grammar= basic_statement ::= unlabelled_basic_statement | label basic_statement 
+/Grammar= basic_symbol ::= letter | digit | logical_value | special_symbol | delimiter 
+/Grammar= block_head ::= 'BEGIN' declaration | block_head ; declaration 
+/Grammar= block ::= unlabeled_block | label block 
+/Grammar= Boolean_expression ::= simple_Boolean | if_clause simple_Boolean 'ELSE' Boolean_expression 
+/Grammar= Boolean_factor ::= Boolean_secondary | Boolean_factor 'or' Boolean_secondary 
+/Grammar= Boolean_primary ::= logical_value | variable | function_designator | relation | Boolean_expression
+/Grammar= Boolean_secondary ::= Boolean_primary | '~' Boolean_primary 
+/Grammar= Boolean_term ::= Boolean_factor | Boolean_term 'and' Boolean_factor 
+/Grammar= bound_pair_list ::= bound_pair | bound_pair_list , bound_pair 
+/Grammar= bound_pair ::= lower_bound ':' upper_bound 
+/Grammar= bracket ::= ')' | '(' | ']' | '[' | '(' | ')' | 'BEGIN' | 'END'
+/Grammar= code_identifier ::= empty | code_number | external_identifier 
+/Grammar= code_number ::= digit | digit digit | digit digit digit | digit digit digit digit | digit digit digit digit digit 
+/Grammar= code_specifier ::= 'RJ' | empty 
+/Grammar= code_Stmt ::= 'CODE' code_specifier code_identifier | 'ALGOL' code_specifier code_identifier | 'FORTRAN' code_identifier 
+/Grammar= compound_statement ::= unlabeled_compound | label compound_statement 
+/Grammar= compound_tail ::= statement 'END' | statement ; compound_tail 
+/Grammar= conditional_statement ::= if_statement | if_statement 'ELSE' statement | if_clause for_statement | label conditional_statement 
+/Grammar= decimal_fraction ::= '.' unsigned_integer 
+/Grammar= decimal_number ::= unsigned_integer | decimal_fraction | unsigned_integer decimal_fraction 
+/Grammar= declaration ::= type_declaration | array_declaration | switch_declaration | procedure_declaration 
+/Grammar= declarator ::= 'OWN' | 'BOOLEAN' | 'INTEGER' | 'REAL' | 'ARRAY' | 'SWITCH' | 'PROCEDURE'
+/Grammar= delimiter ::= operator | separator | bracket | declarator | specificator 
+/Grammar= designational_expression ::= simple_designational | if_clause simple_designational 'ELSE' designational_expression 
+/Grammar= destination ::= variable | procedure_identifier 
+/Grammar= digit ::= '0-9'
+/Grammar= dummy_statement ::= empty 
+/Grammar= empty ::=
+/Grammar= exponent_part ::= '#' integer_clause
+/Grammar= expression ::= arithmetic_expression | Boolean_expression | designational_expression 
+/Grammar= external_identifier ::= letter | letter tail 
+/Grammar= factor ::= primary | factor ** primary | factor '^' primary 
+/Grammar= for_clause ::= 'FOR' variable_identifier ':=' for_list 'DO'
+/Grammar= for_list_element ::= arithmetic_expression | arithmetic_expression 'STEP' arithmetic_expression 'UNTIL' arithmetic_expression | arithmetic_expression 'WHILE' Boolean_expression 
+/Grammar= for_list ::= for_list_element | for_list , for_list_element 
+/Grammar= for_statement ::= for_clause statement | label for_statement 
+/Grammar= formal_parameter_list ::= formal_parameter | formal_parameter_list parameter_delimiter formal_parameter 
+/Grammar= formal_parameter_part ::= empty | formal_parameter_list 
+/Grammar= formal_parameter ::= identifier 
+/Grammar= function_designator ::= procedure_identifier actual_parameter_part 
+/Grammar= go_to_statement ::= 'GO TO' designational_expression 
+/Grammar= identifier_list ::= identifier | identifier_list , identifier 
+/Grammar= identifier ::= letter | identifier letter | identifier digit 
+/Grammar= if_clause ::= 'IF' Boolean_expression 'THEN'
+/Grammar= if_statement ::= if_clause unconditional_statement 
+/Grammar= implication ::= Boolean_term | implication 'impl' Boolean_term 
+/Grammar= integer_Clause ::= unsigned_integer | + unsigned_integer | - unsigned_integer 
+/Grammar= label ::= identifier ':'
+/Grammar= ld ::= letter | digit 
+/Grammar= left_part_list ::= left_part | left_part_list left_part 
+/Grammar= left_part ::= destination :=
+/Grammar= letter_string ::= letter | letter_string letter 
+/Grammar= letter ::= 'A-Z' | 'a-z'
+/Grammar= local_or_own ::= empty | 'OWN'
+/Grammar= logical_operator ::= 'EQUIV' | 'IMPL' | 'and' | 'OR' | '~'
+/Grammar= logical_value ::= 'TRUE' | 'FALSE'
+/Grammar= lower_bound ::= arithmetic_expression 
+/Grammar= multiplying_operator ::= * | / | //
+/Grammar= number ::= unsigned_number | + unsigned_number | - unsigned_number 
+/Grammar= open_string ::= proper_string | proper_string '(' open_string ')' open_string 
+/Grammar= operator ::= arithmetic_operator | relational_operator | logical_operator | sequential_operator 
+/Grammar= parameter_delimiter ::= , | ) letter_string :(
+/Grammar= primary ::= unsigned_number | variable | function_designator | arithmetic_expression 
+/Grammar= procedure_body ::= statement 
+/Grammar= procedure_declaration ::= 'PROCEDURE' procedure_heading procedure_body | type 'PROCEDURE' procedure_heading procedure_body 
+/Grammar= procedure_heading ::= procedure_identifier formal_parameter_part ; value_part specification_part 
+/Grammar= procedure_identifier ::= identifier 
+/Grammar= procedure_statement ::= procedure_identifier actual_parameter_part 
+/Grammar= program ::= block | compound_statement 
+/Grammar= proper_string ::= '('- ')'- '>'- '0x0020-0xffff | empty 
+/Grammar= relation ::= simple_arithmetic_expression relational_operator simple_arithmetic_expression 
+/Grammar= relational_operator ::= '<' | 'le' | '=' | 'ge' | '>' | '~='
+/Grammar= separate_procedure_body ::= code_stmt | type 'PROCEDURE' separate_procedure_heading separate_procedure_body 
+/Grammar= separate_procedure_declaration ::= 'PROCEDURE' separate_procedure_heading 
+/Grammar= separate_procedure_heading ::= procedure_identifier formal_parameter_part ; value_part separate_specification_part 
+/Grammar= separate_specification_part ::= empty | separate_specifier identifier_list ; | separate_specification_part separate_specifier identifier_list ;
+/Grammar= separate_specifier ::= 'STRING' | type | array_declarer | 'LABEL' | 'SWITCH' | 'PROCEDURE' | type 'PROCEDURE' | 'VARIABLE' | 'SIMPLE' | 'FORMAT' | 'LIST'
+/Grammar= separator ::= '#' | ',' | '.' | ':' | ';' | ':=' | 'STEP' | 'UNTIL' | 'WHILE' | 'COMMENT' | 'CODE' | 'ALGOL' | 'FORTRAN' | 'RJ'
+/Grammar= sequential_operator ::= 'GO TO' | 'IF' | 'THEN' | 'ELSE' | 'FOR' | 'DO'
+/Grammar= simple_arithmetic ::= term | adding_operator term | simple_arithmetic adding_operator term 
+/Grammar= simple_arithmetic_expression ::= term | adding_operator term | simple_arithmetic adding_operator term 
+/Grammar= simple_Boolean ::= implication | simple_Boolean 'equiv' implication 
+/Grammar= simple_designational ::= identifier | switch_designator | designational_expression 
+/Grammar= simple_variable ::= variable_identifier 
+/Grammar= special_symbol ::= '0x0001-0xffff'
+/Grammar= specification_part ::= empty | specifier identifier_list ; | specification_part specifier identifier_list ;
+/Grammar= specificator ::= 'STRING' | 'LABEL' | 'VALUE' | 'VARIABLE' | 'SIMPLE' | 'FORMAT' | 'LIST'
+/Grammar= specifier ::= 'STRING' | type | array_declarer | 'LABEL' | 'SWITCH' | 'PROCEDURE' | type 'PROCEDURE'
+/Grammar= statement ::= unconditional_statement | conditional_statement | for_statement 
+/Grammar= string ::= '(' open_string ')' | '(' open_string ')' string 
+/Grammar= subscript_expression ::= arithmetic_expression 
+/Grammar= subscript_list ::= subscript_expression | subscript_list , subscript_expression 
+/Grammar= subscripted_variable ::= array_identifier subscript_list* 
+/Grammar= switch_declaration ::= 'SWITCH' switch_identifier ':=' switch_list 
+/Grammar= switch_designator ::= switch_identifier subscript_expression* 
+/Grammar= switch_identifier ::= identifier 
+/Grammar= switch_list ::= designational_expression | switch_list designational_expression 
+/Grammar= tail ::= ld | ld ld | ld ld ld | ld ld ld ld | ld ld ld ld ld | ld ld ld ld ld ld 
+/Grammar= term ::= factor | term multiplying_operator factor 
+/Grammar= type_declaration ::= local_or_own type type_list 
+/Grammar= type_list ::= simple_variable | simple_variable , type_list 
+/Grammar= type ::= 'REAL' | 'INTEGER' | 'BOOLEAN'
+/Grammar= unconditional_statement ::= basic_statement | compound_statement | block 
+/Grammar= unlabeled_block ::= block_head ; compound_tail 
+/Grammar= unlabeled_compound ::= 'BEGIN' compound_tail 
+/Grammar= unlabelled_basic_statement ::= assignment_statement | go_to_statement | dummy_statement | procedure_statement 
+/Grammar= unsigned_integer ::= digit | unsigned_integer digit 
+/Grammar= unsigned_number ::= decimal_number | exponent_part | decimal_number exponent_part 
+/Grammar= upper_bound ::= arithmetic_expression 
+/Grammar= value_part ::= 'VALUE' identifier_list ; | empty 
+/Grammar= variable_identifier ::= identifier 
+/Grammar= variable ::= simple_variable | subscripted_variable 

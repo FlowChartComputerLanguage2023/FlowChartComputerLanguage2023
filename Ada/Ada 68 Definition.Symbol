@@ -1,0 +1,593 @@
+/Language=Ada,Ada
+/Keyword=:=
+/keyword=<<
+/Keyword=>>
+/Keyword=<>
+/keyword=abort
+/keyword=abs
+/keyword=abstract
+/keyword=accept
+/keyword=access
+/keyword=aliased
+/keyword=all
+/keyword=and
+/keyword=array
+/keyword=at
+/keyword=begin
+/keyword=body
+/keyword=case
+/keyword=constant
+/keyword=declare
+/keyword=delay
+/keyword=delta
+/keyword=digits
+/keyword=do
+/keyword=else
+/keyword=elsif
+/keyword=end
+/keyword=entry
+/keyword=exception
+/keyword=exit
+/keyword=for
+/keyword=function
+/keyword=generic
+/keyword=goto
+/keyword=if
+/keyword=in
+/keyword=interface
+/keyword=is
+/keyword=limited
+/keyword=loop
+/keyword=mod
+/keyword=new
+/keyword=not
+/keyword=null
+/keyword=of
+/keyword=or
+/keyword=others
+/keyword=out
+/keyword=overriding
+/keyword=package
+/keyword=pragma
+/keyword=private
+/keyword=procedure
+/keyword=protected
+/keyword=raise
+/keyword=record
+/keyword=rem
+/keyword=renames
+/keyword=requeue
+/keyword=return
+/keyword=reverse
+/keyword=select
+/keyword=separate
+/keyword=some
+/keyword=subtype
+/keyword=synchronized
+/keyword=tagged
+/keyword=task
+/keyword=terminate
+/keyword=then
+/keyword=type
+/keyword=until
+/keyword=use
+/keyword=when
+/keyword=while
+/keyword=with
+/keyword=xor
+/operator=-
+/operator=*
+/operator=**
+/operator=/
+/operator=/=
+/operator=&
+/operator=+
+/operator=<
+/operator=<=
+/operator=>
+/operator==>
+/operator=>=
+/operator==
+/Function=Ada.Characters.Latin_9 ( a-chlat9.ads ) :
+/Function=Ada.Characters.Wide_Latin_1 ( a-cwila1.ads ) :
+/Function=Ada.Characters.Wide_Latin_9 ( a-cwila1.ads ) :
+/Function=Ada.Characters.Wide_Wide_Latin_1 ( a-chzla1.ads ) :
+/Function=Ada.Characters.Wide_Wide_Latin_9 ( a-chzla9.ads ) :
+/Function=Ada.Containers.Formal_Doubly_Linked_Lists ( a-cfdlli.ads ) :
+/Function=Ada.Containers.Formal_Hashed_Maps ( a-cfhama.ads ) :
+/Function=Ada.Containers.Formal_Hashed_Sets ( a-cfhase.ads ) :
+/Function=Ada.Containers.Formal_Ordered_Maps ( a-cforma.ads ) :
+/Function=Ada.Containers.Formal_Ordered_Sets ( a-cforse.ads ) :
+/Function=Ada.Containers.Formal_Vectors ( a-cofove.ads ) :
+/Function=Ada.Containers.Formal_Indefinite_Vectors ( a-cfinve.ads ) :
+/Function=Ada.Containers.Functional_Vectors ( a-cofuve.ads ) :
+/Function=Ada.Containers.Functional_Sets ( a-cofuse.ads ) :
+/Function=Ada.Containers.Functional_Maps ( a-cofuma.ads ) :
+/Function=Ada.Containers.Bounded_Holders ( a-coboho.ads ) :
+/Function=Ada.Command_Line.Environment ( a-colien.ads ) :
+/Function=Ada.Command_Line.Remove ( a-colire.ads ) :
+/Function=Ada.Command_Line.Response_File ( a-clrefi.ads ) :
+/Function=Ada.Direct_IO.C_Streams ( a-diocst.ads ) :
+/Function=Ada.Exceptions.Is_Null_Occurrence ( a-einuoc.ads ) :
+/Function=Ada.Exceptions.Last_Chance_Handler ( a-elchha.ads ) :
+/Function=Ada.Exceptions.Traceback ( a-exctra.ads ) :
+/Function=Ada.Sequential_IO.C_Streams ( a-siocst.ads ) :
+/Function=Ada.Streams.Stream_IO.C_Streams ( a-ssicst.ads ) :
+/Function=Ada.Strings.Unbounded.Text_IO ( a-suteio.ads ) :
+/Function=Ada.Strings.Wide_Unbounded.Wide_Text_IO ( a-swuwti.ads ) :
+/Function=Ada.Strings.Wide_Wide_Unbounded.Wide_Wide_Text_IO ( a-szuzti.ads ) :
+/Function=Ada.Task_Initialization ( a-tasini.ads ) :
+/Function=Ada.Text_IO.C_Streams ( a-tiocst.ads ) :
+/Function=Ada.Text_IO.Reset_Standard_Files ( a-tirsfi.ads ) :
+/Function=Ada.Wide_Characters.Unicode ( a-wichun.ads ) :
+/Function=Ada.Wide_Text_IO.C_Streams ( a-wtcstr.ads ) :
+/Function=Ada.Wide_Text_IO.Reset_Standard_Files ( a-wrstfi.ads ) :
+/Function=Ada.Wide_Wide_Characters.Unicode ( a-zchuni.ads ) :
+/Function=Ada.Wide_Wide_Text_IO.C_Streams ( a-ztcstr.ads ) :
+/Function=Ada.Wide_Wide_Text_IO.Reset_Standard_Files ( a-zrstfi.ads ) :
+/Function=GNAT.Altivec ( g-altive.ads ) :
+/Function=GNAT.Altivec.Conversions ( g-altcon.ads ) :
+/Function=GNAT.Altivec.Vector_Operations ( g-alveop.ads ) :
+/Function=GNAT.Altivec.Vector_Types ( g-alvety.ads ) :
+/Function=GNAT.Altivec.Vector_Views ( g-alvevi.ads ) :
+/Function=GNAT.Array_Split ( g-arrspl.ads ) :
+/Function=GNAT.AWK ( g-awk.ads ) :
+/Function=GNAT.Bind_Environment ( g-binenv.ads ) :
+/Function=GNAT.Branch_Prediction ( g-brapre.ads ) :
+/Function=GNAT.Bounded_Buffers ( g-boubuf.ads ) :
+/Function=GNAT.Bounded_Mailboxes ( g-boumai.ads ) :
+/Function=GNAT.Bubble_Sort ( g-bubsor.ads ) :
+/Function=GNAT.Bubble_Sort_A ( g-busora.ads ) :
+/Function=GNAT.Bubble_Sort_G ( g-busorg.ads ) :
+/Function=GNAT.Byte_Order_Mark ( g-byorma.ads ) :
+/Function=GNAT.Byte_Swapping ( g-bytswa.ads ) :
+/Function=GNAT.Calendar ( g-calend.ads ) :
+/Function=GNAT.Calendar.Time_IO ( g-catiio.ads ) :
+/Function=GNAT.CRC32 ( g-crc32.ads ) :
+/Function=GNAT.Case_Util ( g-casuti.ads ) :
+/Function=GNAT.CGI ( g-cgi.ads ) :
+/Function=GNAT.CGI.Cookie ( g-cgicoo.ads ) :
+/Function=GNAT.CGI.Debug ( g-cgideb.ads ) :
+/Function=GNAT.Command_Line ( g-comlin.ads ) :
+/Function=GNAT.Compiler_Version ( g-comver.ads ) :
+/Function=GNAT.Ctrl_C ( g-ctrl_c.ads ) :
+/Function=GNAT.Current_Exception ( g-curexc.ads ) :
+/Function=GNAT.Debug_Pools ( g-debpoo.ads ) :
+/Function=GNAT.Debug_Utilities ( g-debuti.ads ) :
+/Function=GNAT.Decode_String ( g-decstr.ads ) :
+/Function=GNAT.Decode_UTF8_String ( g-deutst.ads ) :
+/Function=GNAT.Directory_Operations ( g-dirope.ads ) :
+/Function=GNAT.Directory_Operations.Iteration ( g-diopit.ads ) :
+/Function=GNAT.Dynamic_HTables ( g-dynhta.ads ) :
+/Function=GNAT.Dynamic_Tables ( g-dyntab.ads ) :
+/Function=GNAT.Encode_String ( g-encstr.ads ) :
+/Function=GNAT.Encode_UTF8_String ( g-enutst.ads ) :
+/Function=GNAT.Exception_Actions ( g-excact.ads ) :
+/Function=GNAT.Exception_Traces ( g-exctra.ads ) :
+/Function=GNAT.Exceptions ( g-except.ads ) :
+/Function=GNAT.Expect ( g-expect.ads ) :
+/Function=GNAT.Expect.TTY ( g-exptty.ads ) :
+/Function=GNAT.Float_Control ( g-flocon.ads ) :
+/Function=GNAT.Formatted_String ( g-forstr.ads ) :
+/Function=GNAT.Heap_Sort ( g-heasor.ads ) :
+/Function=GNAT.Heap_Sort_A ( g-hesora.ads ) :
+/Function=GNAT.Heap_Sort_G ( g-hesorg.ads ) :
+/Function=GNAT.HTable ( g-htable.ads ) :
+/Function=GNAT.IO ( g-io.ads ) :
+/Function=GNAT.IO_Aux ( g-io_aux.ads ) :
+/Function=GNAT.Lock_Files ( g-locfil.ads ) :
+/Function=GNAT.MBBS_Discrete_Random ( g-mbdira.ads ) :
+/Function=GNAT.MBBS_Float_Random ( g-mbflra.ads ) :
+/Function=GNAT.MD5 ( g-md5.ads ) :
+/Function=GNAT.Memory_Dump ( g-memdum.ads ) :
+/Function=GNAT.Most_Recent_Exception ( g-moreex.ads ) :
+/Function=GNAT.OS_Lib ( g-os_lib.ads ) :
+/Function=GNAT.Perfect_Hash_Generators ( g-pehage.ads ) :
+/Function=GNAT.Random_Numbers ( g-rannum.ads ) :
+/Function=GNAT.Regexp ( g-regexp.ads ) :
+/Function=GNAT.Registry ( g-regist.ads ) :
+/Function=GNAT.Regpat ( g-regpat.ads ) :
+/Function=GNAT.Rewrite_Data ( g-rewdat.ads ) :
+/Function=GNAT.Secondary_Stack_Info ( g-sestin.ads ) :
+/Function=GNAT.Semaphores ( g-semaph.ads ) :
+/Function=GNAT.Serial_Communications ( g-sercom.ads ) :
+/Function=GNAT.SHA1 ( g-sha1.ads ) :
+/Function=GNAT.SHA224 ( g-sha224.ads ) :
+/Function=GNAT.SHA256 ( g-sha256.ads ) :
+/Function=GNAT.SHA384 ( g-sha384.ads ) :
+/Function=GNAT.SHA512 ( g-sha512.ads ) :
+/Function=GNAT.Signals ( g-signal.ads ) :
+/Function=GNAT.Sockets ( g-socket.ads ) :
+/Function=GNAT.Source_Info ( g-souinf.ads ) :
+/Function=GNAT.Spelling_Checker ( g-speche.ads ) :
+/Function=GNAT.Spelling_Checker_Generic ( g-spchge.ads ) :
+/Function=GNAT.Spitbol.Patterns ( g-spipat.ads ) :
+/Function=GNAT.Spitbol ( g-spitbo.ads ) :
+/Function=GNAT.Spitbol.Table_Boolean ( g-sptabo.ads ) :
+/Function=GNAT.Spitbol.Table_Integer ( g-sptain.ads ) :
+/Function=GNAT.Spitbol.Table_VString ( g-sptavs.ads ) :
+/Function=GNAT.SSE ( g-sse.ads ) :
+/Function=GNAT.SSE.Vector_Types ( g-ssvety.ads ) :
+/Function=GNAT.String_Hash ( g-strhas.ads ) :
+/Function=GNAT.Strings ( g-string.ads ) :
+/Function=GNAT.String_Split ( g-strspl.ads ) :
+/Function=GNAT.Table ( g-table.ads ) :
+/Function=GNAT.Task_Lock ( g-tasloc.ads ) :
+/Function=GNAT.Time_Stamp ( g-timsta.ads ) :
+/Function=GNAT.Threads ( g-thread.ads ) :
+/Function=GNAT.Traceback ( g-traceb.ads ) :
+/Function=GNAT.Traceback.Symbolic ( g-trasym.ads ) :
+/Function=GNAT.UTF_32 ( g-table.ads ) :
+/Function=GNAT.Wide_Spelling_Checker ( g-u3spch.ads ) :
+/Function=GNAT.Wide_Spelling_Checker ( g-wispch.ads ) :
+/Function=GNAT.Wide_String_Split ( g-wistsp.ads ) :
+/Function=GNAT.Wide_Wide_Spelling_Checker ( g-zspche.ads ) :
+/Function=GNAT.Wide_Wide_String_Split ( g-zistsp.ads ) :
+/Function=Interfaces.C.Extensions ( i-cexten.ads ) :
+/Function=Interfaces.C.Streams ( i-cstrea.ads ) :
+/Function=Interfaces.Packed_Decimal ( i-pacdec.ads ) :
+/Function=Interfaces.VxWorks ( i-vxwork.ads ) :
+/Function=Interfaces.VxWorks.Int_Connection ( i-vxinco.ads ) :
+/Function=Interfaces.VxWorks.IO ( i-vxwoio.ads ) :
+/Function=System.Address_Image ( s-addima.ads ) :
+/Function=System.Assertions ( s-assert.ads ) :
+/Function=System.Atomic_Counters ( s-atocou.ads ) :
+/Function=System.Memory ( s-memory.ads ) :
+/Function=System.Multiprocessors ( s-multip.ads ) :
+/Function=System.Multiprocessors.Dispatching_Domains ( s-mudido.ads ) :
+/Function=System.Partition_Interface ( s-parint.ads ) :
+/Function=System.Pool_Global ( s-pooglo.ads ) :
+/Function=System.Pool_Local ( s-pooloc.ads ) :
+/Function=System.Restrictions ( s-restri.ads ) :
+/Function=System.Rident ( s-rident.ads ) :
+/Function=System.Strings.Stream_Ops ( s-ststop.ads ) :
+/Function=System.Unsigned_Types ( s-unstyp.ads ) :
+/Function=System.Wch_Cnv ( s-wchcnv.ads ) :
+/Function=System.Wch_Con ( s-wchcon.ads ) :
+/Grammar=abort_statement ::= 'abort' task_name abort_statement_Clause* ';'
+/Grammar=abort_statement_Clause ::= ',' task_name 
+/Grammar=abortable_part ::= sequence_of_statements
+/Grammar=abstract_subprogram_declaration ::= subprogram_specification 'is' 'abstract' ';'
+/Grammar=accept_alternative ::= accept_statement sequence_of_statements?
+/Grammar=accept_statement ::= 'accept' direct_name accept_statement_clause1? parameter_profile accept_statement_clause2? ';'
+/Grammar=accept_statement_clause2 ::= 'do' handled_sequence_of_statements 'end' entry_identifier?
+/Grammar=accept_statement_clause1 ::= '(' entry_index ')'
+/Grammar=access_definition ::= 'access' subtype_mark
+/Grammar=access_to_object_definition ::= 'access' access_to_object_definition_clause? subtype_indication
+/Grammar=access_to_object_definition_clause ::= 'all' | 'constant'
+/Grammar=access_to_subprogram_definition ::= 'access' 'protected'? 'procedure' parameter_profile  |  'access' 'protected'? 'function' parameter_and_result_profile 
+/Grammar=access_type_definition ::= access_to_object_definition | access_to_subprogram_definition
+/Grammar=actual_parameter_part ::= '(' parameter_association actual_parameter_part_clause* ')'
+/Grammar=actual_parameter_part_clause ::= ',' parameter_association
+/Grammar=aggregate ::= record_aggregate | extension_aggregate | array_aggregate
+/Grammar=allocator ::= 'new' subtype_indication | 'new' qualified_expression
+/grammar=alphanumberic ::= letter | FlowChart_Digits
+/Grammar=ancestor_part ::= expression | subtype_mark
+/Grammar=ancestor_subtype_indication ::= subtype_indication
+/Grammar=array_aggregate ::= positional_array_aggregate | named_array_aggregate
+/Grammar=array_component_association ::= discrete_choice_list '=>' expression
+/Grammar=array_type_definition ::= unconstrained_array_definition | constrained_array_definition
+/Grammar=assignment_statement ::= variable_name value_assignment ';'
+/Grammar=asynchronous_select ::= 'select' triggering_alternative 'then' 'abort' abortable_part 'end' 'select' ';'
+/Grammar=at_clause ::= 'for' direct_name 'use' 'at' expression ';'
+/Grammar=attribute_definition_clause ::= 'for' local_name single_quote attribute_designator 'use' expression ';' | 'for' local_name single_quote attribute_designator 'use' element_name ';'
+/Grammar=attribute_designator ::= identifier attribute_designator_clause | 'Access' | 'Delta' | 'Digits'
+/Grammar=attribute_designator_clause ::= '(' expression ')' 
+/Grammar=attribute_reference ::= prefix single_quote attribute_designator
+/Grammar=base ::= numeral
+/Grammar=based_literal ::= base '#' based_numeral based_literal_clause?
+/Grammar=based_numeral ::= extended_digit | based_numeral '_' extended_digit 
+/Grammar=based_literal_clause ::= '.' based_numeral '#' exponent?
+/Grammar=basic_declaration ::= type_declaration | subtype_declaration | object_declaration | number_declaration | subprogram_declaration | abstract_subprogram_declaration | package_declaration | renaming_declaration | exception_declaration | generic_declaration | generic_instantiation
+/Grammar=basic_declarative_item ::= basic_declaration | representation_clause | use_clause
+/Grammar=block_statement ::= block_statement_clause? block_statement_clause2? 'begin' handled_sequence_of_statements 'end' statement_identifier? ';'
+/Grammar=block_statement_clause2 ::= 'declare' declarative_part 
+/Grammar=block_statement_clause ::= statement_identifier ':' 
+/Grammar=FlowChart_body ::= proper_body | body_stub
+/grammar=FlowChart_Digits ::= '0-9'
+/Grammar=body_stub ::= subprogram_body_stub | package_body_stub | task_body_stub | protected_body_stub
+/Grammar=case_statement ::= 'case' expression 'is' case_statement_alternative case_statement_alternative* 'end' 'case' ';'
+/Grammar=case_statement_alternative ::= 'when' discrete_choice_list '=>' sequence_of_statements
+/grammar=character_literal ::= letter
+/Grammar=choice_parameter_specification ::= defining_identifier
+/Grammar=code_statement ::= qualified_expression ';'
+/Grammar=compilation_unit ::= context_clause library_item | context_clause subunit 
+/Grammar=component_choice_list ::= selector_name component_choice_list_clause*  | 'others'
+/Grammar=component_choice_list_clause ::= '|' selector_name 
+/Grammar=component_clause ::= local_name 'at' static_expression range first_bit '.''.' last_bit ';'
+/Grammar=component_declaration ::= defining_identifier_list ':' component_definition default_value_assignment? ';'
+/Grammar=component_definition ::= 'aliased'? subtype_indication
+/Grammar=component_item ::= component_declaration | representation_clause
+/Grammar=compound_statement ::= if_statement | case_statement | loop_statement | block_statement | accept_statement | select_statement
+/Grammar=condition ::= expression
+/Grammar=conditional_entry_call ::= 'select' entry_call_alternative 'else' sequence_of_statements 'end' 'select' ';'
+/Grammar=constrained_array_definition ::= 'array' '(' discrete_subtype_definition constrained_array_definition_clause* ')' 'of' component_definition
+/Grammar=constrained_array_definition_clause ::= ',' discrete_subtype_definition 
+/Grammar=constraint ::= range_constraint | digits_constraint | delta_constraint | index_constraint | discriminant_constraint
+/Grammar=context_clause ::= with_clause | use_clause 
+/Grammar=decimal_fixed_point_definition ::= 'delta' expression 'digits' expression simple_range_definition?
+/Grammar=decimal_literal ::= numeral decimal_literal_clause? exponent?
+/Grammar=decimal_literal_clause ::= '.' numeral 
+/Grammar=declarative_part ::= basic_declarative_item | FlowChart_body 
+/Grammar=default_expression ::= expression
+/Grammar=default_name ::= element_name
+/Grammar=default_value_assignment ::= ':=' default_expression
+/Grammar=defining_designator ::= defining_program_unit_name | defining_operator_symbol
+/Grammar=defining_identifier ::= identifier
+/Grammar=defining_identifier_list ::= defining_identifier defining_identifier_list_clause*
+/Grammar=defining_identifier_list_clause ::= ',' defining_identifier
+/Grammar=defining_operator_symbol ::= operator_symbol
+/Grammar=defining_program_unit_name ::= defining_program_unit_name_clause? defining_identifier
+/Grammar=defining_program_unit_name_clause ::= parent_unit_name '.'
+/Grammar=delay_alternative ::= delay_statement sequence_of_statements?
+/Grammar=delay_relative_statement ::= 'delay' expression ';'
+/Grammar=delay_statement ::= delay_until_statement | delay_relative_statement
+/Grammar=delay_until_statement ::= 'delay' 'until' expression ';'
+/Grammar=delta_constraint ::= 'delta' static_expression range_constraint?
+/Grammar=derived_type_definition ::= 'abstract'? 'new' subtype_indication record_extension_part?
+/Grammar=designator ::= designator_clause ?  identifier | designator_clause ? operator_symbol 
+/Grammar=designator_clause ::= parent_unit_name '.'
+/Grammar=digits_constraint ::= 'digits' expression range_constraint?
+/Grammar=direct_name ::= identifier | operator_symbol
+/Grammar=discrete_choice ::= expression | discrete_range | 'others'
+/Grammar=discrete_choice_list ::= discrete_choice discrete_choice_list_clause*
+/Grammar=discrete_choice_list_clause ::= '|' discrete_choice 
+/Grammar=discrete_range ::= subtype_indication | range
+/Grammar=discrete_subtype_definition ::= subtype_indication | range
+/Grammar=discriminant_association ::= discriminant_association_clause1? expression
+/Grammar=discriminant_association_clause1 ::= selector_name selector_name_clause2? '=>' 
+/Grammar=selector_name_clause2 ::= '|' selector_name
+/Grammar=discriminant_constraint ::= '(' discriminant_association discriminant_constraint_clause? ')'
+/Grammar=discriminant_constraint_clause ::= ',' discriminant_association
+/Grammar=discriminant_part ::= known_discriminant_part |  '(' '<>' ')'
+/Grammar=discriminant_specification ::= defining_identifier_list ':' subtype_mark default_value_assignment? | defining_identifier_list ':' access_definition default_value_assignment?
+/Grammar=element_name ::= direct_name | slice | selected_component | attribute_reference | type_conversion | function_call | 'character_literal' | explicit_dereference | indexed_component
+/Grammar=entry_barrier ::= 'when' condition
+/Grammar=entry_body ::= 'entry' defining_identifier entry_body_formal_part entry_barrier 'is' declarative_part 'begin' handled_sequence_of_statements 'end' entry_identifier? ';'
+/Grammar=entry_body_formal_part ::= entry_body_formal_part_clause? parameter_profile
+/Grammar=entry_body_formal_part_clause ::= '(' entry_index_specification ')' 
+/Grammar=entry_call_alternative ::= entry_call_statement sequence_of_statements?
+/Grammar=entry_call_statement ::= entry_name actual_parameter_part? ';'
+/Grammar=entry_declaration ::= 'entry' defining_identifier entry_declaration_clause? parameter_profile ';'
+/Grammar=entry_declaration_clause ::= '(' discrete_subtype_definition ')'
+/Grammar=entry_identifier ::= identifier
+/Grammar=entry_index ::= expression
+/Grammar=entry_index_specification ::= 'for' defining_identifier 'in' discrete_subtype_definition
+/Grammar=entry_name ::= element_name
+/Grammar=enumeration_aggregate ::= array_aggregate
+/Grammar=enumeration_literal_specification ::= defining_identifier | 'character_literal'
+/Grammar=enumeration_representation_clause ::= 'for' first_subtype_local_name 'use' enumeration_aggregate ';'
+/Grammar=enumeration_type_definition ::= '(' enumeration_literal_specification enumeration_type_definition_clause? ')'
+/Grammar=enumeration_type_definition_clause ::= ',' enumeration_literal_specification
+/Grammar=exception_choice ::= exception_name | 'others'
+/Grammar=exception_declaration ::= defining_identifier_list ':' 'exception' ';'
+/Grammar=exception_handler ::= 'when' exception_handler_clause5? exception_choice exception_handler_clause6* '=>' sequence_of_statements
+/Grammar=exception_handler_clause5 ::= choice_parameter_specification ':' 
+/Grammar=exception_handler_clause6 ::= exception_choice
+/Grammar=exception_name ::= element_name
+/Grammar=exit_statement ::= 'exit' loop_name? exit_statement_clause? ';'
+/Grammar=exit_statement_clause ::= 'when' condition
+/Grammar=explicit_dereference ::= element_name '.' 'all'
+/Grammar=exponent ::=  'E' '+'? numeral | 'E' '-'? numeral 
+/Grammar=expression ::= relation expression_and* | relation expression_and_then* | relation expression_or | relation expression_or_else* | relation expression_xor*
+/Grammar=expression_and_then ::= 'and' 'then' relation 
+/Grammar=expression_or ::= 'or' relation 
+/Grammar=expression_or_else ::= 'or' 'else' relation 
+/Grammar=expression_xor ::= 'xor' relation 
+/Grammar=expression_and ::= 'and' relation
+/Grammar=extended_digit ::= FlowChart_Digits | 'A' | 'B' | 'C' | 'D' | 'E' | 'F'
+/Grammar=extension_aggregate ::= '(' ancestor_part 'with' extension_aggregate_clause2 ')'
+/Grammar=extension_aggregate_clause2 ::= record_component_association extension_aggregate_clause | 'null' 'record' 
+/Grammar=extension_aggregate_clause ::= ',' record_component_association 
+/Grammar=factor ::= primary factor_clause? | 'abs' primary | 'not' primary
+/Grammar=factor_clause ::= '**' primary 
+/Grammar=first_bit ::= static_simple_expression
+/Grammar=first_subtype_local_name ::= direct_name
+/Grammar=floating_point_definition ::= 'digits' expression simple_range_definition?
+/Grammar=formal_access_type_definition ::= access_type_definition
+/Grammar=formal_array_type_definition ::= array_type_definition
+/Grammar=formal_decimal_fixed_point_definition ::= 'delta' '<>' 'digits' '<>'
+/Grammar=formal_derived_type_definition ::= 'abstract'? 'new' subtype_mark formal_derived_type_definition_clause?
+/Grammar=formal_derived_type_definition_clause ::= 'with' 'private'
+/Grammar=formal_discrete_type_definition ::= '(' '<>' ')'
+/Grammar=formal_floating_point_definition ::= 'digits' '<>'
+/Grammar=formal_modular_type_definition ::= 'mod' '<>'
+/Grammar=formal_object_declaration ::= defining_identifier_list ':' mode subtype_mark default_value_assignment? ';'
+/Grammar=formal_ordinary_fixed_point_definition ::= 'delta' '<>'
+/Grammar=formal_package_actual_part ::= '(' '<>' ')' | generic_actual_part?
+/Grammar=formal_package_declaration ::= 'with' 'package' defining_identifier 'is' 'new' package_name formal_package_actual_part ';'
+/Grammar=formal_part ::= '(' parameter_specification formal_part_clause* ')'
+/Grammar=formal_part_clause ::= ';' parameter_specification
+/Grammar=formal_private_type_definition ::= 'abstract'? 'tagged'? 'limited'? 'private'
+/Grammar=formal_signed_integer_type_definition ::= range '<>'
+/Grammar=formal_subprogram_declaration ::= 'with' subprogram_specification formal_subprogram_declaration_clause? ';'
+/Grammar=formal_subprogram_declaration_clause ::= 'is' default_name | 'is' '<>'
+/Grammar=formal_type_declaration ::= 'type' defining_identifier discriminant_part?  'is' formal_type_definition ';'
+/Grammar=formal_type_definition ::= formal_private_type_definition | formal_derived_type_definition | formal_discrete_type_definition | formal_signed_integer_type_definition | formal_modular_type_definition | formal_floating_point_definition | formal_ordinary_fixed_point_definition | formal_decimal_fixed_point_definition | formal_array_type_definition | formal_access_type_definition
+/Grammar=full_type_declaration ::=  'type' defining_identifier known_discriminant_part? 'is' type_definition ';' | task_type_declaration | protected_type_declaration
+/Grammar=function_call ::=  function_name actual_parameter_part? | prefix actual_parameter_part?
+/Grammar=function_name ::= element_name
+/Grammar=generic_actual_part ::= '(' generic_association generic_actual_part_clause ')'
+/Grammar=generic_actual_part_clause ::= ',' generic_association 
+/Grammar=generic_association ::= generic_association_clause? expression | variable_name | procedure_name | function_name | entry_name | subtype_mark | package_name
+/Grammar=generic_association_clause ::= selector_name '=>' 
+/Grammar=generic_declaration ::= 'generic' generic_declaration_Clause1* generic_declaration_Clause2 ';'
+/grammar=generic_declaration_Clause2 ::=  subprogram_specification | package_specification
+/Grammar=generic_declaration_Clause1 ::= generic_formal_parameter_declaration | use_clause 
+/Grammar=generic_formal_parameter_declaration ::= formal_object_declaration | formal_type_declaration | formal_subprogram_declaration | formal_package_declaration
+/Grammar=generic_instantiation ::=  'package' defining_program_unit_name 'is' 'new' package_name generic_actual_part? ';' | 'procedure' defining_program_unit_name 'is' 'new' procedure_name generic_actual_part? ';' | 'function' defining_designator 'is' 'new' function_name generic_actual_part? ';' 
+/Grammar=generic_renaming_declaration ::= 'generic' generic_renaming_declaration_clause1? defining_program_unit_name 'renames' element_name ';'
+/Grammar=generic_renaming_declaration_clause1 ::= 'package' | 'procedure' | 'function' 
+/Grammar=goto_statement ::= 'goto' label_name ';'
+/Grammar=guard ::= 'when' condition '=>'
+/Grammar=handled_sequence_of_statements ::= sequence_of_statements handled_sequence_of_statements_clause
+/Grammar=handled_sequence_of_statements_clause ::= 'exception' exception_handler exception_handler*
+/grammar=identifier ::= 'letter' alphanumberic*
+/Grammar=if_statement ::= 'if' condition 'then' sequence_of_statements if_statement_clause2* if_statement_clause2? 'end' 'if' ';'
+/Grammar=if_statement_clause1 ::= 'elsif' condition 'then' sequence_of_statements 
+/Grammar=if_statement_clause2 ::= 'else' sequence_of_statements 
+/Grammar=incomplete_type_declaration ::= 'type' defining_identifier discriminant_part? ';'
+/Grammar=index_constraint ::= '(' discrete_range index_constraint_clause* ')'
+/Grammar=index_constraint_clause ::= ',' discrete_range 
+/Grammar=index_subtype_definition ::= subtype_mark range '<>'
+/Grammar=indexed_component ::= prefix '(' expression indexed_component_clause ')'
+/Grammar=indexed_component_clause ::= ',' expression 
+/Grammar=integer_type_definition ::=  simple_range_definition | 'mod' expression
+/Grammar=known_discriminant_part ::= '(' discriminant_specification known_discriminant_part_clause* ')'
+/Grammar=known_discriminant_part_clause ::= ';' discriminant_specification
+/Grammar=label ::= '<<' statement_identifier '>>'
+/Grammar=label_name ::= element_name
+/Grammar=last_bit ::= static_simple_expression
+/grammar=letter ::= 'A-Z' | 'a-z'
+/Grammar=library_item ::= 'private'? library_unit_declaration | library_unit_body |  'private'?  library_unit_renaming_declaration
+/Grammar=library_unit_body ::= subprogram_body | package_body
+/Grammar=library_unit_declaration ::= subprogram_declaration | package_declaration | generic_declaration | generic_instantiation
+/Grammar=library_unit_name ::= element_name
+/Grammar=library_unit_renaming_declaration ::= package_renaming_declaration | generic_renaming_declaration | subprogram_renaming_declaration
+/Grammar=local_name ::= direct_name | direct_name single_quote attribute_designator | library_unit_name
+/Grammar=loop_name ::= element_name
+/Grammar=loop_statement ::= loop_statement_clause1? loop_statement_clause2 ';'
+/Grammar=loop_statement_clause2 ::= 'while' condition | 'for' defining_identifier 'in' 'reverse'? discrete_subtype_definition
+/Grammar=loop_statement_clause1 ::= statement_identifier ':' 
+/Grammar=mod_clause ::= 'at' 'mod' static_expression ';'
+/Grammar=mode ::=  'in' 'out'  |  'out'  | 'in'
+/Grammar=named_array_aggregate ::= '(' array_component_association named_array_aggregate* ')'
+/Grammar=named_array_aggregateXXXXXX ::= ',' array_component_association
+/Grammar=null_statement ::= 'null' ';'
+/Grammar=number_declaration ::= defining_identifier_list ':' 'constant' value_assignment ';'
+/Grammar=numeral ::= FlowChart_Digits numeral_clause?
+/Grammar=numeral_clause ::= '_' FlowChart_Digits
+/Grammar=numeric_literal ::= decimal_literal | based_literal
+/Grammar=object_declaration ::=  defining_identifier_list ':' 'aliased'? 'constant'? subtype_indication value_assignment? ';' | defining_identifier_list ':' 'aliased'? 'constant'? array_type_definition  value_assignment? ';' | single_task_declaration | single_protected_declaration
+/grammar=operator_symbol ::= '-' | '*' | '**' | '/' | '/=' | '&' | '+' | '<' | '<=' | '>' | '=>' | '>=' | '='
+/Grammar=ordinary_fixed_point_definition ::= 'delta' expression simple_range_definition
+/Grammar=package_body_clause1 ::=  parent_unit_name '.'  identifier | identifier 
+/Grammar=package_body ::= 'package' 'body' defining_program_unit_name 'is' declarative_part package_body_clause? 'end' package_body_clause1 ';'
+/Grammar=package_body_clause ::= 'begin' handled_sequence_of_statements
+/Grammar=package_body_stub ::= 'package' 'body' defining_identifier 'is' 'separate' ';'
+/Grammar=package_declaration ::= package_specification ';'
+/Grammar=package_name ::= element_name
+/Grammar=package_renaming_declaration ::= 'package' defining_program_unit_name 'renames' element_name ';'
+/Grammar=package_specification ::= 'package' defining_program_unit_name 'is' basic_declarative_item* package_specification_clause1 'end' package_specification_clause1
+/Grammar=package_specification_clause1 ::=  parent_unit_name '.' identifier | identifier
+/Grammar=package_specification_clause ::= 'private' basic_declarative_item* 
+/Grammar=parameter_and_result_profile ::= formal_part*  'return' subtype_mark
+/Grammar=parameter_association ::= parameter_association_clause expression | parameter_association_clause element_name 
+/Grammar=parameter_association_clause ::= selector_name '=>' 
+/Grammar=parameter_profile ::=  formal_part* 
+/Grammar=parameter_specification ::= defining_identifier_list ':' parameter_specification_clause  default_value_assignment* 
+/Grammar=parameter_specification_clause ::= mode subtype_mark  | access_definition 
+/Grammar=parent_unit_name ::= element_name
+/Grammar=positional_array_aggregate ::=  '(' expression positional_array_aggregate_clause1* ')' | '(' expression positional_array_aggregate_clause1* ',' 'others' '=>' expression ')' 
+/Grammar=positional_array_aggregate_clause1 ::= ',' expression 
+/Grammar=prefix ::= element_name
+/Grammar=primary ::= numeric_literal | 'null' | alphanumberic* | aggregate | element_name | qualified_expression | allocator |  '(' expression ')' 
+/Grammar=private_default_value_assignment ::= ':=' default_expression
+/Grammar=private_extension_declaration ::= 'type' defining_identifier  discriminant_part* 'is' 'abstract'? 'new' ancestor_subtype_indication 'with' 'private' ';'
+/Grammar=private_type_declaration ::= 'type' defining_identifier discriminant_part?  'is' 'abstract'? 'tagged'? 'limited'? 'private' ';'
+/Grammar=private_value_assignment ::= ':=' expression
+/Grammar=procedure_call_statement ::=  procedure_name actual_parameter_part? | prefix actual_parameter_part?  ';'
+/Grammar=procedure_name ::= element_name
+/Grammar=proper_body ::= subprogram_body | package_body | task_body | protected_body
+/Grammar=protected_body ::= 'protected' 'body' defining_identifier 'is' protected_operation_item? 'end'  protected_identifier*  ';'
+/Grammar=protected_body_stub ::= 'protected' 'body' defining_identifier 'is' 'separate' ';'
+/Grammar=protected_definition ::= protected_operation_declaration* protected_definition_clause? 'end'  protected_identifier?
+/Grammar=protected_definition_clause ::= 'private' protected_element_declaration? 
+/Grammar=protected_element_declaration ::= protected_operation_declaration | component_declaration
+/Grammar=protected_identifier ::= identifier
+/Grammar=protected_operation_declaration ::= subprogram_declaration | entry_declaration | representation_clause
+/Grammar=protected_operation_item ::= subprogram_declaration | subprogram_body | entry_body | representation_clause
+/Grammar=protected_type_declaration ::= 'protected' 'type' defining_identifier known_discriminant_part* 'is' protected_definition ';'
+/Grammar=qualified_expression ::= subtype_mark single_quote qualified_expression_clause1
+/Grammar=qualified_expression_clause1 ::= '(' expression ')' | aggregate
+/Grammar=raise_statement ::= 'raise'  exception_name* ';'
+/Grammar=range ::= range_attribute_reference |  simple_expression '.''.' simple_expression
+/Grammar=range_attribute_designator ::= range Prenexpressionpren?
+/grammar=Prenexpressionpren ::= '(' expression ')'
+/Grammar=range_attribute_reference ::= prefix single_quote range_attribute_designator
+/Grammar=range_constraint ::= range range
+/Grammar=real_type_definition ::= floating_point_definition | ordinary_fixed_point_definition | decimal_fixed_point_definition
+/Grammar=record_aggregate ::= '(' record_component_association record_aggregate_clause+ | record_aggregate_clause2 ')'
+/Grammar=record_aggregate_clause2 ::= 'null' 'record'
+/Grammar=record_aggregate_clause ::= ',' record_component_association 
+/Grammar=record_component_association ::= record_component_association_clause? expression
+/Grammar=record_component_association_clause ::= component_choice_list '=>' 
+/Grammar=record_definition ::= 'record' Rec5 'end' 'record' | Rec1 
+/Grammar=rec1 ::= 'null' 'record' 
+/Grammar=rec2 ::= 'null' ';'
+/Grammar=rec3 ::= component_item* variant_part
+/Grammar=rec4 ::= component_item component_item*
+/Grammar=Rec5 ::= Rec4 | Rec3 | Rec2
+/Grammar=record_extension_part ::= 'with' record_definition
+/Grammar=record_representation_clause ::= 'for' first_subtype_local_name 'use' 'record'  mod_clause?  component_clause* 'end' 'record' ';'
+/Grammar=record_type_definition ::= record_type_definition_clause?  'limited'?  record_definition
+/Grammar=record_type_definition_clause ::= 'abstract'? 'tagged'
+/Grammar=relation ::= simple_expression relation_condition simple_expression | simple_expression 'not'? 'in' range | subtype_mark relation_clause2
+/Grammar=relation_clause2 ::= range | subtype_mark 
+/Grammar=relation_condition ::= '=' | '/=' | '<' | '<=' | '>' | '>=' 
+/Grammar=renaming_declaration ::=  renaming_declaration_clause 'renames' element_name ';'
+/Grammar=renaming_declaration_clause1 ::= 'package' | 'procedure' | 'function' 
+/Grammar=renaming_declaration_clause ::= defining_identifier ':' subtype_mark | defining_identifier ':' 'exception' | 'package' defining_program_unit_name | subprogram_specification | 'generic' renaming_declaration_clause1 defining_program_unit_name 
+/Grammar=representation_clause ::= attribute_definition_clause | enumeration_representation_clause | record_representation_clause | at_clause
+/Grammar=requeue_statement ::= 'requeue' entry_name  'with' ';' | 'requeue' entry_name   'abort' ';'
+/Grammar=return_statement ::= 'return'  expression? ';'
+/Grammar=select_alternative ::= accept_alternative | delay_alternative | terminate_alternative
+/Grammar=select_statement ::= selective_accept | timed_entry_call | conditional_entry_call | asynchronous_select
+/Grammar=selected_component ::= prefix '.' selector_name
+/Grammar=selective_accept ::= 'select'  guard?  select_alternative selective_accept_clause* selective_accept_clause1? 'end' 'select' ';'
+/Grammar=selective_accept_clause1 ::= 'else' sequence_of_statements 
+/Grammar=selective_accept_clause ::= 'or' guard? select_alternative 
+/Grammar=selector_name ::= identifier | 'character_literal' | operator_symbol
+/Grammar=sequence_of_statements ::= statement statement*
+/Grammar=simple_expression ::= '' | '+' | '-' term simple_expression_clause*
+/Grammar=simple_expression_clause ::= '+' term | '-' term | '&' term
+/Grammar=simple_range_definition ::= range simple_expression '.''.' simple_expression
+/Grammar=simple_statement ::= null_statement | assignment_statement | exit_statement | goto_statement | procedure_call_statement | return_statement | entry_call_statement | requeue_statement | delay_statement | abort_statement | raise_statement | code_statement
+/Grammar=single_protected_declaration ::= 'protected' defining_identifier 'is' protected_definition ';'
+/grammar=Single_Quote ::= '
+/Grammar=single_task_declaration ::= 'task' defining_identifier single_task_declaration1?  ';'
+/Grammar=single_task_declaration1 ::= 'is' task_definition
+/Grammar=slice ::= prefix '(' discrete_range ')'
+/Grammar=statement ::= label* simple_statement | compound_statement
+/Grammar=statement_identifier ::= direct_name
+/Grammar=static_expression ::= expression
+/Grammar=static_simple_expression ::= simple_expression;
+/Grammar=subprogram_body ::= subprogram_specification 'is' declarative_part 'begin' handled_sequence_of_statements 'end' designator? ';'
+/Grammar=subprogram_body_stub ::= subprogram_specification 'is' 'separate' ';'
+/Grammar=subprogram_declaration ::= subprogram_specification ';'
+/Grammar=subprogram_renaming_declaration ::= subprogram_specification 'renames' element_name ';'
+/Grammar=subprogram_specification ::= 'procedure' defining_program_unit_name formal_part?  | 'function' defining_designator formal_part? 'return' subtype_mark
+/Grammar=subtype_declaration ::= 'subtype' defining_identifier 'is' subtype_indication ';'
+/Grammar=subtype_indication ::= subtype_mark constraint?
+/Grammar=subtype_mark ::= element_name
+/Grammar=subunit ::= 'separate' '(' parent_unit_name ')' proper_body
+/Grammar=task_body ::= 'task' 'body' defining_identifier 'is' declarative_part 'begin' handled_sequence_of_statements 'end' task_identifier? ';'
+/Grammar=task_body_stub ::= 'task' 'body' defining_identifier 'is' 'separate' ';'
+/Grammar=task_definition ::= task_item* task_definition_clause1 'end' task_identifier?
+/Grammar=task_definition_clause1 ::= 'private' task_item* 
+/Grammar=task_identifier ::= identifier
+/Grammar=task_item ::= entry_declaration | representation_clause
+/Grammar=task_name ::= element_name
+/Grammar=task_type_declaration ::= 'task' 'type' defining_identifier known_discriminant_part? single_task_declaration? ';'
+/Grammar=term ::= factor term_clause
+/Grammar=term_clause ::= '*' | '/' | 'mod' | 'rem' factor 
+/Grammar=terminate_alternative ::= 'terminate' ';'
+/Grammar=timed_entry_call ::= 'select' entry_call_alternative 'or' delay_alternative 'end' 'select' ';'
+/Grammar=triggering_alternative ::= triggering_statement sequence_of_statements?
+/Grammar=triggering_statement ::= entry_call_statement | delay_statement
+/Grammar=type_conversion ::= subtype_mark '('  expression  ')' | subtype_mark '(' element_name ')'
+/Grammar=type_declaration ::= full_type_declaration | incomplete_type_declaration | private_type_declaration | private_extension_declaration
+/Grammar=type_definition ::= enumeration_type_definition | integer_type_definition | real_type_definition | array_type_definition | record_type_definition | access_type_definition | derived_type_definition
+/Grammar=unconstrained_array_definition ::= 'array' '(' index_subtype_definition unconstrained_array_definition_clause ')' 'of' component_definition
+/Grammar=unconstrained_array_definition_clause ::= ',' index_subtype_definition 
+/Grammar=use_clause ::= 'use' use_clause3 ';'
+/Grammar=use_clause3 ::= package_name use_clause1* | 'type' subtype_mark use_clause2*
+/Grammar=use_clause2 ::= ',' subtype_mark
+/Grammar=use_clause1 ::= ',' package_name 
+/Grammar=value_assignment ::= ':=' expression
+/Grammar=variable_name ::= element_name
+/Grammar=variant ::= 'when' discrete_choice_list '=>' variant_clause 
+/Grammar=variant_clause ::= component_item component_item* | component_item* variant_part | 'null' ';' 
+/Grammar=variant_part ::= 'case' direct_name 'is' variant variant* 'end' 'case' ';'
+/Grammar=with_clause ::= 'with' library_unit_name with_clause1* ';'
+/Grammar=with_clause1 ::= ',' library_unit_name 

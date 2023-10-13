@@ -1,0 +1,12 @@
+Convention/symbol 	Meaning
+::= 			Equivalent
+| 			OR
+X+ 			One or more Xs.
+X-			Can not be this
+X?			X is optional. Optional delimiters are denoted by [].
+X*
+{}
+[]
+()
+<>
+'			is used to define literals (keywords, required string ...)	(Must define ' as /grammar=single_quote ::= ')

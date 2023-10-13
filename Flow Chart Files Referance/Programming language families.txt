@@ -1,0 +1,6804 @@
+
+https://en.wikipedia.org/wiki/Category:Programming_language_families
+https://en.wikipedia.org/wiki/List_of_compilers
+
+ICL programming languages
+	ApplicationMaster
+	DAP FORTRAN
+	Filetab
+	JEAN
+	ReportMaster
+	S3 
+	SCL 
+	SFL 
+	Southampton BASIC System
+
+Ada programming language
+	PL/SQL
+	Ravenscar profile
+	SPARK
+	VHDL
+	PTC ObjectAda 
+	GCC GNAT 
+	GreenHills Ada Optimizing Compiler 
+	PTC ApexAda 
+	SCORE Ada 
+	Symbolics Ada 
+	Tandem Ada 
+
+ALGO programming language
+	ALGOL 58 dialect‎
+	ALGOL 60 
+	Persistent S-algol 
+	MCP 
+	ALGOL 68‎ 
+	ALGOL 68r0 
+	ALGOL 68-RR 
+	EPOS ALGOLE 
+	ALGOL 68RSRS 
+	Mini ALGOL 68 
+	ALGOL 68CC 
+	ALGOL 68 Revised Reportr1 
+	Odra Algol 68 
+	FLACCF 
+	Leningrad ALGOL 68L 
+	Interactive ALGOL 68I 
+	ALGOL 68SS 
+	Algol68toC (ctrans) 
+	Algol 68 GenieG 
+
+
+Assemler programming language family
+	FASM 
+	Turbo Assembler 
+	A86 assembler 
+	Microsoft Macro Assembler 
+	Netwide Assembler 
+	High Level Assembly (HLA) 
+	GNU Assembler 
+	Assemblers (Motorola 68*)
+	Assembler 
+	Devpac 
+	rmac 
+	Assemblers (Zilog Z80)
+	Microsoft MACRO-80 
+	Zeus Assembler 
+	Prometheus 
+	Assemblers (other)
+	TMS 9900 assembler 
+	Tandem Application Language (TAL) 
+
+
+BASIC programming language family‎ 
+compilers:
+	Minimal BASIC 
+	AppGameKit 
+	BASIC-PLUS-2 
+	B4X 
+	BlitzMax 
+	DarkBASIC 
+	FreeBASIC 
+	FutureBASIC 
+	Gambas 
+	GFA BASIC 
+	Mercury 
+	PowerBASIC (formerly Turbo Basic) 
+	PureBasic 
+	QB64 
+	QuickBASIC 
+	Tandem BASIC 
+	True BASIC 
+	VSI BASIC for OpenVMS 
+	Xojo (formerly REALbasic) 
+Interpreters:
+	BASIC-PLUS 
+	BBC BASIC (SDL 2.0) 
+	Bywater BASIC (bwBASIC) 
+	Liberty BASIC 
+	GW-BASIC 
+	QBasic 
+	Chipmunk Basic 
+	TI Basic 
+	TI Extended Basic 
+	Rocky Mountain BASIC 
+	Bas 
+	Yabasic 
+	SmallBASIC 
+	SuperBASIC 
+	thinBasic 
+	PC-BASIC 
+	Level I BASIC 
+	Level II BASIC 
+	Level III BASIC 
+
+
+
+
+
+C programming language family‎ 
+	C89 
+	Acorn C/C++ 
+	AMD Optimizing C/C++ Compiler (AOCC) 
+	Aztec C 
+	Amsterdam Compiler Kit 
+	BDS C 
+	C++Builder 
+	Ch 
+	Clang 
+	CompCert 
+	Digital Mars 
+	Digital Research C 
+	Edison Design Group 
+	GCC C 
+	IAR C/C++ Compilers 
+	Intel oneAPI DPC++/C++ Compiler
+	(icx) 
+	Intel C++ Compiler Classic
+	(icc) 
+	Interactive C 
+	keil C/C++ Compilers 
+	Lattice C 
+	lcc 
+	Mark Williams C 
+	MCP 
+	MikroC Compiler 
+	MPW C 
+	Open64 
+	Pacific C 
+	Pelles C 
+	Personal C Compiler (PCC) 
+	PGCC 
+	Portable C Compiler 
+	QuickC 
+	Ritchie C Compiler (PDP-11) 
+	SAS/C 
+	Alan Snyder's Portable C Compiler 
+	The SubC Compiler 
+	SCORE C (tcc) 
+	SEGGER Compiler 
+	Small-C 
+	Small Device C Compiler 
+	Symbolics C 
+	Tandem C 
+	Tasking 
+	THINK C, Lightspeed C 
+	Tiny C Compiler 
+	(Borland) Turbo C 
+	VBCC 
+	Microsoft Visual C++ 
+	Oracle C compiler 
+	Watcom C/C++,
+	Open Watcom C/C++ 
+	Wind River (Diab) Compiler 
+	XL C, XL C/C++ 
+	Zig cc 
+
+C++ programming language family‎ 
+Windows 
+	AMD Optimizing C/C++ Compiler (AOCC) 
+	C++Builder (classic Borland, bcc*) 
+	C++Builder (modern, bcc*c) 
+	Turbo C++ (tcc) 
+	CINT 
+	Cfront 
+	Clang (clang++) 
+	Comeau C/C++ 
+	Cray C/C++ (CC) 
+	Digital Mars C/C++ (dmc) 
+	EDG C++ Front End (eccp, edgcpfe) 
+	EKOPath(pathCC) 
+	Open–source & GPL) 
+	GCC (g++) 
+	Cygwin, Windows Subsystem 
+	NetBeans, Code::Blocks, Dev-C++, Geany 
+	HP aC++ (aCC) 
+	IAR C/C++ Compilers (icc*) 
+	Intel C++ Compiler (icc) 
+	KAI C++ (KCC) 
+	⟨subsumed by Intel⟩ 
+	IRIX 5.3 & 6.x, Solaris 2.x, UNICOS 
+	Microtec C/C++ (mcc) 
+	EDGE C/C++ 
+	Open64 (openCC) 
+	PGC++ (pgc++) 
+	ProDev WorkShop 
+	RealView Compilation Tools (armcc) 
+	Arm Compiler (armcc) 
+	Arm Compiler (armclang) 
+	Salford C++ Compiler 
+	SAS/C C++ 
+	SCORE C++ (tpp) 
+	SEGGER Compiler 
+	Oracle C++ Compiler (CC) 
+	Tandem C++ 
+	TenDRA (tcc) 
+	VectorC 
+	Visual C++ (cl) 
+	XL C/C++ (xlc++) 
+	Diab Compiler (dcc) 
+
+C# (CSHARP) programming language family of compilers
+	Visual C# 
+	Visual C# Express 
+	Mono 
+	Portable.NET 
+	SharpDevelop 
+	Roslyn 
+	RemObjects C# 
+	IL2CPP 
+	IL2CPU 
+	Bartok 
+	RyuJIT 
+	CoreRT 
+
+
+COBOL programming language family‎ 
+	COBOL-85 
+	IBM COBOL 
+	NetCOBOL 
+	GnuCOBOL (formerly OpenCOBOL) 
+	gcobol 
+	Otterkit
+	Visual COBOL 
+	isCOBOL Evolve 
+	HP COBOL 
+	MCP 
+	Tandem COBOL
+	PDP-11 COBOL 
+	COBOL-85 
+	Austec Cobol 
+
+
+D programming language family‎ 
+	D (DMD) 
+	D for .NET 
+	GDC 
+	LDC 
+
+DCL programming language family
+	DCL
+
+DIBOL programming language family‎ 
+	DIBOL 
+	Synergy DBL
+	ECMAScript interpreters
+	Main article: List of ECMAScript engines
+
+Eiffel programming language family‎ 
+	EiffelStudio 
+	LibertyEiffel (fork of SmartEiffel) 
+	SmartEiffel 
+
+Forth programming language family
+	51-FORTH
+	ColorForth
+	Forth 
+	Gforth
+	Jupiter Ace
+	Open Firmware
+	PForth
+	STOIC
+	Win32Forth
+		VFX Forth
+		SwiftForth
+		SP-Forth 
+		Retro Forth
+		pForth 
+		Open Firmware 
+		iForth
+		Gforth 
+		colorForth 
+		ciforth
+		Atlast
+		Collapse OS
+		FreeForth
+		ByteForth
+		noForth
+
+
+
+
+Haskell programming language family‎ 
+	HBC 
+	Thomas Johnsson 
+	GHC 
+	YHC 
+	JHC 
+
+
+programming language family‎ 
+programming language family‎ 
+programming language family‎ 
+programming language family‎ 
+programming language family‎ 
+programming language family‎ 
+programming language family‎ 
+programming language family‎ 
+programming language family‎ 
+programming language family‎ 
+programming language family‎ 
+programming language family‎ 
+programming language family‎ 
+programming language family‎ 
+programming language family‎ 
+Icon programming language family‎ 
+JOSS programming language family‎ 
+Pascal programming language family‎ 
+`	Amsterdam Compiler Kit
+`	Ceriel Jacobs
+`	Delphi
+`	Free Pascal
+`	GNU Pascal
+`	Kylix
+`	MCP
+`	Microsoft Pascal
+`	Oxygene (formerly Delphi Prism)
+`	Symbolics Pascal
+`	Tandem Pascal[71]
+`	Turbo Pascal
+`	Turbo Pascal for Windows
+`	Vector Pascal
+`	Virtual Pascal
+`	VSI Pascal
+
+
+
+
+
+APL programming language.
+	A+ 
+	APL 
+	APL syntax and symbols
+	APLX
+	Code page 293
+	Code page 310
+	Code page 351
+	Digital encoding of APL symbols
+	Direct function
+	ELI 
+	ISO-IR-68
+	Iverson Award
+	J 
+		Rank 
+	K 
+	Q 
+BASIC programming language family
+	Altair BASIC
+	AmigaBASIC
+	AMOS
+	Applesoft BASIC
+	ASIC 
+	Atari BASIC
+	Atari Microsoft BASIC
+	Acorn System BASIC
+	AutoIt
+
+B
+
+	BASIC Computer Games
+	Basic For Qt
+	BASIC Programming
+	Basic-256
+	BASIC-PLUS
+	Atari ST BASIC
+	Dartmouth BASIC
+	Basic4android
+	Basic4ppc
+	BASICODE
+	BBC BASIC
+	BCX
+	Beta BASIC
+	Blitz BASIC
+	Business application language
+	Business Basic
+
+C
+
+	Comparison of C Sharp and Visual Basic .NET
+	CA-Realizer
+	Casio BASIC
+	CBASIC
+	Chinese BASIC
+	Chipmunk Basic
+	Color BASIC
+	Commodore BASIC
+	Comparison of Visual Basic and Visual Basic .NET
+	CompuMate
+	Control array
+
+D
+
+	Data General Extended BASIC
+
+E
+
+	Embedded Visual Basic
+	Euphoria 
+
+F
+
+	Family BASIC
+	FLOW 
+	FreeBASIC
+	FutureBASIC
+
+G
+
+	Gambas
+	GFA BASIC
+	GLBasic
+	GRASS 
+	GW-BASIC
+
+H
+
+	Hindawi Programming System
+	HP Time-Shared BASIC
+
+I
+
+	IBM BASIC
+	Integer BASIC
+
+J
+
+	JR-BASIC
+
+L
+
+	Level I BASIC
+	Liberty BASIC
+	Locomotive BASIC
+	LotusScript
+	LSE 
+
+M
+
+	Mallard BASIC
+	MapBasic
+	MBASIC
+	Microsoft BASIC
+	Microsoft Small Basic
+	MSX BASIC
+
+N
+
+	North Star BASIC
+	NS Basic
+
+O
+
+	Open 
+	OpenOffice Basic
+
+P
+
+	Phoenix Object Basic
+	PowerBASIC
+	ProvideX
+	PureBasic
+
+Q
+
+	QB64
+	QBasic
+	QuickBASIC
+
+R
+
+	RapidQ
+	Rocky Mountain BASIC
+	Run BASIC
+
+S
+
+	S-BASIC
+	SCELBAL
+	ScriptBasic
+	SDS BASIC
+	Sinclair BASIC
+	SmallBASIC
+	Southampton BASIC System
+	STOS BASIC
+	SUPER BASIC
+	SuperBASIC
+	System/34 BASIC
+
+T
+
+	ThinBasic
+	TI BASIC
+	TI-BASIC 83
+	Tiny BASIC
+	True BASIC
+	Turbo-BASIC XL
+
+U
+
+	UBASIC
+
+V
+
+	Variant type
+	VBScript
+	Vilnius BASIC
+	Visual Basic .NET
+	Visual Basic 
+	Visual Basic for Applications
+	VSI BASIC for OpenVMS
+
+W
+
+	Wang BASIC
+	WinWrap Basic
+	WordBASIC
+
+X
+
+	XBasic
+	XBLite
+	Xojo
+
+Y
+
+	Yabasic
+	YS MegaBasic
+
+Category:C programming language family
+
+	Category
+	Talk
+
+	Read
+	Edit
+	View history
+
+C programming language family.
+
+	C ‎ 
+	C Sharp programming language family‎ 
+	C++ programming language family‎ 
+	Go programming language family
+	Gc 
+	Gccgo 
+	RemObjects Gold 
+	llgo 
+	Gopherjs 
+
+
+
+Java and JavaScript programming language family‎ 
+`	ECJ (Eclipse Compiler for Java)
+`	Edison Design Group
+`	gcj
+`	Iodine
+`	javac
+`	javac OpenJDK
+`	Jikes
+`	Lisaac
+`	Lisaac compiler
+`	Lua ‎
+`	Objective-C‎
+`	Perl
+		ActivePerl interpreter 
+		Perl interpreter 
+‎`	PHP‎
+		Phalanger 
+		PeachPie 
+`	Power J
+`	Vala ‎
+
+
+C++ programming language family
+	AspectC++
+	C++
+	C++/CLI
+	C++/CX
+	C++03
+	C++11
+	C++14
+	C++17
+	C++20
+	C++23
+	Charm++
+	Embedded C++
+	Intel Array Building Blocks
+	Intel Parallel Studio
+	Managed Extensions for C++
+	R++
+	RaftLib
+	Sieve C++ Parallel Programming System
+	SystemC
+	Threading Building Blocks
+	Unity build
+
+Fortran programming language family
+	Absoft Pro Fortran
+	ALTRAN
+	AMD Optimizing C/C++ Compiler (AOCC)
+	Coarray Fortran
+	Cray
+	DAP FORTRAN
+	EFL
+	F
+	FF
+	Flang
+	FLECS
+	FOR TRANSIT
+	FORMAC
+	Fortran
+	Fortran 66
+	Fortran 66 B
+	Fortran 77
+	Fortran H (equivalent to Fortran IV)
+	Fortran I
+	Fortran II
+	Fortran III
+	Fortran IV
+	Fortran V
+	Fortran2003
+	Fortran2008
+	Fortran2018
+	Fortran2023
+	Fortran5
+	Fortran90
+	Fortran95
+	Fortress
+	FTN
+	FTN95
+	G95
+	GNU Fortran
+	High Performance Fortran
+	iftran
+	Industrial Real-Time Fortran
+	Intel Fortran Compiler
+	LRLTRAN
+	MCP
+	MORTRAN
+	NAG Fortran Compiler
+	Object-Oriented Fortran
+	Open Watcom
+	Open64
+	Oracle Fortran
+	PathScale Compiler Suite
+	PDP-11 FORTRAN IV
+	PDP-11 FORTRAN-IV-Plus
+	PGFORTRAN
+	QUIKTRAN
+	Ratfiv
+	Ratfor
+	S_Fortran
+	Sftran
+	sxf90 / sxmpif90
+	Symbolics Fortran
+	Tandem Fortran
+	VS Fortran
+	VS/9 Fortran IV
+	WATFIV
+	WATFOR
+	XL Fortran
+
+
+Icon programming language family
+	Icon 
+	Unicon 
+
+Java programming language family
+	Apache Groovy
+	AspectJ
+	Ateji PX
+	BeanShell
+	Ceylon 
+	Deeplearning4j
+	Gosu 
+	GScript
+	Java Agent Template
+	Java Astrodynamics Toolkit
+	JavaFX Script
+	JScheme
+	Judoscript
+	Kotlin 
+	Mirah 
+	Pizza 
+	Pnuts
+	Processing
+	Scala 
+	Umple
+	Visual J Sharp
+
+
+
+
+JavaScript.
+	ActionScript‎ (3 P)
+	JavaScript‎ (9 C, 50 P)
+	JavaScript dialect engines‎ (5 P)
+
+JavaScript programming language family
+	ActionScript
+	AssemblyScript
+	AtScript
+	CoffeeScript
+	Dart 
+	ECMAScript
+	JScript
+	JScript .NET
+	LiveScript 
+	Seed (programming)
+	Structure and Interpretation of Computer Programs, JavaScript Edition
+	TypeScript
+	MUMPS programming language family‎ (1 C, 4 P)
+
+JOSS programming language family
+	JOSS
+	CAL 
+	FILECOMP
+	FOCAL 
+	JEAN
+	STRINGCOMP
+	TELCOMP
+
+Lisp programming language family
+	ACL2
+	Arc 
+	AutoLISP
+	BBN LISP
+	Cadence SKILL
+	CGOL
+	Clojure
+	Common Lisp
+	Document Style Semantics and Specification Language
+	Dylan 
+	Emacs Lisp
+	EuLisp
+	EusLisp Robot 
+	Flavors 
+	Franz Lisp
+	Game Oriented Assembly Lisp
+	Hy
+	Interlisp
+	ISLISP
+	Julia 
+	Le Lisp
+	LFE 
+	LISP 2
+	Lisp Machine Lisp
+	Lispkit Lisp
+	Logo 
+	Maclisp
+	MDL 
+	MLisp
+	MultiLisp
+	NewLISP
+	NIL 
+	Nu 
+	Object Lisp
+	ObjVlisp
+	OpenLisp
+	PC-LISP
+	PicoLisp
+	POP-11
+	Portable Standard Lisp
+	Qalb 
+	Racket 
+	RPL 
+	Scheme 
+`		Bigloo 
+`		Chez Scheme 
+`		Chicken 
+`		Common Larceny 
+`		Gambit 
+`		GNU Guile 
+`		Ikarus 
+`		IronScheme 
+`		JScheme 
+`		Kawa 
+`		Larceny 
+`		MIT/GNU Scheme 
+`		Petit Larceny 
+`		Racket 
+`		RScheme 
+`		Scheme 48 
+`		SCM 
+`		SISC 
+`		Stalin 
+`		STklos 
+`		Interpreter 
+`		Gauche 
+`		Petite Chez Scheme 
+`		TinyScheme 
+	Spice Lisp
+	*Lisp
+	T 
+	XLISP
+	XLispStat
+Common Lisp‎ :
+	Allegro Common Lisp 
+	Armed Bear Common Lisp 
+	CLISP 
+	Clozure CL 
+	CMU Common Lisp 
+	Corman Common Lisp 
+	Embeddable Common Lisp 
+	GNU Common Lisp 
+	LispWorks 
+	mocl 
+	Movitz 
+	Open Genera 
+	Scieneer Common Lisp 
+	Steel Bank Common Lisp 
+	Dylan ‎ 
+	Lisp ‎ 
+	ISLISP compilers and interpreters
+	Easy-ISLisp
+	OpenLisp 
+	dayLISP 
+	Iris
+	Iris web REPL
+	Kiss
+	OKI ISLISP
+	PRIME-LISP 
+	ISLisproid 
+
+Logo programming language family‎ (10 P)
+	Scheme ‎ (1 C, 21 P)
+XBase programming language family
+	ActiveVFP
+	AdvPL
+	Clipper 
+	DBase
+	FoxPro
+	Harbour 
+	Visual FoxPro
+	Visual Objects
+	XBase
+	XBase++
+	XHarbour
+	XSharp
+Tcl programming language family
+	ActiveTcl 
+	Incr Tcl
+	Itk
+	Tcl
+	Tclsh 
+	TclX
+	Tk
+	XOTcl
+	Wish 
+
+
+SR programming language family
+	SR 
+	MPD 
+SNOBOL programming language family
+	Icon programming language family‎ (2 P)
+	Icon 
+	SNOBOL
+	Snostorm
+	Snowball 
+	SPITBOL
+	Unicon 
+Smalltalk programming language family
+`	Actor 
+`	AIDA/Web
+`	Amber Smalltalk
+`	Cincom Systems
+`	Citrine 
+`	Dolphin Smalltalk
+`	Etoys 
+`	F-Script 
+`	GemStone/S
+`	GNU Smalltalk 
+`	Little Smalltalk
+`	Moose (analysis)
+`	Morphic (software)
+`	Newspeak 
+`	Open Roberta
+`	Pharo 
+`	Physical Etoys
+`	Pocket Smalltalk
+`	Scratch 
+`	Seaside (software)
+`	Sense (programming)
+`	Smalltalk
+`	Smalltalk MT
+`	Snap! 
+`	Squeak
+`	StepTalk
+`	Strongtalk
+`	Swiki
+`	Turtlestitch
+`	Tweak programming environment
+`	Visual Smalltalk Enterprise
+`	VisualAge
+`	VisualWorks 
+`	WikiTalk
+
+Ruby programming language family
+`	Bogus
+`	Capistrano
+`	Compiler
+`	Distributed Ruby
+`	ERuby
+`	EventMachine
+`	Factory Bot
+`	Fat comma
+`	Hackety Hack
+`	Haml
+`	History of Ruby
+`	HotRuby
+`	IronRuby
+`	IronRuby
+`	JRuby
+`	JRuby
+`	MacRuby
+`	Markaby
+`	Mod ruby
+`	Mongrel
+`	Mruby
+`	Mruby
+`	Network Applied Communication Laboratory
+`	Nokogiri
+`	Pledgie
+`	Programming Ruby
+`	Pry
+`	QtRuby
+`	Rails Day
+`	Rake
+`	Rinda
+`	Rubinius
+`	Ruby
+`	Ruby Central
+`	Ruby MRI
+`	Ruby Version Manager
+`	RubyCocoa
+`	RubyForge
+`	RubyKaigi
+`	RubyMine
+`	RubyMotion
+`	RubySpec
+`	Rust compilers
+`	rustc
+`	Sass (style sheet language)
+`	Spree Commerce
+`	Template:Ruby programming language
+`	TruffleRuby
+`	Uconv
+`	Watir
+`	WEBrick
+`	Why the lucky stiff
+`	Why's (poignant) Guide to Ruby
+`	XRuby
+`	YARV
+`	Yukihiro Matsumoto
+`	Zammad
+
+
+Rexx programming language family
+`	Amiga ARexx 
+	ARexx
+	Christmas Tree EXEC
+	CMS Pipelines
+	Mike Cowlishaw
+	CygnusEd
+	E (PC DOS)
+	The Hessling Editor
+	NetRexx
+	KEDIT
+	Object REXX
+	OoREXX
+`	Open Object Rexx 
+`	Regina Rexx 
+	Rexx
+	VX-REXX
+	XEDIT
+	ZOC (software)
+
+
+R  programming language family
+
+	Articles with example R code‎ (31 P)
+	Free R  software‎ (24 P)
+	R  people‎ (32 P)
+	R scientific libraries‎ (1 P)
+
+Python programming language family
+	Python
+	Cython 
+	IronPython 
+	Jython 
+	Nuitka 
+	Numba 
+	Psyco 
+	Christian Tismer 
+	Pyjs 
+	PyPy 
+	Shed Skin 
+
+Prolog programming language family
+	Absys
+	B-Prolog
+	BNR Prolog
+	Ciao 
+	CLP(R)
+	Comparison of Prolog implementations
+	ECLiPSe
+	GNU Prolog
+	KL0
+	KL1
+	ΛProlog
+	Logtalk
+	Objlog
+	Prolog
+	Prolog syntax and semantics
+	Prolog++
+	Prolog32
+	Strand 
+	SWI-Prolog
+	Visual Prolog
+	XSB
+	YAP (Prolog)
+PL/I programming language family
+	Cornell University Programming Language
+	IBM PL/S
+	IITRAN
+	Indexed file
+	PL/C
+	PL/I
+	PL/I preprocessor
+	PL/M
+	PL/P
+	PL/8
+	SabreTalk
+	SP/k
+	XPL
+	XPL0
+	IBM Enterprise PL/I for z/OS 
+	IBM PL/I for AIX 
+	IBM PL/I(F) 
+	IBM VisualAge PL/I Enterprise for OS/2 and Windows NT 
+	Micro Focus Open PL/I 
+
+
+Perl‎ programming language family
+	ActivePerl
+	Autovivification
+	BAPP
+	Black Perl
+	CPAN
+	Fat comma
+	Perl Foundation
+	LAMP (software bundle)
+	Leaning toothpick syndrome
+	Mod parrot
+	Mod perl
+	Obfuscated Perl Contest
+	Parrot assembly language
+	Parrot intermediate representation
+	Parrot virtual machine
+	Parser Grammar Engine
+	Pcregrep
+	Perl 5 version history
+	Perl Compatible Regular Expressions
+	Perl control structures
+	Perl language structure
+	Perl module
+	Perl Mongers
+	Perl Object-Oriented Persistence
+	Perl OpenGL
+	Perl package manager
+	Perl virtual machine
+	Perl::Critic
+	PerlMonks
+	PerlTidy
+	Plain Old Documentation
+	Punie
+	Qrpff
+	Schwartzian transform
+	Test Anything Protocol
+	Test::More
+	Waterbed theory
+	White Camel award
+	XS (Perl)
+	Yet Another Perl Conference
+	Media in category "Perl"
+
+Pascal  programming language family
+	Pascal ‎ (6 C, 15 P)
+	Ada programming language family‎ (1 C, 4 P)
+	Delphi ‎ (1 C, 5 P)
+	Free Pascal‎ (12 P)
+	Modula programming language family‎ (1 C, 12 P)
+
+Pascal programming language family
+	Apple Pascal
+	C/AL
+	Clascal
+	Concurrent Pascal
+	Cybil 
+	Free Pascal
+	GNU Pascal
+	Internet Direct
+	IP Pascal
+	Joyce 
+	JRT Pascal
+	Lazarus
+	Microsoft Pascal
+	MIDletPascal
+	Object Pascal
+	Oxygene 
+	ParaSail 
+	Pascal/MT+
+	PascalABC.NET
+	Pic Micro Pascal
+	PL/0
+	Plus 
+	PocketStudio
+	Rapira
+	SuperPascal
+	Turbo51
+	Vector Pascal
+OCaml programming language family
+	Eff 
+	F Sharp 
+	JoCaml
+	OCaml
+	Reason 
+Oberon  programming language family
+	Active Oberon
+	Component Pascal
+	Oberon 
+	Oberon-2
+	Object Oberon
+	Obliq
+	Zonnon
+.NET programming languages
+	A Sharp (.NET)
+	Abstract State Machine Language
+	Ada 
+	APL 
+	Axum 
+	Bistro Framework
+	Boo 
+	C Sharp 
+	C++/CLI
+	COBOL
+	Cobra 
+	Component Pascal
+	F Sharp 
+	F* 
+	Fantom 
+	IronPython
+	IronRuby
+	IronScheme
+	JScript .NET
+	Managed Extensions for C++
+	Mercury 
+	Microsoft Small Basic
+	Nemerle
+	Oxygene 
+	PascalABC.NET
+	PeachPie
+	PowerShell
+	Script.NET
+	StaDyn 
+	Synergy DBL
+	Visual Basic (.NET)
+	Visual J Sharp
+	XSharp
+	Zonnon
+Modula programming language family
+	Active Oberon
+	Alma-0
+	Baby Modula-3
+	Component Pascal
+	Modula
+	Modula-2
+	Modula-2+
+	Modula-3
+	Oberon 
+	Oberon-2
+	Oberon programming language family‎
+	Object Oberon
+	Obliq
+Oberon programming language family
+	Active Oberon
+	Component Pascal
+	Oberon 
+	Oberon-2
+	Object Oberon
+	Obliq
+	Zonnon
+	OCaml programming language family‎ (1 C, 5 P)
+ML programming language family
+	Alice 
+	Caml
+	Concurrent ML
+	Dependent ML
+	Extended ML
+	F Sharp 
+	F* 
+	MacroML
+	ML 
+	MLton
+	OCaml
+	Reason 
+	Standard ML
+	Standard ML of New Jersey
+	Ur 
+Logo programming language family
+	Atari Logo
+	FMSLogo
+	Logo 
+	MicroWorlds
+	MicroWorlds JR
+	MSWLogo
+	NetLogo
+	ObjectLOGO
+	StarLogo
+	UCBLogo
+
+
+
+
+,,,					FlowChart		
+?Prolog					FlowChart	
+.NET programming languages		Web	
+(icc)					Web	
+(icx)					Web	
+⟨subsumed by Intel⟩ 			Web	
+@					FlowChart	
+*Lisp					Web	
+←THE LAST ACTION LANGUAGE→		FlowChart	
+05AB1E					FlowChart	
+05AB1E legacy				FlowChart	
+1-pak					FlowChart	
+1620sps					FlowChart	
+1771-DB BASIC				FlowChart	
+1c-enterprise				FlowChart	
+1L a					FlowChart	
+1L_AOI					FlowChart	
+2-pak					FlowChart	
+20-gate					FlowChart	
+256					FlowChart	
+2L					FlowChart	
+2obj					FlowChart	
+2sable					FlowChart	
+3-lisp					FlowChart	
+33					FlowChart	
+3apl					FlowChart	
+3d-logo					FlowChart	
+3dcomposer				FlowChart	
+3ds					FlowChart	
+3mf					FlowChart	
+3rip					FlowChart	
+3var					FlowChart	
+4					FlowChart	
+4248 Computer languages			FlowChart	
+4g-standard				FlowChart	
+4th-dimension				FlowChart	
+51-FORTH				Web	
+51forth					FlowChart	
+64K BASIC				FlowChart	
+6gunz					FlowChart	
+7					FlowChart	
+80x86 Assembler				FlowChart	
+8th					FlowChart	
+99					FlowChart	
+A Sharp (.NET)				Web	
+A-0_System				FlowChart	
+a-0-system				FlowChart	
+a-gram					FlowChart	
+a-sharp					FlowChart	
+A.NET					FlowChart	
+A+					Both	
+a51					FlowChart	
+A86 assembler				Web	
+aadl					FlowChart	
+aaf					FlowChart	
+aarch64					FlowChart	
+aardappel				FlowChart	
+abacus-machine				FlowChart	
+abal					FlowChart	
+abap					FlowChart	
+ABasiC					FlowChart	
+abc					FlowChart	
+ABC BASIC				FlowChart	
+ABC_ALGOL				FlowChart	
+abc-80					FlowChart	
+abc-algol				FlowChart	
+ABC-assembler				FlowChart	
+abcl					FlowChart	
+abcl-cp					FlowChart	
+abcl-f					FlowChart	
+abcl-lang				FlowChart	
+abcpp					FlowChart	
+abel					FlowChart	
+able					FlowChart	
+abnf					FlowChart	
+abs					FlowChart	
+abset					FlowChart	
+Absoft Pro Fortra			Web	
+Abstract State Machine Language		Web	
+abstract-state-machine-language		FlowChart	
+abstracto				FlowChart	
+Absys					Both	
+ac-toolbox				FlowChart	
+acc					FlowChart	
+Acc!!					FlowChart	
+accent					FlowChart	
+accent-programming-language		FlowChart	
+ACE					FlowChart	
+Ace_DASL				FlowChart	
+Aceto					FlowChart	
+acl					FlowChart	
+ACL2					Both	
+acme					FlowChart	
+acore					FlowChart	
+acorn					FlowChart	
+Acorn C/C++				Web	
+Acorn System BASIC			Web	
+acorn-atom				FlowChart	
+acorn-lang				FlowChart	
+acornsoft-logo				FlowChart	
+acos					FlowChart	
+acsi-matic				FlowChart	
+acsl					FlowChart	
+act-iii					FlowChart	
+act-one					FlowChart	
+actalk					FlowChart	
+action					FlowChart	
+action-code-script			FlowChart	
+Action!					FlowChart	
+ActionScript				Both	
+Active Oberon				Web	
+active-language-i			FlowChart	
+active-u-datalog			FlowChart	
+ActivePerl				Web	
+ActivePerl interpreter			Web	
+ActiveTcl				Web	
+ActiveVFP				Both	
+Actor 					Both	
+actors					FlowChart	
+Actually				FlowChart	
+actus					FlowChart	
+ad-hoc					FlowChart	
+Ada 					Both	
+Ada 68					FlowChart	
+Ada programming language		Web	
+Ada programming language family‎		Web	
+Ada_GNAT				FlowChart	
+ada-95					FlowChart	
+ada-9x					FlowChart	
+ada-tl					FlowChart	
+adabtpl					FlowChart	
+adagio					FlowChart	
+adam					FlowChart	
+adam-standard				FlowChart	
+adamant					FlowChart	
+adaplex					FlowChart	
+Adapt					FlowChart	
+Add++					FlowChart	
+Adenine					FlowChart	
+adenine-programming-language		FlowChart	
+ades					FlowChart	
+ades-ii					FlowChart	
+aditi					FlowChart	
+Adjust					FlowChart	
+adlib					FlowChart	
+adobe-font-metrics			FlowChart	
+ads-b-standard				FlowChart	
+Advan BASIC				FlowChart	
+Advance Basic				FlowChart	
+Advanced BASIC				FlowChart	
+advanced-continuous-simulation-language	FlowChart	
+advice-taker				FlowChart	
+AdvPL					Both	
+aed					FlowChart	
+aepl					FlowChart	
+aesop					FlowChart	
+afnix					FlowChart	
+agda					FlowChart	
+agent-k					FlowChart	
+agentspeak				FlowChart	
+Agilent_VEE				FlowChart	
+agl					FlowChart	
+Agony					FlowChart	
+agora					FlowChart	
+ags-script				FlowChart	
+Ahead					FlowChart	
+aheui					FlowChart	
+Aheui_esotope				FlowChart	
+aida					FlowChart	
+AIDA/Web				Web	
+aids					FlowChart	
+aimms					FlowChart	
+air					FlowChart	
+airtable-app				FlowChart	
+ais					FlowChart	
+akl					FlowChart	
+aladin					FlowChart	
+alambik					FlowChart	
+alan					FlowChart	
+Alan Snyder's Portable C Compiler	Web	
+alba					FlowChart	
+albatross				FlowChart	
+Alchemist				FlowChart	
+alcor					FlowChart	
+aldat					FlowChart	
+aldes					FlowChart	
+aldor					FlowChart	
+aldwych					FlowChart	
+ale					FlowChart	
+alec					FlowChart	
+alef					FlowChart	
+aleph					FlowChart	
+alf					FlowChart	
+alfred					FlowChart	
+algae					FlowChart	
+algebraic-compiler			FlowChart	
+algebraic-modeling-language		FlowChart	
+algem					FlowChart	
+algernon				FlowChart	
+algo					FlowChart	
+ALGO 68					FlowChart	
+ALGO programming language		Web	
+ALGO_68					FlowChart	
+ALGO_86					FlowChart	
+algobox					FlowChart	
+algol					FlowChart	
+ALGOL 58 dialect‎			Web	
+ALGOL 60				Web	
+ALGOL 68‎				Web	
+Algol 68 GenieG				Web	
+ALGOL 68 Revised Reportr1		Web	
+ALGOL 68-RR				Web	
+ALGOL 68CC				Web	
+ALGOL 68r0				Web	
+ALGOL 68RSRS				Web	
+ALGOL 68SS				Web	
+ALGOL_58				FlowChart	
+ALGOL_60				FlowChart	
+ALGOL_68				FlowChart	
+ALGOL_W					FlowChart	
+algol-58				FlowChart	
+algol-60				FlowChart	
+algol-68				FlowChart	
+algol-68-r				FlowChart	
+algol-68-rt				FlowChart	
+algol-e					FlowChart	
+algol-n					FlowChart	
+algol-w					FlowChart	
+algol-x					FlowChart	
+Algol68toC (ctrans)			Web	
+algy					FlowChart	
+Alice 					Both	
+Alice_					FlowChart	
+Alice_ML				FlowChart	
+aljabr					FlowChart	
+All C					FlowChart	
+Allegro Common Lisp			Web	
+allo					FlowChart	
+alloy					FlowChart	
+alma					FlowChart	
+Alma-0					Both	
+alma-o					FlowChart	
+almir					FlowChart	
+almquist-shell				FlowChart	
+alonzo					FlowChart	
+alpak					FlowChart	
+alpha					FlowChart	
+alpha-programming-language		FlowChart	
+AlphaBasic				FlowChart	
+AlphaBeta				FlowChart	
+Alphabetti_spaghetti			FlowChart	
+alphapop				FlowChart	
+alphard					FlowChart	
+alphard-programming-language		FlowChart	
+Alphuck					FlowChart	
+alpine-abuild				FlowChart	
+alps					FlowChart	
+altac					FlowChart	
+Altair BASIC				Both	
+Altair Disk Extended BASIC		FlowChart	
+Altair_BASIC				FlowChart	
+altair-basic				FlowChart	
+ALTRAN					Both	
+Alumin					FlowChart	
+amalthea				FlowChart	
+amanda					FlowChart	
+amber					FlowChart	
+Amber Smalltalk				Web	
+AmbientTalk				FlowChart	
+ambit					FlowChart	
+ambit-g					FlowChart	
+ambit-l					FlowChart	
+ambush					FlowChart	
+AMD Optimizing C/C++ Compiler (AOCC)	Web	
+AmiBlitz				FlowChart	
+Amiga ARexx				Web	
+Amiga BASIC				FlowChart	
+Amiga_E					FlowChart	
+amiga-e					FlowChart	
+amiga-programming-languages		FlowChart	
+AmigaBASIC				Both	
+AMOS					Both	
+AMOS BASIC				FlowChart	
+AMOS_BASIC				FlowChart	
+ampl					FlowChart	
+amppl-i					FlowChart	
+amppl-ii				FlowChart	
+amqp					FlowChart	
+Amsterdam Compiler Kit			Web	
+amtran					FlowChart	
+amtran-70				FlowChart	
+amulet					FlowChart	
+ana					FlowChart	
+analytical-engine-machine		FlowChart	
+and-or					FlowChart	
+andante					FlowChart	
+andorra					FlowChart	
+andorra-i				FlowChart	
+android					FlowChart	
+angelscript				FlowChart	
+anna					FlowChart	
+ans-mumps				FlowChart	
+ANSI					FlowChart	
+ansi-basic				FlowChart	
+ant-build-system			FlowChart	
+ante					FlowChart	
+ante-esolang				FlowChart	
+antha					FlowChart	
+antlr					FlowChart	
+anyfix					FlowChart	
+apache					FlowChart	
+Apache Groovy				Web	
+Apache_Pig				FlowChart	
+apache-velocity				FlowChart	
+apacheconf				FlowChart	
+apar					FlowChart	
+aparel					FlowChart	
+ape100					FlowChart	
+APearTree				FlowChart	
+apescript				FlowChart	
+apex					FlowChart	
+Apex Salesforce com			FlowChart	
+api-blueprint				FlowChart	
+APL 					Both	
+APL programming language.		Web	
+APL syntax and symbols			Web	
+APL_Dyalog				FlowChart	
+APL_Dyalon				FlowChart	
+APL_dzamia				FlowChart	
+APL_ngn					FlowChart	
+apl-gpss				FlowChart	
+apl-hp					FlowChart	
+apl-z80					FlowChart	
+apl2					FlowChart	
+aplette					FlowChart	
+aplgol					FlowChart	
+aplgol-2				FlowChart	
+aplo					FlowChart	
+aplus					FlowChart	
+aplusplus				FlowChart	
+APLX					Both	
+apollo-guidance-computer		FlowChart	
+apostle					FlowChart	
+appcode-editor				FlowChart	
+AppGameKit				Web	
+appl-a					FlowChart	
+Apple BASIC				FlowChart	
+Apple Business BASIC			FlowChart	
+Apple Pascal				Web	
+apple-1-machine				FlowChart	
+apple-basic				FlowChart	
+apple-prodos				FlowChart	
+applescript				FlowChart	
+appleseed				FlowChart	
+Applesoft BASIC				Both	
+applesoft-basic				FlowChart	
+ApplicationMaster			Web	
+applog					FlowChart	
+april					FlowChart	
+aprol					FlowChart	
+apse					FlowChart	
+apt					FlowChart	
+apt-pm					FlowChart	
+APU BASIC				FlowChart	
+aqasm					FlowChart	
+aql					FlowChart	
+aquarius-prolog				FlowChart	
+arabic-numerals				FlowChart	
+arablan					FlowChart	
+ARBLE					FlowChart	
+arbortext-command-language		FlowChart	
+Arc 					Both	
+arc-assembly				FlowChart	
+arc-isa					FlowChart	
+archi					FlowChart	
+archieml				FlowChart	
+Archway					FlowChart	
+Archway2				FlowChart	
+arctic					FlowChart	
+Arcyou					FlowChart	
+arden-syntax				FlowChart	
+arduino					FlowChart	
+arend					FlowChart	
+ARexx					Both	
+arezzo-notation				FlowChart	
+argdown					FlowChart	
+argos					FlowChart	
+argus					FlowChart	
+ariane					FlowChart	
+Aribas					FlowChart	
+arith-matic				FlowChart	
+arjuna					FlowChart	
+ark					FlowChart	
+ark-lang				FlowChart	
+arkscript				FlowChart	
+arm					FlowChart	
+armani (arm) (armcc)			FlowChart	
+ARMbasic				FlowChart	
+armcc					FlowChart	
+armcc					Web	
+armclang				Web	
+Armed Bear Common Lisp			Web	
+Arn					FlowChart	
+ArnoldC					FlowChart	
+arret					FlowChart	
+arrow					FlowChart	
+arrow-format				FlowChart	
+arta					FlowChart	
+artspeak				FlowChart	
+arvelie-format				FlowChart	
+ascii					FlowChart	
+asciidoc				FlowChart	
+asciidots				FlowChart	
+asf-sdf					FlowChart	
+ashmedai				FlowChart	
+ASIC 					Both	
+ASIC_programming			FlowChart	
+asic-programming-language		FlowChart	
+asmjs					FlowChart	
+asn-1					FlowChart	
+asp					FlowChart	
+AspectC++				Web	
+aspectcpp				FlowChart	
+AspectJ					Both	
+aspen					FlowChart	
+ASPeRiX					FlowChart	
+aspol					FlowChart	
+assemble_as				FlowChart	
+assemble_fasm				FlowChart	
+assemble_MIPS				FlowChart	
+assemble_Nasm				FlowChart	
+assemble_SPIM				FlowChart	
+assemble_Wasm				FlowChart	
+Assembler				Both	
+Assemblers (Motorola 68*)		Web	
+Assemblers (other)			Web	
+Assemblers (Zilog Z80)			Web	
+Assembly_language			FlowChart	
+assembly-language			FlowChart	
+AssemblyScript				Both	
+Assemler programming language family	Web	
+associons				FlowChart	
+asspegique				FlowChart	
+asterisk				FlowChart	
+asterius-compiler			FlowChart	
+astlog					FlowChart	
+astro					FlowChart	
+astroml					FlowChart	
+asymptote				FlowChart	
+Atari 2600 Basic Programming		FlowChart	
+Atari BASIC				Both	
+Atari Logo				Web	
+Atari Microsoft BASIC			Both	
+Atari ST BASIC				Web	
+Atari_BASIC				FlowChart	
+Atari_Microsoft				FlowChart	
+Atari_ST				FlowChart	
+atari-basic				FlowChart	
+atari-microsoft-basic			FlowChart	
+atari-st-basic				FlowChart	
+Ateji PX				Web	
+atlas					FlowChart	
+atlas-autocode				FlowChart	
+Atlast					Web	
+atmel-avr				FlowChart	
+atol					FlowChart	
+atom					FlowChart	
+Atom BASIC				FlowChart	
+atom-editor				FlowChart	
+atomese					FlowChart	
+atomo					FlowChart	
+atomos					FlowChart	
+atomspace				FlowChart	
+ats					FlowChart	
+ATS2					FlowChart	
+AtScript				Web	
+ATT					FlowChart	
+Attache					FlowChart	
+attic-numerals				FlowChart	
+AttoBasic				FlowChart	
+Aubergine				FlowChart	
+aubit-4gl				FlowChart	
+augeas					FlowChart	
+augment					FlowChart	
+aui					FlowChart	
+aur-pm					FlowChart	
+aurora					FlowChart	
+Austec Cobol				Web	
+autasim					FlowChart	
+autocad-app				FlowChart	
+autocode				FlowChart	
+autocoder				FlowChart	
+autocoder-ii				FlowChart	
+autocoder-iii				FlowChart	
+autodraft				FlowChart	
+autogrp					FlowChart	
+autohotkey				FlowChart	
+AutoIt					Both	
+AutoLISP				Both	
+autoloft				FlowChart	
+automast				FlowChart	
+automator				FlowChart	
+autopromt				FlowChart	
+Autovivification			Web	
+avalon-common-lisp			FlowChart	
+averest					FlowChart	
+avr					FlowChart	
+avro					FlowChart	
+awk					FlowChart	
+awl					FlowChart	
+aws					FlowChart	
+axcess					FlowChart	
+axiom					FlowChart	
+axiom-computer-algebra-system		FlowChart	
+axo					FlowChart	
+axt-format				FlowChart	
+Axum 					Both	
+Aya					FlowChart	
+Aztec C					Web	
+aztec-c					FlowChart	
+azure					FlowChart	
+B					Both	
+B_computer				FlowChart	
+B_ybc					FlowChart	
+b-line					FlowChart	
+B-Prolog				Both	
+b3-ir					FlowChart	
+B32 Business Basic			FlowChart	
+b32-business-basic			FlowChart	
+B4A					FlowChart	
+B4i					FlowChart	
+B4J					FlowChart	
+B4R					FlowChart	
+b4tran					FlowChart	
+B4X 					Both	
+Babbage					FlowChart	
+babel					FlowChart	
+Baby Modula-3				Web	
+baby-modula-3				FlowChart	
+babylonian-numerals			FlowChart	
+back					FlowChart	
+Backhand				FlowChart	
+BaCon					FlowChart	
+badlanguage				FlowChart	
+bag-format				FlowChart	
+BAIT					FlowChart	
+balanced-ternary-notation		FlowChart	
+balg					FlowChart	
+balinda-lisp				FlowChart	
+ballerina				FlowChart	
+ballerina-central-pm			FlowChart	
+balm					FlowChart	
+balsa					FlowChart	
+baltazar				FlowChart	
+baltik					FlowChart	
+bam-format				FlowChart	
+bamboo					FlowChart	
+bancstar-programming-language		FlowChart	
+Banna Basic				FlowChart	
+BAPP					Web	
+barrel					FlowChart	
+Bartok 					Both	
+Bas 					Both	
+Bas7					FlowChart	
+BASCOM					FlowChart	
+base64					FlowChart	
+baseball				FlowChart	
+basel					FlowChart	
+bash					FlowChart	
+Basic					FlowChart	
+BASIC 2_0				FlowChart	
+BASIC 7_0				FlowChart	
+BASIC A+				FlowChart	
+BASIC Advanced				FlowChart	
+BASIC Computer Games			Web	
+Basic For Qt				Both	
+BASIC Plus 2				FlowChart	
+BASIC Programming			Both	
+BASIC programming language family	Web	
+BASIC programming language family‎	Web	
+BASIC XE				FlowChart	
+BASIC XL				FlowChart	
+BASIC_Computer				FlowChart	
+Basic_For				FlowChart	
+BASIC_Programming			FlowChart	
+BASIC_UX				FlowChart	
+BASIC_WS				FlowChart	
+BASIC_Z					FlowChart	
+BASIC-11				FlowChart	
+Basic-256				Both	
+BASIC-52				FlowChart	
+BASIC-68K				FlowChart	
+basic-ap				FlowChart	
+BASIC-E					FlowChart	
+BASIC-II				FlowChart	
+basic-pdp-1-lisp			FlowChart	
+BASIC-PLUS				Both	
+BASIC-PLUS-2				Web	
+basic-programming			FlowChart	
+basic-stamp				FlowChart	
+Basic+					FlowChart	
+BASIC09					FlowChart	
+Basic256				FlowChart	
+basic4android				Both	
+Basic4GL				FlowChart	
+basic4ppc				Both	
+BASICA					FlowChart	
+BASICODE				Both	
+basicSyntax NOT WORKING			FlowChart	
+basicx					FlowChart	
+BasiEgaXorz				FlowChart	
+basil					FlowChart	
+basis-universal-format			FlowChart	
+batari BASIC				FlowChart	
+batari-basic				FlowChart	
+batch					FlowChart	
+Batch_file				FlowChart	
+bawk					FlowChart	
+bayer-expressions			FlowChart	
+baysick					FlowChart	
+bazel					FlowChart	
+Bazic 86				FlowChart	
+BBC BASIC				Both	
+BBC_BASIC				FlowChart	
+bbc-basic				FlowChart	
+bbcode					FlowChart	
+bbj					FlowChart	
+BBN LISP				Web	
+bbn-lisp				FlowChart	
+BBurlesque				FlowChart	
+BBx					FlowChart	
+bc					FlowChart	
+bc_basic				FlowChart	
+bc-neliac				FlowChart	
+bcc*					Web	
+bcc*c					Web	
+bcpl					FlowChart	
+BCX					Both	
+bdl					FlowChart	
+BDS C					Web	
+beads-lang				FlowChart	
+beagle					FlowChart	
+Beam					FlowChart	
+beam-bytecode				FlowChart	
+beam-vm					FlowChart	
+Bean					FlowChart	
+BeanShell				Both	
+Beatnik					FlowChart	
+beautiful-report-language		FlowChart	
+bed-format				FlowChart	
+bedsocs					FlowChart	
+bee					FlowChart	
+beebasic				FlowChart	
+beef					FlowChart	
+beef-lang				FlowChart	
+Beeswax					FlowChart	
+beflix					FlowChart	
+befunge					FlowChart	
+Befunge-93				FlowChart	
+Befunge-93_FBBI				FlowChart	
+Befunge-93_MTFI				FlowChart	
+Befunge-93_PyFunge			FlowChart	
+Befunge-96_MTFI				FlowChart	
+Befunge-97_MTFI				FlowChart	
+Befunge-98_PyFunge			FlowChart	
+behavior-markup-language		FlowChart	
+bel					FlowChart	
+bel-lang				FlowChart	
+BEOWULF					FlowChart	
+ber					FlowChart	
+berkeley-db-lib				FlowChart	
+berkeleydb				FlowChart	
+Bertrand				FlowChart	
+besys					FlowChart	
+beta					FlowChart	
+Beta BASIC				Both	
+Beta_BASIC				FlowChart	
+beta-basic				FlowChart	
+beta-project				FlowChart	
+beta-prolog				FlowChart	
+BetterBASIC				FlowChart	
+bgraf2					FlowChart	
+bhsl					FlowChart	
+BI-280					FlowChart	
+bibtex					FlowChart	
+biferno					FlowChart	
+Bigloo 					Both	
+bigmac					FlowChart	
+bigwig					FlowChart	
+bigwig-format				FlowChart	
+bigwig-programming-language		FlowChart	
+Binary_Lambda				FlowChart	
+binary-notation				FlowChart	
+binaryen				FlowChart	
+bind-app				FlowChart	
+bioconductor-pm				FlowChart	
+biomod					FlowChart	
+bioscript					FlowChart	
+biossim					FlowChart	
+bird					FlowChart	
+bison					FlowChart	
+bisonpp					FlowChart	
+bistro					FlowChart	
+Bistro Framework						Web	
+bistro-programming-language					FlowChart	
+bistro-smalltalk					FlowChart	
+Bit					FlowChart	
+bitarray					FlowChart	
+bitbake					FlowChart	
+BitBitJump					FlowChart	
+bitc					FlowChart	
+bitch					FlowChart	
+bitch_bit-h					FlowChart	
+bitch_shifty					FlowChart	
+BitChanger					FlowChart	
+BitCycle					FlowChart	
+Bitwise					FlowChart	
+Bitwise_Cyclic					FlowChart	
+Bitwise_Duckery					FlowChart	
+bjou					FlowChart	
+bla					FlowChart	
+Black Perl						Web	
+Black_blak					FlowChart	
+blade					FlowChart	
+blake-hash-function					FlowChart	
+blank					FlowChart	
+blaze					FlowChart	
+blaze-2					FlowChart	
+blender-app					FlowChart	
+bliss					FlowChart	
+Blitz BASIC						Both	
+Blitz_BASIC					FlowChart	
+Blitz3D					FlowChart	
+blitzbasic					FlowChart	
+BlitzMax						Both	
+BlitzPlus					FlowChart	
+blockly					FlowChart	
+blockml					FlowChart	
+bloom					FlowChart	
+blooms					FlowChart	
+bloop					FlowChart	
+blox					FlowChart	
+blue					FlowChart	
+blue-programming-language					FlowChart	
+blueprints					FlowChart	
+bluespec					FlowChart	
+Blunt Axe Basic					FlowChart	
+blur-markup-language					FlowChart	
+blz					FlowChart	
+bmd					FlowChart	
+bml					FlowChart	
+bmp-format					FlowChart	
+bnf					FlowChart	
+BNR Prolog						Both	
+boa					FlowChart	
+bob					FlowChart	
+Bogus						Web	
+boil					FlowChart	
+bolt					FlowChart	
+bon-programming-language					FlowChart	
+Boo 						Both	
+Boomerang					FlowChart	
+boost-lib					FlowChart	
+booster					FlowChart	
+borneo					FlowChart	
+boron					FlowChart	
+Bosh					FlowChart	
+bosque					FlowChart	
+bossam					FlowChart	
+Bot_Engine					FlowChart	
+bounce					FlowChart	
+bourne-shell					FlowChart	
+boxer					FlowChart	
+boxx					FlowChart	
+bpel					FlowChart	
+bpkg-pm					FlowChart	
+bpl					FlowChart	
+bpmn					FlowChart	
+bpn2					FlowChart	
+Brachylog					FlowChart	
+Brachylog_v1					FlowChart	
+brackets-editor					FlowChart	
+Bracmat					FlowChart	
+Braille					FlowChart	
+Brain					FlowChart	
+Brain_Flak					FlowChart	
+Brain-Flak					FlowChart	
+Brainbash					FlowChart	
+brainbool					FlowChart	
+brainfuck					FlowChart	
+BrainFump					FlowChart	
+Braingolf					FlowChart	
+BrainLove					FlowChart	
+BrainSpace					FlowChart	
+Brat					FlowChart	
+Brian_					FlowChart	
+bridgetalk					FlowChart	
+brightscript-lang					FlowChart	
+brisk					FlowChart	
+brl					FlowChart	
+bro					FlowChart	
+Broccoli					FlowChart	
+brooks-programming-language					FlowChart	
+brouhaha					FlowChart	
+brown-university-interactive-language					FlowChart	
+BS Basic					FlowChart	
+bscript					FlowChart	
+bscript-interpreter					FlowChart	
+Bsisith					FlowChart	
+bsml					FlowChart	
+bsp					FlowChart	
+BT-Basic					FlowChart	
+Bubblegum					FlowChart	
+bucklescript					FlowChart	
+buddyscript					FlowChart	
+bugsys					FlowChart	
+builder-editor					FlowChart	
+bullfrog					FlowChart	
+Burlesque					FlowChart	
+BURP					FlowChart	
+bush					FlowChart	
+Business application language						Web	
+Business Basic						Both	
+Business_application					FlowChart	
+Business_Basic					FlowChart	
+business-application-language					FlowChart	
+business-basic					FlowChart	
+business-object-notation					FlowChart	
+business-process-modeling-language					FlowChart	
+business-rule-language					FlowChart	
+butterfly-common-lisp					FlowChart	
+BuzzFis					FlowChart	
+bwBASIC (Baywater BASIC)					FlowChart	
+bx					FlowChart	
+BXBASM					FlowChart	
+bytecode-modeling-language					FlowChart	
+ByteForth						Web	
+bytelisp					FlowChart	
+Bywater BASIC (bwBASIC)						Web	
+bywater-basic					FlowChart	
+C						Both	
+C programming language family.						Web	
+C Sharp						Web	
+C Sharp programming language family‎						Web	
+C_–					FlowChart	
+C_clang					FlowChart	
+C_gcc					FlowChart	
+C_Shell					FlowChart	
+C_tcc					FlowChart	
+C--_C					FlowChart	
+c-al					FlowChart	
+c-cubed					FlowChart	
+c-flat					FlowChart	
+c-for-all					FlowChart	
+c-headers					FlowChart	
+c-shell					FlowChart	
+c-smile					FlowChart	
+c-talk					FlowChart	
+c–					FlowChart	
+C/AL						Web	
+C#					FlowChart	
+C# (CSHARP) programming language family of compilers						Web	
+C#_C					FlowChart	
+c#_compiler					FlowChart	
+C#_shell					FlowChart	
+C#_Visual					FlowChart	
+C++						Both	
+C++ –					FlowChart	
+C++ programming language family						Web	
+C++_clang					FlowChart	
+C++_gcc					FlowChart	
+C++/CLI						Both	
+C++/CX						Web	
+C++03						Web	
+C++11						Web	
+C++14						Web	
+C++17						Web	
+C++20						Web	
+C++23						Web	
+C++Builder						Web	
+C++ISO					FlowChart	
+c2					FlowChart	
+c3					FlowChart	
+C89						Web	
+CA-Realizer						Both	
+ca-telon					FlowChart	
+cabal					FlowChart	
+Caboose					FlowChart	
+Caché Basic					FlowChart	
+Caché ObjectScript					FlowChart	
+cache-basic					FlowChart	
+cache-objectscript					FlowChart	
+cactus					FlowChart	
+Cadence SKILL						Web	
+cadence-skill					FlowChart	
+cado-systems-technical-information					FlowChart	
+cafeobj					FlowChart	
+cages					FlowChart	
+caisys					FlowChart	
+cajole					FlowChart	
+CakeML					FlowChart	
+CAL 						Both	
+calc					FlowChart	
+calc_TTK					FlowChart	
+calc_var					FlowChart	
+caltech-intermediate-form					FlowChart	
+cam					FlowChart	
+camac					FlowChart	
+camal					FlowChart	
+camil					FlowChart	
+Caml						Both	
+candor					FlowChart	
+canon-capsl					FlowChart	
+cantor					FlowChart	
+Canvas					FlowChart	
+Capistrano						Web	
+capn-proto					FlowChart	
+capsl					FlowChart	
+capsule					FlowChart	
+capybara					FlowChart	
+CARDBASIC					FlowChart	
+Cardinal					FlowChart	
+Carol_					FlowChart	
+carp					FlowChart	
+carpet					FlowChart	
+Carrot					FlowChart	
+carth					FlowChart	
+cartocss					FlowChart	
+Cascade					FlowChart	
+Casio BASIC						Both	
+Casio_BASIC					FlowChart	
+casio-basic					FlowChart	
+cassandre					FlowChart	
+Cassette BASIC					FlowChart	
+cat					FlowChart	
+catalysis					FlowChart	
+Categorial					FlowChart	
+categorical-query-language					FlowChart	
+Category						Web	
+Category:C programming language family						Web	
+Catholicon					FlowChart	
+Cauliflower					FlowChart	
+cayenne					FlowChart	
+Cayenne_Lennart					FlowChart	
+cayley					FlowChart	
+CBASIC						Both	
+cbasPad Pro					FlowChart	
+CBM BASIC					FlowChart	
+cbor					FlowChart	
+ccal					FlowChart	
+ccd					FlowChart	
+ccel					FlowChart	
+ccr					FlowChart	
+cda					FlowChart	
+cddl					FlowChart	
+cdf					FlowChart	
+cdlpp					FlowChart	
+CDuce					FlowChart	
+cecil					FlowChart	
+cedar-fortran					FlowChart	
+ceemac					FlowChart	
+cel-programming-language					FlowChart	
+celip					FlowChart	
+cell					FlowChart	
+cellsim					FlowChart	
+CellularBASIC					FlowChart	
+celsius-webscript					FlowChart	
+ceprol					FlowChart	
+Ceres					FlowChart	
+Ceriel Jacobs						Web	
+cesil					FlowChart	
+ceu					FlowChart	
+Céu					FlowChart	
+Ceylon 						Both	
+cfengine					FlowChart	
+cfml					FlowChart	
+Cfront						Web	
+cfscript					FlowChart	
+cg					FlowChart	
+CGIbasic					FlowChart	
+CGOL						Both	
+Ch 						Both	
+Chain					FlowChart	
+chain-format					FlowChart	
+chain-programming-language					FlowChart	
+chaiscript					FlowChart	
+champ					FlowChart	
+Changeling					FlowChart	
+chaos-lang					FlowChart	
+chapel					FlowChart	
+chappe-code					FlowChart	
+Charcoal					FlowChart	
+charity					FlowChart	
+charly					FlowChart	
+Charm					FlowChart	
+Charm++						Web	
+charmpp					FlowChart	
+charrette-ada					FlowChart	
+chartio-app					FlowChart	
+charybdis					FlowChart	
+chatterbot					FlowChart	
+Check					FlowChart	
+checked-c					FlowChart	
+CheckedC					FlowChart	
+checkout					FlowChart	
+Cheddar					FlowChart	
+cheetah					FlowChart	
+chef					FlowChart	
+chemtrains					FlowChart	
+chevrotain					FlowChart	
+Chez Scheme						Web	
+Chez_Scheme					FlowChart	
+Chicken 						Both	
+Chicken_Scheme					FlowChart	
+chicken-lang					FlowChart	
+chicon					FlowChart	
+chill					FlowChart	
+chimera					FlowChart	
+Chinese BASIC						Both	
+Chinese_BASIC					FlowChart	
+chinese-basic					FlowChart	
+Chip					FlowChart	
+chip-8					FlowChart	
+chip-programming-language					FlowChart	
+Chipmunk Basic						Both	
+Chipmunk_Basic					FlowChart	
+chipmunk-basic					FlowChart	
+chirp					FlowChart	
+chisel					FlowChart	
+chocolatey-pm					FlowChart	
+chomski					FlowChart	
+Christian Tismer						Web	
+Christmas Tree EXEC						Web	
+chrome-programming-language					FlowChart	
+chronolog					FlowChart	
+chronologmc					FlowChart	
+chronologz					FlowChart	
+chrysaLisp					FlowChart	
+chuck					FlowChart	
+Ciao 						Both	
+ciao-programming-language					FlowChart	
+cif					FlowChart	
+ciforth						Web	
+cigale					FlowChart	
+cil					FlowChart	
+CIL_Mono					FlowChart	
+cilk					FlowChart	
+Cilk++					FlowChart	
+cimfast					FlowChart	
+cims-pl-i					FlowChart	
+Cincom Systems						Web	
+Cinnamon_Gum					FlowChart	
+CINT						Web	
+cipherlab					FlowChart	
+CipherLab Basic					FlowChart	
+circa					FlowChart	
+circal					FlowChart	
+circle-lang					FlowChart	
+cirru					FlowChart	
+Citrine 						Both	
+cityhash-hash-function					FlowChart	
+cixl					FlowChart	
+CJam					FlowChart	
+cl-i					FlowChart	
+claire					FlowChart	
+Clam					FlowChart	
+clamp					FlowChart	
+Clang						Web	
+Clang++						Web	
+clanger					FlowChart	
+clarion					FlowChart	
+clarity					FlowChart	
+Clascal						Both	
+clash					FlowChart	
+class					FlowChart	
+classic					FlowChart	
+classic-ada					FlowChart	
+clausal-lang					FlowChart	
+clay					FlowChart	
+clean					FlowChart	
+cleanlang					FlowChart	
+clear					FlowChart	
+cleo					FlowChart	
+cleogo					FlowChart	
+cleopatra					FlowChart	
+cli-assembly					FlowChart	
+click					FlowChart	
+clickpath					FlowChart	
+clike					FlowChart	
+clion-editor					FlowChart	
+Clipper 						Both	
+clips					FlowChart	
+CLISP 						Both	
+clist					FlowChart	
+clix					FlowChart	
+cloe					FlowChart	
+clojars-pm					FlowChart	
+Clojure						Both	
+clojurescript					FlowChart	
+clos					FlowChart	
+closure-templates					FlowChart	
+cloud-firestore-security-rules					FlowChart	
+clover					FlowChart	
+Clozure CL						Web	
+clp-star					FlowChart	
+CLP(R)						Both	
+clpr					FlowChart	
+clu					FlowChart	
+clx					FlowChart	
+cmake					FlowChart	
+cmix					FlowChart	
+cmn					FlowChart	
+CMS Pipelines						Web	
+CMS_EXEC					FlowChart	
+cms-2					FlowChart	
+cms-exec					FlowChart	
+cms-pipelines					FlowChart	
+CMU Common Lisp						Web	
+cmu-common-lisp					FlowChart	
+co-dfns					FlowChart	
+co2					FlowChart	
+Coarray Fortran						Web	
+cobloc					FlowChart	
+COBO –					FlowChart	
+COBOL						Both	
+COBOL programming language family‎						Web	
+COBOL_GNU					FlowChart	
+COBOL-85						Web	
+cobol-net					FlowChart	
+cobolscript					FlowChart	
+CobolScript –					FlowChart	
+Cobra 						Both	
+coco-r					FlowChart	
+CocoaBasic					FlowChart	
+cocoapods-pm					FlowChart	
+coconut					FlowChart	
+coda-editor					FlowChart	
+Code page 293						Web	
+Code page 310						Web	
+Code page 351						Web	
+code-blocks-editor					FlowChart	
+code-programming-language					FlowChart	
+codecept					FlowChart	
+codeflow					FlowChart	
+codegear-delphi					FlowChart	
+codelite-editor					FlowChart	
+codemirror-editor					FlowChart	
+codil					FlowChart	
+coff					FlowChart	
+coffee-cinema-4d					FlowChart	
+coffeepp					FlowChart	
+CoffeeScrip2					FlowChart	
+CoffeeScript						Both	
+CoffeeScript1					FlowChart	
+cogmap					FlowChart	
+CognosScript					FlowChart	
+cogo					FlowChart	
+coherence					FlowChart	
+coherent-parallel-c					FlowChart	
+coi-protocol					FlowChart	
+col					FlowChart	
+colasl					FlowChart	
+cold-k					FlowChart	
+coldfusion					FlowChart	
+collada					FlowChart	
+Collapse OS						Web	
+Color BASIC						Both	
+Color_BASIC					FlowChart	
+color-basic					FlowChart	
+ColorForth						Both	
+comal					FlowChart	
+Combined_Programming					FlowChart	
+combined-programming-language					FlowChart	
+comby					FlowChart	
+Comeau C/C++						Web	
+comfy					FlowChart	
+comit					FlowChart	
+comm					FlowChart	
+commen					FlowChart	
+Commentator					FlowChart	
+Commercial					FlowChart	
+Commodore BASIC						Both	
+Commodore Basic V2					FlowChart	
+Commodore PET BASIC					FlowChart	
+Commodore_BASIC					FlowChart	
+commodore-basic					FlowChart	
+Common Larceny						Web	
+Common Lisp						Web	
+Common Lisp‎ :						Web	
+Common_Intermediate					FlowChart	
+Common_Lips					FlowChart	
+Common_Lisp					FlowChart	
+common-lisp					FlowChart	
+common-workflow-language					FlowChart	
+commonloops					FlowChart	
+commonmark					FlowChart	
+Comp					FlowChart	
+compact-application-solution-language					FlowChart	
+Compaq BASIC for OpenVMS					FlowChart	
+Comparison of C Sharp and Visual Basic .NET						Web	
+Comparison of Prolog implementations						Web	
+Comparison of Visual Basic and Visual Basic .NET						Web	
+COMPASS					FlowChart	
+CompCert						Web	
+Compiler						Web	
+compiler-compiler					FlowChart	
+compilers:						Web	
+complex-prolog					FlowChart	
+Component Pascal						Web	
+Component_Pascal					FlowChart	
+component-pascal					FlowChart	
+CompuMate						Both	
+computer-compiler					FlowChart	
+computest					FlowChart	
+comskee					FlowChart	
+comsl					FlowChart	
+comsol-script					FlowChart	
+comtran					FlowChart	
+cona					FlowChart	
+conan-center-pm					FlowChart	
+conan-pm					FlowChart	
+conc					FlowChart	
+concert-c					FlowChart	
+concise-encoding					FlowChart	
+concordance					FlowChart	
+concur					FlowChart	
+concurnas					FlowChart	
+Concurrent ML						Web	
+Concurrent Pascal						Web	
+concurrent-cpp					FlowChart	
+concurrent-metatem					FlowChart	
+concurrent-pascal					FlowChart	
+concurrent-prolog					FlowChart	
+Condit					FlowChart	
+cone					FlowChart	
+congolog					FlowChart	
+conlan					FlowChart	
+conll-u					FlowChart	
+conman					FlowChart	
+connection-machine					FlowChart	
+connection-machine-lisp					FlowChart	
+conniver					FlowChart	
+consim					FlowChart	
+Constraint_Handling					FlowChart	
+constraintlisp					FlowChart	
+constraints					FlowChart	
+consul					FlowChart	
+contrans					FlowChart	
+Control array						Web	
+Control_array					FlowChart	
+Control_Language					FlowChart	
+converge					FlowChart	
+convert					FlowChart	
+Convex					FlowChart	
+cooc					FlowChart	
+Cood					FlowChart	
+cool					FlowChart	
+CoolBasic					FlowChart	
+coordinate-format					FlowChart	
+copas					FlowChart	
+cope					FlowChart	
+coq					FlowChart	
+cor					FlowChart	
+coral					FlowChart	
+Coral_66					FlowChart	
+coral-64					FlowChart	
+coralpp					FlowChart	
+corbascript					FlowChart	
+corc					FlowChart	
+Corea					FlowChart	
+corelscript					FlowChart	
+CoreRT						Web	
+corescript					FlowChart	
+Corman Common Lisp						Web	
+corman-common-lisp					FlowChart	
+Cornell University Programming Language						Web	
+cornell-university-programming-language					FlowChart	
+corvision					FlowChart	
+cosmicos					FlowChart	
+cosmo					FlowChart	
+Count					FlowChart	
+COW					FlowChart	
+cowsel					FlowChart	
+cp					FlowChart	
+CPAN						Web	
+cpan-pm					FlowChart	
+cperl					FlowChart	
+cpl					FlowChart	
+cpp					FlowChart	
+CPX-Basic					FlowChart	
+CPY					FlowChart	
+cql					FlowChart	
+cqlf					FlowChart	
+cqlpp					FlowChart	
+cQuents					FlowChart	
+crack					FlowChart	
+cram-format					FlowChart	
+cran-pm					FlowChart	
+cranelift-ir					FlowChart	
+crates-pm					FlowChart	
+Cray						Web	
+Cray C/C++						Web	
+Crayon					FlowChart	
+Creative Basic					FlowChart	
+creative-basic					FlowChart	
+creole					FlowChart	
+croma					FlowChart	
+crush					FlowChart	
+cryptol					FlowChart	
+crystal					FlowChart	
+cs-script					FlowChart	
+csa					FlowChart	
+Csh					FlowChart	
+csharp					FlowChart	
+csl					FlowChart	
+csmp					FlowChart	
+CSNOBOL4					FlowChart	
+cson					FlowChart	
+csound					FlowChart	
+csp					FlowChart	
+csp-oz					FlowChart	
+csp-oz-dc					FlowChart	
+css					FlowChart	
+cssa					FlowChart	
+cst					FlowChart	
+csv					FlowChart	
+csvpp					FlowChart	
+csvw					FlowChart	
+ct					FlowChart	
+ctalk					FlowChart	
+ctalk-lang					FlowChart	
+ctan-pm					FlowChart	
+ctr					FlowChart	
+cubase					FlowChart	
+cube					FlowChart	
+Cubically					FlowChart	
+Cubix					FlowChart	
+Cubloc Basic					FlowChart	
+cuda					FlowChart	
+cuecat					FlowChart	
+cuelang					FlowChart	
+culler-fried-system					FlowChart	
+cullinet					FlowChart	
+cuneiform					FlowChart	
+cupid					FlowChart	
+cupit-2					FlowChart	
+curl					FlowChart	
+Curlyfrick					FlowChart	
+curry					FlowChart	
+Curry_PAKCS					FlowChart	
+Curry_Sloth					FlowChart	
+curv					FlowChart	
+cusip					FlowChart	
+cvl					FlowChart	
+cweb					FlowChart	
+cx					FlowChart	
+Cy					FlowChart	
+Cybiko B2C					FlowChart	
+Cybil 						Both	
+cycl					FlowChart	
+cyclone					FlowChart	
+cycript					FlowChart	
+CygnusEd						Web	
+Cygwin, Windows Subsystem						Web	
+cymbal					FlowChart	
+cypher					FlowChart	
+Cypher_Query					FlowChart	
+cyphertext					FlowChart	
+Cypress BASIC					FlowChart	
+Cython 						Both	
+D						Both	
+D (NET)						Web	
+D programming language family‎						Web	
+D_computer					FlowChart	
+D_programming					FlowChart	
+d-data-language-specification					FlowChart	
+D-Lib					FlowChart	
+D2					FlowChart	
+d3					FlowChart	
+D3_Pick					FlowChart	
+d4					FlowChart	
+d4-programming-language					FlowChart	
+dad					FlowChart	
+dafny					FlowChart	
+dag					FlowChart	
+DAI BASIC					FlowChart	
+daisy-systems					FlowChart	
+dalvik-bytecode					FlowChart	
+daml					FlowChart	
+daml-oil					FlowChart	
+damn					FlowChart	
+DAP FORTRAN						Both	
+dap-algol					FlowChart	
+dap-fortran					FlowChart	
+daplex					FlowChart	
+darcs-patch					FlowChart	
+dark-basic					FlowChart	
+DarkBASIC						Both	
+DarkBASIC Professional					FlowChart	
+darklang					FlowChart	
+Dart						Both	
+dart-pm					FlowChart	
+dartcvl					FlowChart	
+Dartmouth Basic						Both	
+Dartmouth_BASIC					FlowChart	
+dartmouth-basic					FlowChart	
+Darwin					FlowChart	
+das					FlowChart	
+Dash					FlowChart	
+dasl					FlowChart	
+dat-protocol					FlowChart	
+Data General Business Basic					FlowChart	
+Data General Extended BASIC						Web	
+Data_BASIC					FlowChart	
+Data_General					FlowChart	
+data-access-language					FlowChart	
+data-analysis-expressions					FlowChart	
+data-general-business-basic					FlowChart	
+data-text					FlowChart	
+Databasic					FlowChart	
+databus					FlowChart	
+dataflex					FlowChart	
+datafun					FlowChart	
+datalog					FlowChart	
+datan					FlowChart	
+datapackage					FlowChart	
+datapoint-dasl					FlowChart	
+datatrieve					FlowChart	
+dataweave					FlowChart	
+DAX_Data					FlowChart	
+dayLISP						Web	
+DBase						Both	
+DBASIC					FlowChart	
+dbml					FlowChart	
+dc					FlowChart	
+dcalgol					FlowChart	
+dcat					FlowChart	
+Dcc						Web	
+DCL						Web	
+DCL programming language family						Web	
+DCL_DIGITAL					FlowChart	
+dda					FlowChart	
+ddfcsv					FlowChart	
+ddfql					FlowChart	
+ddml					FlowChart	
+deacon					FlowChart	
+Deadfish-					FlowChart	
+deb					FlowChart	
+debl					FlowChart	
+debuma					FlowChart	
+DEC BASIC					FlowChart	
+dec64					FlowChart	
+Decimal					FlowChart	
+Decimal BASIC					FlowChart	
+decision-model-notation					FlowChart	
+declare					FlowChart	
+dedukti					FlowChart	
+Deeplearning4j						Web	
+deesel					FlowChart	
+definite-clause-grammar-notation					FlowChart	
+del					FlowChart	
+delirium					FlowChart	
+Delphi						Both	
+Delphi Prism (changed to Oxygene )						Web	
+delta-prolog					FlowChart	
+dem					FlowChart	
+demeter					FlowChart	
+demos					FlowChart	
+Dependent ML						Web	
+dependent-ml					FlowChart	
+dern					FlowChart	
+descartes					FlowChart	
+descriptran					FlowChart	
+desktop					FlowChart	
+detab-65					FlowChart	
+detab-x					FlowChart	
+detap					FlowChart	
+deva					FlowChart	
+devil					FlowChart	
+Devpac						Web	
+dex					FlowChart	
+dexterity					FlowChart	
+dexvis					FlowChart	
+dfl					FlowChart	
+dfns					FlowChart	
+dgraph					FlowChart	
+dhall					FlowChart	
+diagram					FlowChart	
+dialog					FlowChart	
+diamag					FlowChart	
+diana					FlowChart	
+DIBOL 						Both	
+DIBOL programming language family‎						Web	
+dice					FlowChart	
+diet					FlowChart	
+diff					FlowChart	
+Digital encoding of APL symbols						Web	
+Digital Research C						Web	
+digital-command-language					FlowChart	
+digraf					FlowChart	
+dinkc					FlowChart	
+dinnerbell					FlowChart	
+dino					FlowChart	
+dio					FlowChart	
+dipe-r					FlowChart	
+diplans					FlowChart	
+Direct function						Web	
+disc					FlowChart	
+dispel					FlowChart	
+displayport-standard					FlowChart	
+Distributed Ruby						Web	
+distributed-processes					FlowChart	
+distributed-smalltalk					FlowChart	
+ditran					FlowChart	
+ditroff					FlowChart	
+ditroff-ffortid					FlowChart	
+django					FlowChart	
+djangoql					FlowChart	
+dkim-standard					FlowChart	
+dllup					FlowChart	
+dlp					FlowChart	
+dlvm					FlowChart	
+dm					FlowChart	
+dm-1					FlowChart	
+dmap					FlowChart	
+Dmc C/C++						Web	
+DMD						Web	
+dml					FlowChart	
+dna					FlowChart	
+dns					FlowChart	
+dockerfile					FlowChart	
+docopt					FlowChart	
+Document Style Semantics and Specification Language						Web	
+doe-macsyma					FlowChart	
+dog					FlowChart	
+dogescript					FlowChart	
+doh					FlowChart	
+doi					FlowChart	
+dokuwiki					FlowChart	
+dolittle					FlowChart	
+dollar-sign					FlowChart	
+dolphin					FlowChart	
+Dolphin Smalltalk						Web	
+domino					FlowChart	
+doodle					FlowChart	
+dopl					FlowChart	
+dot					FlowChart	
+dot-ql					FlowChart	
+dowl					FlowChart	
+dprl					FlowChart	
+Dr Ts					FlowChart	
+draco-programming-language					FlowChart	
+DragonBASIC					FlowChart	
+dragoon					FlowChart	
+drakon					FlowChart	
+dreamlisp					FlowChart	
+dribble					FlowChart	
+drl					FlowChart	
+drol					FlowChart	
+drupal					FlowChart	
+dscript					FlowChart	
+dsd					FlowChart	
+dsl-90					FlowChart	
+dss					FlowChart	
+dsym					FlowChart	
+dtd					FlowChart	
+dtrace					FlowChart	
+dts					FlowChart	
+dual					FlowChart	
+dub-pm					FlowChart	
+duel					FlowChart	
+duro					FlowChart	
+durra					FlowChart	
+dvi-standard					FlowChart	
+dwg					FlowChart	
+dxf					FlowChart	
+Dylan ‎ 						Both	
+Dynamic Contraction System					FlowChart	
+dynamo					FlowChart	
+dynamo-pm					FlowChart	
+dynamo-visual-language					FlowChart	
+dystal					FlowChart	
+dyvil					FlowChart	
+E						Both	
+eagle					FlowChart	
+early-grey					FlowChart	
+eas-e					FlowChart	
+ease					FlowChart	
+easl					FlowChart	
+easy					FlowChart	
+Easy AMOS					FlowChart	
+easy-english					FlowChart	
+Easy-ISLisp						Web	
+easybuild					FlowChart	
+easylanguage					FlowChart	
+easytrieve					FlowChart	
+ebg					FlowChart	
+ebnf					FlowChart	
+ec					FlowChart	
+ECJ (Eclipse Compiler for Java)						Web	
+ecl					FlowChart	
+eclectic-csp					FlowChart	
+ECLiPSe						Both	
+eclipse-command-language					FlowChart	
+eclipse-editor					FlowChart	
+ECMAScript						Both	
+ECMAScript interpreters						Web	
+eco-editor					FlowChart	
+ecological-metadata-language					FlowChart	
+ecr					FlowChart	
+ecsharp					FlowChart	
+ect					FlowChart	
+eden					FlowChart	
+EDGE C/C++						Web	
+EDGE C++ Front End (eccp, edgcpfe)						Web	
+edge-side-includes					FlowChart	
+edgedb					FlowChart	
+edgelisp					FlowChart	
+edgeql					FlowChart	
+edh					FlowChart	
+edinburgh-imp					FlowChart	
+edinburgh-lcf					FlowChart	
+edison					FlowChart	
+Edison Design Group						Web	
+Edit						Web	
+edje-data-collection					FlowChart	
+edn					FlowChart	
+edsac-initial-orders					FlowChart	
+edsim					FlowChart	
+educe					FlowChart	
+educe-star					FlowChart	
+eex					FlowChart	
+Eff 						Both	
+EFL						Both	
+egel					FlowChart	
+egl					FlowChart	
+egs4					FlowChart	
+EGSHEL					FlowChart	
+eiffel					FlowChart	
+Eiffel programming language family‎						Web	
+EiffelStudio						Web	
+ejs					FlowChart	
+EKOPath						Web	
+el1					FlowChart	
+elan					FlowChart	
+elastic-query-dsl					FlowChart	
+election-markup-language					FlowChart	
+electre					FlowChart	
+elegance					FlowChart	
+elegant					FlowChart	
+Element					FlowChart	
+elementaryCode-editor					FlowChart	
+elena					FlowChart	
+elf					FlowChart	
+elfe					FlowChart	
+ELI						Web	
+Elixir					FlowChart	
+ella-programming-language					FlowChart	
+ellie					FlowChart	
+elliott-algol					FlowChart	
+ellpack					FlowChart	
+elm					FlowChart	
+elm-packages-pm					FlowChart	
+elmol					FlowChart	
+elpa-pm					FlowChart	
+elymas					FlowChart	
+Emacs Lisp						Web	
+emacs-editor					FlowChart	
+emacs-lisp					FlowChart	
+Embeddable Common Lisp						Web	
+Embedded C++						Web	
+Embedded Visual Basic						Web	
+emberjs-framework					FlowChart	
+emberscript					FlowChart	
+emerald					FlowChart	
+emerald-lang					FlowChart	
+Emergence Basic					FlowChart	
+emesh					FlowChart	
+emfatic					FlowChart	
+emma					FlowChart	
+emojicode					FlowChart	
+emoticon					FlowChart	
+empirical					FlowChart	
+emu					FlowChart	
+energese-notation					FlowChart	
+english-programming-language					FlowChart	
+eno					FlowChart	
+enso					FlowChart	
+enterprise-mashup-markup-language					FlowChart	
+Envelop Basic					FlowChart	
+Envision Basic					FlowChart	
+envoy-app					FlowChart	
+epigram					FlowChart	
+epilog					FlowChart	
+EPOS ALGOLE						Web	
+epsilon					FlowChart	
+Epson SPEL+					FlowChart	
+eql					FlowChart	
+eqlog					FlowChart	
+eqs					FlowChart	
+equate					FlowChart	
+erb					FlowChart	
+erlang					FlowChart	
+errol					FlowChart	
+ERuby						Web	
+esc-p					FlowChart	
+escapade-programming-language					FlowChart	
+eskew					FlowChart	
+esp					FlowChart	
+ESP8266 BASIC					FlowChart	
+espol					FlowChart	
+esterel					FlowChart	
+eta					FlowChart	
+etc					FlowChart	
+ethereum-vm					FlowChart	
+ethosBASIC					FlowChart	
+Etoys 						Both	
+etruscan-numerals					FlowChart	
+etude					FlowChart	
+euboea					FlowChart	
+euclid					FlowChart	
+euclidean-geometry					FlowChart	
+euler					FlowChart	
+EuLisp						Both	
+eumel					FlowChart	
+Euphoria 						Both	
+eurisko					FlowChart	
+EusLisp Robot						Web	
+eva					FlowChart	
+eve					FlowChart	
+EventMachine						Web	
+exapt					FlowChart	
+excel-app					FlowChart	
+exec-2					FlowChart	
+exel					FlowChart	
+exfat					FlowChart	
+exkited					FlowChart	
+expect					FlowChart	
+explan					FlowChart	
+explor					FlowChart	
+express					FlowChart	
+expresso					FlowChart	
+ext					FlowChart	
+ext2					FlowChart	
+ext3					FlowChart	
+ext4					FlowChart	
+Extended Color BASIC					FlowChart	
+Extended ML						Web	
+extended-ml					FlowChart	
+extended-pascal					FlowChart	
+extensible-embeddable-language					FlowChart	
+extran					FlowChart	
+ez					FlowChart	
+ezhil					FlowChart	
+F						Both	
+F Sharp						Web	
+F-Script 						Both	
+f-sharp					FlowChart	
+F*						Web	
+fable					FlowChart	
+fac					FlowChart	
+facelets					FlowChart	
+fact					FlowChart	
+fact-lang					FlowChart	
+factor					FlowChart	
+Factory Bot						Web	
+fad					FlowChart	
+falcon					FlowChart	
+false					FlowChart	
+Famicom BASIC					FlowChart	
+Family BASIC						Web	
+family-basic					FlowChart	
+fancy					FlowChart	
+Fantom 						Both	
+fap					FlowChart	
+far					FlowChart	
+FASM						Web	
+FaST Basic					FlowChart	
+fasta-format					FlowChart	
+fastq-format					FlowChart	
+fasttrack-scripting-host					FlowChart	
+fat					FlowChart	
+Fat comma						Both	
+faust					FlowChart	
+fawlty					FlowChart	
+fay					FlowChart	
+FBSL					FlowChart	
+fcpu					FlowChart	
+fe					FlowChart	
+feel					FlowChart	
+felix					FlowChart	
+femtolisp					FlowChart	
+fen-notation					FlowChart	
+fenix-project					FlowChart	
+fennel					FlowChart	
+ferite					FlowChart	
+ferret					FlowChart	
+fetlang					FlowChart	
+feynman-diagram					FlowChart	
+FF						Both	
+fhir					FlowChart	
+fibonacci					FlowChart	
+fibonacci-notation					FlowChart	
+fickle					FlowChart	
+figlet-font					FlowChart	
+file-executable-json					FlowChart	
+filebench-wml					FlowChart	
+FILECOMP						Web	
+Filetab						Both	
+filetab-d					FlowChart	
+filterscript					FlowChart	
+firrtl					FlowChart	
+FirST Basic					FlowChart	
+fish					FlowChart	
+fizz					FlowChart	
+fjolnir					FlowChart	
+fjs					FlowChart	
+fl					FlowChart	
+flacc					FlowChart	
+FLACCF						Web	
+flagship					FlowChart	
+flame-ir					FlowChart	
+Flang						Both	
+flapjax					FlowChart	
+flatbuffers					FlowChart	
+Flavors 						Both	
+fleck					FlowChart	
+FLECS						Both	
+flengpp					FlowChart	
+flex					FlowChart	
+flex-lang					FlowChart	
+flexbuffers					FlowChart	
+flexml					FlowChart	
+flic					FlowChart	
+FlogScript					FlowChart	
+floorplan					FlowChart	
+flora					FlowChart	
+FLOW 						Both	
+flow-matic					FlowChart	
+flow-pl					FlowChart	
+flowcode					FlowChart	
+flowgorithm					FlowChart	
+flowlog					FlowChart	
+flownote					FlowChart	
+flua					FlowChart	
+flutter-framework					FlowChart	
+flux					FlowChart	
+flux-lang					FlowChart	
+fm-standard					FlowChart	
+fmj					FlowChart	
+fml					FlowChart	
+fml-lang					FlowChart	
+FMSLogo						Web	
+fo					FlowChart	
+foaf					FlowChart	
+FOCAL 						Both	
+focus					FlowChart	
+foil					FlowChart	
+foogol					FlowChart	
+FOR TRANSIT						Web	
+foral					FlowChart	
+foral-lp					FlowChart	
+forall					FlowChart	
+forest-database					FlowChart	
+forest-lang					FlowChart	
+forgebox-pm					FlowChart	
+fork					FlowChart	
+fork-lang					FlowChart	
+fork95					FlowChart	
+FORMAC						Both	
+formality					FlowChart	
+formatted-table					FlowChart	
+forms-3					FlowChart	
+formula					FlowChart	
+forte-4gl					FlowChart	
+Forth 						Both	
+Forth programming language family						Web	
+forthnet-pm					FlowChart	
+Fortran						Both	
+Fortran 66						Both	
+Fortran 66 B						Both	
+Fortran 77						Both	
+Fortran H (equivalent to Fortran IV)						Web	
+Fortran I						Both	
+Fortran II						Both	
+Fortran III						Both	
+Fortran IV						Both	
+Fortran programming language family						Web	
+Fortran V						Both	
+fortran-77					FlowChart	
+fortran-8x					FlowChart	
+fortran-90					FlowChart	
+fortran-cep					FlowChart	
+fortran-d					FlowChart	
+fortran-ii					FlowChart	
+fortran-iii					FlowChart	
+fortran-iv					FlowChart	
+fortran-m					FlowChart	
+Fortran2003						Both	
+Fortran2008						Both	
+Fortran2018						Both	
+Fortran2023						Both	
+Fortran5						Both	
+Fortran90						Both	
+Fortran95						Both	
+fortransit					FlowChart	
+Fortress						Both	
+fossil-scm					FlowChart	
+foundry					FlowChart	
+Fourier					FlowChart	
+fox					FlowChart	
+FoxPro						Both	
+fp					FlowChart	
+fp2					FlowChart	
+fpgac					FlowChart	
+fractran					FlowChart	
+frame					FlowChart	
+framework-office-suite					FlowChart	
+fran					FlowChart	
+frank					FlowChart	
+Franz Lisp						Web	
+Free Basic					FlowChart	
+Free Pascal						Both	
+Free R						Web	
+free-pascal					FlowChart	
+FreeBASIC 						Both	
+freebsd					FlowChart	
+FreeForth						Web	
+freemarker					FlowChart	
+frege					FlowChart	
+frenetic					FlowChart	
+fresco					FlowChart	
+frink					FlowChart	
+frost					FlowChart	
+frtime					FlowChart	
+fructure-editor					FlowChart	
+Frums					FlowChart	
+fstar					FlowChart	
+FTN						Web	
+FTN 95					FlowChart	
+FTN95						Web	
+ftp					FlowChart	
+function-block-diagram					FlowChart	
+funl					FlowChart	
+futhark					FlowChart	
+FutureBASIC						Both	
+FUZE BASIC					FlowChart	
+fuzzyclips					FlowChart	
+fx-87					FlowChart	
+fxml					FlowChart	
+fxscript					FlowChart	
+G						Web	
+g-2					FlowChart	
+G-BASIC					FlowChart	
+g-code					FlowChart	
+g-expressions					FlowChart	
+g-fu					FlowChart	
+g-portugol					FlowChart	
+G++						Web	
+G95						Web	
+gaea					FlowChart	
+Galaksija BASIC					FlowChart	
+galaksija-basic					FlowChart	
+galileo					FlowChart	
+Gambas						Both	
+Gambit						Web	
+game					FlowChart	
+Game Oriented Assembly Lisp						Web	
+game-maker-language					FlowChart	
+game-oriented-assembly-lisp					FlowChart	
+gamemonkey-script					FlowChart	
+GamesBasic					FlowChart	
+gaml					FlowChart	
+gams					FlowChart	
+gap					FlowChart	
+gargoyle					FlowChart	
+garp					FlowChart	
+gas					FlowChart	
+gasp					FlowChart	
+gasp-ii					FlowChart	
+gat					FlowChart	
+Gauche 						Both	
+gaussfit					FlowChart	
+GBasic					FlowChart	
+Gc						Web	
+GCC (g++)						Web	
+GCC C						Web	
+GCC GNAT						Web	
+gcc-machine-description					FlowChart	
+Gccgo						Web	
+gcj						Web	
+gcla-ii					FlowChart	
+gcobol						Web	
+gcp					FlowChart	
+gdata					FlowChart	
+gdb					FlowChart	
+GDC						Web	
+gdl					FlowChart	
+gdpl					FlowChart	
+gdscript					FlowChart	
+geany-editor					FlowChart	
+gedanken					FlowChart	
+gedit-editor					FlowChart	
+gel					FlowChart	
+gellish					FlowChart	
+gello					FlowChart	
+gem					FlowChart	
+gema					FlowChart	
+gemini-protocol					FlowChart	
+GemStone/S						Web	
+general-algebraic-modeling-system					FlowChart	
+generate-ninja					FlowChart	
+Generic					FlowChart	
+generic-haskell					FlowChart	
+genero					FlowChart	
+genexus					FlowChart	
+genie					FlowChart	
+genius-extension-language					FlowChart	
+genshi					FlowChart	
+genstat					FlowChart	
+gentee					FlowChart	
+gentoo-ebuild					FlowChart	
+gentran					FlowChart	
+gentran-90					FlowChart	
+geo-ml					FlowChart	
+GeoBASIC					FlowChart	
+geojson					FlowChart	
+george					FlowChart	
+gerald					FlowChart	
+gerber-image					FlowChart	
+gerbil					FlowChart	
+germinal					FlowChart	
+gettext					FlowChart	
+GFA BASIC						Both	
+gfa-basic					FlowChart	
+gff-format					FlowChart	
+gfoo					FlowChart	
+Gforth 						Both	
+gfs					FlowChart	
+GHC						Web	
+gherkin					FlowChart	
+ghostscript					FlowChart	
+gif-format					FlowChart	
+gimple					FlowChart	
+gintonic					FlowChart	
+giotto					FlowChart	
+gist					FlowChart	
+git					FlowChart	
+git-config					FlowChart	
+gks					FlowChart	
+GLBasic						Both	
+gleam					FlowChart	
+glide					FlowChart	
+glish					FlowChart	
+glitch-editor					FlowChart	
+gloss					FlowChart	
+glpk-lib					FlowChart	
+glsl					FlowChart	
+glu					FlowChart	
+glue-nail					FlowChart	
+gluon					FlowChart	
+glush					FlowChart	
+glyph					FlowChart	
+glyph-bitmap-distribution-format					FlowChart	
+Gnome Basic					FlowChart	
+gnome-basic					FlowChart	
+GNU Assembler						Web	
+GNU Common Lisp						Web	
+GNU Fortran						Web	
+GNU Guile						Web	
+GNU Pascal						Both	
+GNU Prolog						Both	
+GNU Smalltalk						Web	
+gnu-e					FlowChart	
+gnu-rtl					FlowChart	
+GnuCOBOL (formerly OpenCOBOL)						Web	
+gnuplot					FlowChart	
+GO					FlowChart	
+Go programming language family						Web	
+go-bang					FlowChart	
+goby					FlowChart	
+godel					FlowChart	
+godot-game-engine					FlowChart	
+goedel					FlowChart	
+gofer					FlowChart	
+gogs-editor					FlowChart	
+gold					FlowChart	
+Golf					FlowChart	
+Golf (A)					FlowChart	
+Golf Cheat					FlowChart	
+GolfScript					FlowChart	
+golo					FlowChart	
+golog					FlowChart	
+google-apps-script					FlowChart	
+google-cloud					FlowChart	
+google-data-studio-app					FlowChart	
+google-sheets-app					FlowChart	
+goose					FlowChart	
+gopher-protocol					FlowChart	
+Gopherjs						Web	
+goql					FlowChart	
+gospel					FlowChart	
+Gosu 						Both	
+gp					FlowChart	
+gpds					FlowChart	
+gpgs					FlowChart	
+gps					FlowChart	
+gpss					FlowChart	
+gpss-360					FlowChart	
+gpss-85					FlowChart	
+gpss-fortran					FlowChart	
+gql					FlowChart	
+graal					FlowChart	
+grace					FlowChart	
+grad-assistant					FlowChart	
+gradle					FlowChart	
+grain					FlowChart	
+grammatical-framework					FlowChart	
+graph-it					FlowChart	
+graph-modeling-language					FlowChart	
+grapheasy					FlowChart	
+Graphics BASIC					FlowChart	
+graphics-basic					FlowChart	
+graphit					FlowChart	
+graphlog					FlowChart	
+graphml					FlowChart	
+graphos					FlowChart	
+graphql					FlowChart	
+graphql-plus-minus					FlowChart	
+graphql-sdl					FlowChart	
+graqula					FlowChart	
+GRASS 						Both	
+gravity					FlowChart	
+Great Cow BASIC					FlowChart	
+greek-numerals					FlowChart	
+green					FlowChart	
+GreenHills Ada Optimizing Compiler						Web	
+gremlin					FlowChart	
+grep					FlowChart	
+grid-notation					FlowChart	
+gridstudio-editor					FlowChart	
+grin					FlowChart	
+grml					FlowChart	
+groove					FlowChart	
+Groovy					FlowChart	
+groovy-server-pages					FlowChart	
+grouplog					FlowChart	
+grunt					FlowChart	
+Gs2					FlowChart	
+gsbl					FlowChart	
+GScript						Web	
+gtf-format					FlowChart	
+guide					FlowChart	
+guido-music-notation					FlowChart	
+guile					FlowChart	
+guix					FlowChart	
+Gulf					FlowChart	
+Gulp					FlowChart	
+gura					FlowChart	
+guru					FlowChart	
+gvl					FlowChart	
+GW-BASIC						Both	
+gwion					FlowChart	
+gwl					FlowChart	
+gxl					FlowChart	
+gypsy					FlowChart	
+gzip					FlowChart	
+H						Web	
+habit					FlowChart	
+hac					FlowChart	
+hack					FlowChart	
+hackage-pm					FlowChart	
+hackett					FlowChart	
+Hackety Hack						Web	
+hackppl					FlowChart	
+haggis					FlowChart	
+hakaru					FlowChart	
+hal-format					FlowChart	
+hal-s					FlowChart	
+halide					FlowChart	
+hamdown					FlowChart	
+Haml						Both	
+hamler					FlowChart	
+hancock					FlowChart	
+handel-c					FlowChart	
+handlebars					FlowChart	
+hank					FlowChart	
+Harbour 						Both	
+harlan					FlowChart	
+harvey					FlowChart	
+harwell-boeing-format					FlowChart	
+hascript					FlowChart	
+hashlink					FlowChart	
+haskell					FlowChart	
+Haskell programming language family‎						Web	
+haskell-sharp					FlowChart	
+hasklig					FlowChart	
+hasl					FlowChart	
+haste					FlowChart	
+haxe					FlowChart	
+haxelibs-pm					FlowChart	
+haystaq					FlowChart	
+hazel					FlowChart	
+HBasic					FlowChart	
+HBC						Web	
+hcard					FlowChart	
+hccb					FlowChart	
+hcl					FlowChart	
+hdf					FlowChart	
+hdfs					FlowChart	
+hdmi-standard					FlowChart	
+hdt					FlowChart	
+helena					FlowChart	
+helium					FlowChart	
+hello					FlowChart	
+helper					FlowChart	
+henk					FlowChart	
+heraklit					FlowChart	
+herbrand					FlowChart	
+hermes					FlowChart	
+heron					FlowChart	
+heron-lang					FlowChart	
+hex-pm					FlowChart	
+hexagon					FlowChart	
+hexagony					FlowChart	
+hfs					FlowChart	
+hfs-plus					FlowChart	
+hhvm					FlowChart	
+hi-visual					FlowChart	
+High Level Assembly (HLA)						Web	
+High Performance Fortran						Web	
+High Tech BASIC					FlowChart	
+high-tech-basic					FlowChart	
+hilbert					FlowChart	
+hilltop-lang					FlowChart	
+hilvl					FlowChart	
+Hindawi Programming System						Web	
+hiq					FlowChart	
+HiSoft Basic					FlowChart	
+History of Ruby						Web	
+hivemind					FlowChart	
+hiveql					FlowChart	
+hjson					FlowChart	
+hl7					FlowChart	
+hla					FlowChart	
+hlsl					FlowChart	
+hlvm					FlowChart	
+hmsl					FlowChart	
+hobbes					FlowChart	
+hocon					FlowChart	
+hodor					FlowChart	
+hol					FlowChart	
+holcf					FlowChart	
+holo					FlowChart	
+holonforth					FlowChart	
+holyc					FlowChart	
+homespring					FlowChart	
+honu					FlowChart	
+hoon					FlowChart	
+hoot-smalltalk					FlowChart	
+hop					FlowChart	
+hope					FlowChart	
+hopscotch					FlowChart	
+HotBasic					FlowChart	
+hotdog					FlowChart	
+HotPaw Basic					FlowChart	
+HotRuby						Web	
+HP aC++ (aCC)						Web	
+HP BASIC					FlowChart	
+HP BASIC for OpenVMS					FlowChart	
+HP COBOL						Web	
+HP Instrument BASIC					FlowChart	
+HP Time-Shared BASIC						Both	
+hp-basic-for-openvms					FlowChart	
+hp-gl					FlowChart	
+hp-pascal					FlowChart	
+hp-time-shared-basic					FlowChart	
+hprl					FlowChart	
+hr-code					FlowChart	
+HRAST-BASIC					FlowChart	
+hrqr					FlowChart	
+hsaml-format					FlowChart	
+hscript					FlowChart	
+hsl					FlowChart	
+hsml					FlowChart	
+HTBasic					FlowChart	
+htel					FlowChart	
+html					FlowChart	
+http					FlowChart	
+http-2					FlowChart	
+http-3					FlowChart	
+httplang					FlowChart	
+HuBASIC					FlowChart	
+huginn					FlowChart	
+hugo					FlowChart	
+hugo-programming-language					FlowChart	
+humanhash-hash-function					FlowChart	
+Hummingbird Basic					FlowChart	
+hummingbird-quickscript					FlowChart	
+Husk					FlowChart	
+hxml					FlowChart	
+Hy						Both	
+hybrid					FlowChart	
+hycom					FlowChart	
+hypac					FlowChart	
+hyper-basic					FlowChart	
+hypercard					FlowChart	
+hyperflow					FlowChart	
+hyperfun					FlowChart	
+hyperlisp					FlowChart	
+hyperlog					FlowChart	
+hypertalk					FlowChart	
+hyphy					FlowChart	
+hytime					FlowChart	
+hytran					FlowChart	
+I						Both	
+i-expressions					FlowChart	
+ia-32					FlowChart	
+ial					FlowChart	
+iam					FlowChart	
+IAR C/C++ Compilers						Web	
+IAR C/C++ Compilers (icc*)						Web	
+ib-templog					FlowChart	
+IBasic					FlowChart	
+ibex					FlowChart	
+IBM BASIC						Web	
+IBM Cassette BASIC					FlowChart	
+IBM COBOL						Web	
+IBM Enterprise PL/I for z/OS						Web	
+IBM PL/I for AIX						Web	
+IBM PL/I(F)						Web	
+IBM PL/S						Web	
+IBM VisualAge PL/I Enterprise for OS/2 and Windows NT						Web	
+IBM VS-BASIC					FlowChart	
+ibm-1401-symbolic-programming-system					FlowChart	
+ibm-basic					FlowChart	
+ibm-basica					FlowChart	
+ibm-gml					FlowChart	
+ibm-i-control-language					FlowChart	
+ibm-logo					FlowChart	
+ibm-rational-sqabasic					FlowChart	
+ibm-rpg					FlowChart	
+ibm-system-38-language					FlowChart	
+IBM370					FlowChart	
+ibuki-cl					FlowChart	
+icalendar-format					FlowChart	
+icarus					FlowChart	
+icd					FlowChart	
+ices-system					FlowChart	
+icetran					FlowChart	
+ici					FlowChart	
+ICL programming languages						Web	
+Icon 						Both	
+Icon programming language family						Web	
+icot					FlowChart	
+ICPL					FlowChart	
+id					FlowChart	
+idl					FlowChart	
+idl-sl					FlowChart	
+idris					FlowChart	
+ids					FlowChart	
+idyll					FlowChart	
+ifo					FlowChart	
+iForth						Web	
+ifps					FlowChart	
+iftran						Both	
+igor-pro					FlowChart	
+iif					FlowChart	
+iikuse					FlowChart	
+IITRAN						Both	
+Ikarus 						Both	
+IL2CPP						Web	
+IL2CPU						Web	
+ilbm					FlowChart	
+ilu					FlowChart	
+ilx					FlowChart	
+imac-machine					FlowChart	
+image					FlowChart	
+imandra					FlowChart	
+imap-protocol					FlowChart	
+imf					FlowChart	
+imp					FlowChart	
+imp-lang					FlowChart	
+imp-programming-language					FlowChart	
+imp72					FlowChart	
+impala					FlowChart	
+impl					FlowChart	
+ina-jo					FlowChart	
+inc					FlowChart	
+inchi					FlowChart	
+Incr Tcl						Web	
+indental					FlowChart	
+Indexed file						Web	
+Industrial Real-Time Fortran						Web	
+infer					FlowChart	
+infiniband-standard					FlowChart	
+INFOBASIC					FlowChart	
+infolog					FlowChart	
+inform					FlowChart	
+information-algebra					FlowChart	
+information-processing-language					FlowChart	
+informix					FlowChart	
+infusion-framework					FlowChart	
+ingres					FlowChart	
+ini					FlowChart	
+Initial Programming Language					FlowChart	
+ink					FlowChart	
+inko					FlowChart	
+inmagic					FlowChart	
+inno-setup					FlowChart	
+inquire					FlowChart	
+inscan					FlowChart	
+insight					FlowChart	
+instruction-list					FlowChart	
+Integer BASIC						Both	
+integer-basic					FlowChart	
+Intel Array Building Blocks						Web	
+Intel C++ Compiler (icc)						Web	
+Intel C++ Compiler Classic						Web	
+Intel Fortran Compiler						Web	
+Intel oneAPI DPC++/C++ Compiler						Web	
+Intel Parallel Studio						Web	
+intellect					FlowChart	
+intellijidea-editor					FlowChart	
+interactive					FlowChart	
+Interactive ALGOL 68I						Web	
+Interactive C						Web	
+intercal					FlowChart	
+intercellas					FlowChart	
+interchange-file-format					FlowChart	
+intercons					FlowChart	
+Interlisp						Both	
+interlisp-vax					FlowChart	
+Internet Basic					FlowChart	
+Internet Direct						Web	
+interpress					FlowChart	
+Interpreter						Web	
+Interpreters:						Web	
+interscript					FlowChart	
+Intrnt					FlowChart	
+invokator					FlowChart	
+io					FlowChart	
+Iodine						Web	
+ioke					FlowChart	
+ion					FlowChart	
+ion-schema					FlowChart	
+ios					FlowChart	
+iota					FlowChart	
+iota-lang					FlowChart	
+IP Pascal						Web	
+ip-pascal					FlowChart	
+ipad-machine					FlowChart	
+ipf					FlowChart	
+ipfs					FlowChart	
+iphone-machine					FlowChart	
+ipl-v					FlowChart	
+iptables-rope					FlowChart	
+iptscrae					FlowChart	
+iqf					FlowChart	
+iqr					FlowChart	
+irc-log					FlowChart	
+ircis					FlowChart	
+Iris						Web	
+Iris web REPL						Web	
+IRIX 5.3 & 6.x, Solaris 2.x, UNICOS						Web	
+IronPython						Web	
+IronRuby						Web	
+IronScheme						Web	
+IS-BASIC					FlowChart	
+isabelle					FlowChart	
+isabelle-91					FlowChart	
+isabelle-hol					FlowChart	
+isac					FlowChart	
+isbl					FlowChart	
+isbn					FlowChart	
+isCOBOL Evolve						Web	
+iscript					FlowChart	
+isetl					FlowChart	
+isis					FlowChart	
+ISLISP						Both	
+ISLISP compilers and interpreters						Web	
+ISLisproid						Web	
+ISO-IR-68						Web	
+ispl					FlowChart	
+isq					FlowChart	
+iswim					FlowChart	
+it					FlowChart	
+Itk						Web	
+itl					FlowChart	
+Iverson Award						Web	
+ivtran					FlowChart	
+IWBasic					FlowChart	
+iziBasic					FlowChart	
+J 						Both	
+Jabaco					FlowChart	
+jacal					FlowChart	
+jacl					FlowChart	
+jade					FlowChart	
+jai					FlowChart	
+jal-compiler					FlowChart	
+janet					FlowChart	
+janus					FlowChart	
+janus-lang					FlowChart	
+janus-programming-language					FlowChart	
+Japt					FlowChart	
+jargon					FlowChart	
+jasmin					FlowChart	
+jasmine					FlowChart	
+jasper					FlowChart	
+jass					FlowChart	
+JAVA					FlowChart	
+Java Agent Template						Web	
+Java and JavaScript programming language family‎						Web	
+Java Astrodynamics Toolkit						Web	
+Java programming language family						Web	
+Java Script					FlowChart	
+java-bytecode					FlowChart	
+java-ee-version-history					FlowChart	
+java-properties					FlowChart	
+java-server-pages					FlowChart	
+javac						Web	
+javac OpenJDK						Web	
+javacc					FlowChart	
+JavaFX Script						Web	
+javafx-script					FlowChart	
+javaml					FlowChart	
+javascript					FlowChart	
+JavaScript‎ (9 C, 50 P)						Web	
+JavaScript dialect engines‎ (5 P)						Web	
+JavaScript programming language family						Web	
+JavaScript.						Web	
+jaws-scripting-language					FlowChart	
+jayfor					FlowChart	
+JBasic					FlowChart	
+jbc					FlowChart	
+jcard					FlowChart	
+jcl					FlowChart	
+JEAN						Both	
+jedit-editor					FlowChart	
+jedlang					FlowChart	
+jeebox					FlowChart	
+Jelly					FlowChart	
+jet-propulsion-laboratory-display-information-system					FlowChart	
+jflex					FlowChart	
+jfugue					FlowChart	
+JHC						Web	
+ji					FlowChart	
+Jikes						Web	
+jinja					FlowChart	
+jinx					FlowChart	
+jis-x-0201					FlowChart	
+jison					FlowChart	
+jison-lex					FlowChart	
+jiyu					FlowChart	
+jmap					FlowChart	
+jmp					FlowChart	
+jmsl					FlowChart	
+JoCaml						Web	
+joe-e					FlowChart	
+join-java					FlowChart	
+joker					FlowChart	
+Jolf					FlowChart	
+jolie					FlowChart	
+jonprl					FlowChart	
+josie					FlowChart	
+JOSS						Both	
+JOSS programming language family						Web	
+JOSS programming language family‎						Web	
+joss-ii					FlowChart	
+jot					FlowChart	
+joule					FlowChart	
+jovial					FlowChart	
+joy					FlowChart	
+Joyce 						Both	
+joycep					FlowChart	
+jpeg-format					FlowChart	
+jpl					FlowChart	
+jplace					FlowChart	
+jq					FlowChart	
+jql					FlowChart	
+jquery					FlowChart	
+jr					FlowChart	
+JR-BASIC						Both	
+JRT Pascal						Web	
+JRuby						Both	
+JScheme						Web	
+JScript						Both	
+JScript .NET						Web	
+jsharp					FlowChart	
+jsil-compiler					FlowChart	
+jsml					FlowChart	
+json					FlowChart	
+json-graph-format					FlowChart	
+json-graph-spec					FlowChart	
+json-lambda					FlowChart	
+json-ld					FlowChart	
+json-script					FlowChart	
+json-stat					FlowChart	
+json-with-comments					FlowChart	
+json5					FlowChart	
+jsoniq					FlowChart	
+jsonnet					FlowChart	
+jsx					FlowChart	
+jsyn					FlowChart	
+Judoscript						Both	
+juicy					FlowChart	
+Julia 						Both	
+julia-lang					FlowChart	
+julia-pm					FlowChart	
+Jumper					FlowChart	
+juniper					FlowChart	
+juno					FlowChart	
+Jupiter Ace						Web	
+jupyter-editor					FlowChart	
+jupyter-notebook					FlowChart	
+Just BASIC					FlowChart	
+juttle					FlowChart	
+juvix					FlowChart	
+jvm-vm					FlowChart	
+jvmBasic					FlowChart	
+Jython 						Both	
+K 						Both	
+k-framework					FlowChart	
+kaggle-app					FlowChart	
+kai					FlowChart	
+KAI C++ (KCC)						Web	
+kail					FlowChart	
+kaitai					FlowChart	
+kakoune-editor					FlowChart	
+kaleidoquery					FlowChart	
+kaleidoscope					FlowChart	
+kaleidoscope90					FlowChart	
+kaleidoscope91					FlowChart	
+karel					FlowChart	
+karl					FlowChart	
+kasaya					FlowChart	
+kate					FlowChart	
+kate-editor					FlowChart	
+katex					FlowChart	
+kathleen-booth					FlowChart	
+kaukatcr					FlowChart	
+Kawa						Web	
+kawa-scheme-implementation					FlowChart	
+kayia					FlowChart	
+kb					FlowChart	
+KBasic					FlowChart	
+KEDIT						Web	
+kee					FlowChart	
+Keg					FlowChart	
+kei					FlowChart	
+keil C/C++ Compilers						Web	
+kek-nodal					FlowChart	
+Kepler					FlowChart	
+keras					FlowChart	
+kerf					FlowChart	
+kermeta					FlowChart	
+kernel					FlowChart	
+kernel-e					FlowChart	
+Keta					FlowChart	
+kew					FlowChart	
+keykit					FlowChart	
+keysight-vee					FlowChart	
+ki					FlowChart	
+kicad					FlowChart	
+kid					FlowChart	
+kiev					FlowChart	
+kilo-lisp					FlowChart	
+kima					FlowChart	
+king-kong					FlowChart	
+Kiss						Both	
+kit					FlowChart	
+kitlang					FlowChart	
+kitten					FlowChart	
+kivy-lang					FlowChart	
+kixtart					FlowChart	
+kl-one					FlowChart	
+KL0						Both	
+KL1						Both	
+klaim					FlowChart	
+klerer-may-system					FlowChart	
+klipa					FlowChart	
+klisp					FlowChart	
+klong					FlowChart	
+kml					FlowChart	
+knitr					FlowChart	
+knowledge-interchange-format					FlowChart	
+ko					FlowChart	
+koara					FlowChart	
+kodu-game-lab					FlowChart	
+kogut					FlowChart	
+koi					FlowChart	
+koka					FlowChart	
+komodo-editor					FlowChart	
+konsolscript					FlowChart	
+Kool-Bee					FlowChart	
+KoolB					FlowChart	
+korn-shell					FlowChart	
+Kotlin						Both	
+kqml					FlowChart	
+krc					FlowChart	
+kris					FlowChart	
+krl					FlowChart	
+krl-0					FlowChart	
+krs					FlowChart	
+krypton					FlowChart	
+ktexteditor-editor					FlowChart	
+kubernetes					FlowChart	
+kuka					FlowChart	
+kumir					FlowChart	
+kvikkalkul					FlowChart	
+kvsapi					FlowChart	
+Kylix						Both	
+kyma					FlowChart	
+L						Both	
+l-in-oleum					FlowChart	
+l2					FlowChart	
+l6					FlowChart	
+labtran					FlowChart	
+labview					FlowChart	
+ladder-logic					FlowChart	
+lagoona					FlowChart	
+lain					FlowChart	
+lambcalc					FlowChart	
+lambda					FlowChart	
+lambda-obliv					FlowChart	
+lambda-prolog					FlowChart	
+lambda-zero					FlowChart	
+lamdu-editor					FlowChart	
+lamina					FlowChart	
+lammps-format					FlowChart	
+LAMP (software bundle)						Web	
+lanai					FlowChart	
+language-for-class-description					FlowChart	
+language-server-protocol					FlowChart	
+laning-and-zierler-system					FlowChart	
+lap					FlowChart	
+laravel-framework					FlowChart	
+Larceny 						Both	
+larch					FlowChart	
+laris					FlowChart	
+lasp					FlowChart	
+lass					FlowChart	
+lasso					FlowChart	
+latex					FlowChart	
+latino					FlowChart	
+latte					FlowChart	
+Lattice C						Web	
+laure					FlowChart	
+lav-format					FlowChart	
+lava					FlowChart	
+Lazarus						Web	
+lazarus-editor					FlowChart	
+lazy-k					FlowChart	
+lazyMl					FlowChart	
+lc-3					FlowChart	
+lcc						Web	
+lcf					FlowChart	
+lcl					FlowChart	
+ld-json					FlowChart	
+ldap					FlowChart	
+LDC						Web	
+ldl					FlowChart	
+ldl1					FlowChart	
+ldpl					FlowChart	
+Le Lisp						Web	
+le-lisp					FlowChart	
+leaf					FlowChart	
+lean					FlowChart	
+Leaning toothpick syndrome						Web	
+leap					FlowChart	
+Learn to Program BASIC					FlowChart	
+leda					FlowChart	
+legol					FlowChart	
+lem-editor					FlowChart	
+lemick					FlowChart	
+lemon					FlowChart	
+Leningrad ALGOL 68L						Web	
+leo-editor					FlowChart	
+leogo					FlowChart	
+leopard					FlowChart	
+les					FlowChart	
+lesk					FlowChart	
+less					FlowChart	
+Level I BASIC						Web	
+Level II BASIC						Web	
+lever					FlowChart	
+levy					FlowChart	
+lex					FlowChart	
+lexx-editor					FlowChart	
+lezer					FlowChart	
+LFE 						Both	
+lg					FlowChart	
+lgdf					FlowChart	
+li-chen-wang					FlowChart	
+Liberty BASIC						Both	
+liberty-basic					FlowChart	
+LibertyEiffel (fork of SmartEiffel)						Web	
+libra					FlowChart	
+libsvm-format					FlowChart	
+life					FlowChart	
+lift					FlowChart	
+LikeBASIC					FlowChart	
+lil					FlowChart	
+lila					FlowChart	
+lila-lang					FlowChart	
+lily					FlowChart	
+lilypond					FlowChart	
+limbo					FlowChart	
+limdep					FlowChart	
+linc-4gl					FlowChart	
+lincoln-reckoner					FlowChart	
+lincos					FlowChart	
+linda					FlowChart	
+linden-scripting-language					FlowChart	
+lingo					FlowChart	
+lingua-graphica					FlowChart	
+linker-script					FlowChart	
+links					FlowChart	
+links-programming-language					FlowChart	
+linoleum					FlowChart	
+linotte					FlowChart	
+linq					FlowChart	
+linux					FlowChart	
+linux-kernel-module					FlowChart	
+liquid					FlowChart	
+liquidity					FlowChart	
+lis					FlowChart	
+Lisaac						Both	
+Lisaac compiler						Web	
+liseb					FlowChart	
+liso					FlowChart	
+Lisp					FlowChart	
+Lisp ‎						Web	
+LISP 2						Web	
+Lisp Machine Lisp						Web	
+Lisp programming language family						Web	
+lisp-1-5					FlowChart	
+lisp-2					FlowChart	
+lisp-a					FlowChart	
+lisp-machine-lisp					FlowChart	
+Lispkit Lisp						Web	
+lispme					FlowChart	
+lisptalk					FlowChart	
+LispWorks 						Both	
+lispyscript					FlowChart	
+listdown					FlowChart	
+lite-c					FlowChart	
+literate-agda					FlowChart	
+literate-coffeescript					FlowChart	
+literate-haskell					FlowChart	
+lithe					FlowChart	
+little					FlowChart	
+Little Smalltalk						Web	
+little-b					FlowChart	
+little-smalltalk					FlowChart	
+livecode					FlowChart	
+LiveScript 						Both	
+livr					FlowChart	
+lkif					FlowChart	
+llgo						Web	
+llhd					FlowChart	
+lll					FlowChart	
+lllpg					FlowChart	
+llvmir					FlowChart	
+lmdb					FlowChart	
+lnf					FlowChart	
+lo					FlowChart	
+lobster					FlowChart	
+local					FlowChart	
+loci					FlowChart	
+Locomotive BASIC						Both	
+locomotive-basic					FlowChart	
+locs					FlowChart	
+logal					FlowChart	
+logicon					FlowChart	
+login					FlowChart	
+logist					FlowChart	
+loglan					FlowChart	
+loglisp					FlowChart	
+loglo					FlowChart	
+Logo 						Both	
+Logo programming language family						Web	
+logol					FlowChart	
+logos					FlowChart	
+logowriter					FlowChart	
+logres					FlowChart	
+logscheme					FlowChart	
+Logtalk						Both	
+lol					FlowChart	
+lola					FlowChart	
+lola-2					FlowChart	
+lolcode					FlowChart	
+lookml					FlowChart	
+loom					FlowChart	
+loomscript					FlowChart	
+loopnpp					FlowChart	
+loops					FlowChart	
+lore					FlowChart	
+lorel					FlowChart	
+lorel-1					FlowChart	
+Losescript					FlowChart	
+lotis					FlowChart	
+lotos					FlowChart	
+LotusScript						Both	
+LowRes Coder					FlowChart	
+lpc					FlowChart	
+lpl					FlowChart	
+LRLTRAN						Both	
+lsd					FlowChart	
+LSE 						Both	
+lsif-format					FlowChart	
+lsl					FlowChart	
+lua					FlowChart	
+Lua						Web	
+luajit					FlowChart	
+luarocks-pm					FlowChart	
+luau					FlowChart	
+lucene-query-syntax					FlowChart	
+lucid					FlowChart	
+lucid-chart-app					FlowChart	
+lucid-lang					FlowChart	
+lucid-representations					FlowChart	
+lucinda					FlowChart	
+luna					FlowChart	
+luna-lang					FlowChart	
+lunar					FlowChart	
+lush					FlowChart	
+lustre					FlowChart	
+Luxor Basic					FlowChart	
+LxBasic					FlowChart	
+lyapas					FlowChart	
+lygon					FlowChart	
+lynx					FlowChart	
+lyric					FlowChart	
+lyx-editor					FlowChart	
+M						Web	
+m-expressions					FlowChart	
+m-lisp					FlowChart	
+m-programming-language					FlowChart	
+M2000 Interpreter					FlowChart	
+m2001					FlowChart	
+m3db					FlowChart	
+m4					FlowChart	
+m4sugar					FlowChart	
+mac					FlowChart	
+macaims					FlowChart	
+MacBASIC					FlowChart	
+macbook-air-machine					FlowChart	
+mace					FlowChart	
+machiavelli					FlowChart	
+macintosh-machine					FlowChart	
+Maclisp						Web	
+macro					FlowChart	
+macro-10					FlowChart	
+macro-11					FlowChart	
+macro-spitbol					FlowChart	
+MacroML						Both	
+MacRuby						Web	
+macsyma					FlowChart	
+mad					FlowChart	
+madcap					FlowChart	
+madcap-vi					FlowChart	
+mads					FlowChart	
+mages					FlowChart	
+magic-paper					FlowChart	
+magik					FlowChart	
+magma					FlowChart	
+magma2					FlowChart	
+magritte					FlowChart	
+mai					FlowChart	
+MAI Basic Four Business Basic					FlowChart	
+mai-basic-four					FlowChart	
+Main article: List of ECMAScript engines						Web	
+make					FlowChart	
+makedoc					FlowChart	
+makefile					FlowChart	
+mako					FlowChart	
+mal					FlowChart	
+malbolge					FlowChart	
+Mallard BASIC						Both	
+mallard-basic					FlowChart	
+malus					FlowChart	
+mama-software					FlowChart	
+man-machine-language					FlowChart	
+Managed Extensions for C++						Web	
+manchester-syntax					FlowChart	
+manhood					FlowChart	
+manool					FlowChart	
+manticore					FlowChart	
+manuscript					FlowChart	
+map					FlowChart	
+MapBasic						Both	
+maple					FlowChart	
+maplesoft-app-center-pm					FlowChart	
+mapper					FlowChart	
+mapquery					FlowChart	
+maps					FlowChart	
+maraca-lang					FlowChart	
+maria-xml					FlowChart	
+mariadb					FlowChart	
+Mark Williams C						Web	
+mark-iv					FlowChart	
+Markaby						Web	
+markdeep					FlowChart	
+markdown					FlowChart	
+marko					FlowChart	
+marlais					FlowChart	
+marmot					FlowChart	
+marsyas					FlowChart	
+marten					FlowChart	
+mary					FlowChart	
+mary-2					FlowChart	
+masim					FlowChart	
+maskjs					FlowChart	
+masm					FlowChart	
+MasmBasic					FlowChart	
+material-exchange-format					FlowChart	
+math-matic					FlowChart	
+mathcad					FlowChart	
+mathematica					FlowChart	
+mathematica-editor					FlowChart	
+mathematica-packagedata-pm					FlowChart	
+mathematical-notation					FlowChart	
+mathics					FlowChart	
+mathlab					FlowChart	
+mathlingua					FlowChart	
+mathsy					FlowChart	
+mathworks-file-exchange-pm					FlowChart	
+matita					FlowChart	
+MATL					FlowChart	
+matlab					FlowChart	
+matplotlib					FlowChart	
+matrix-pascal					FlowChart	
+matrix-protocol					FlowChart	
+maude					FlowChart	
+maven-pm					FlowChart	
+maven-pom					FlowChart	
+mavis					FlowChart	
+mavo					FlowChart	
+mawk					FlowChart	
+max					FlowChart	
+maxima					FlowChart	
+maxscript					FlowChart	
+maya					FlowChart	
+MBASIC						Both	
+mbox					FlowChart	
+mckeeman-form					FlowChart	
+mcleyvier-command-language					FlowChart	
+mcobol					FlowChart	
+MCP						Web	
+md5-hash-function					FlowChart	
+mdbs-qrs					FlowChart	
+MDL 						Both	
+mdx					FlowChart	
+mdx-lang					FlowChart	
+mech-lang					FlowChart	
+Media in category "Perl"						Web	
+mediawiki					FlowChart	
+medic					FlowChart	
+medusa					FlowChart	
+megalog					FlowChart	
+meld					FlowChart	
+MELFA BASIC					FlowChart	
+MelloCOMPLEX					FlowChart	
+melpha-pm					FlowChart	
+memex-machine					FlowChart	
+mendel					FlowChart	
+mentat					FlowChart	
+mercurial					FlowChart	
+Mercury 						Both	
+mercury-programming-system					FlowChart	
+merd					FlowChart	
+mermaid					FlowChart	
+meroon					FlowChart	
+mesa					FlowChart	
+meson					FlowChart	
+messagepack					FlowChart	
+met-english					FlowChart	
+meta-assembler					FlowChart	
+meta-ii					FlowChart	
+meta-lisp					FlowChart	
+meta-plus					FlowChart	
+metacomco					FlowChart	
+metafont					FlowChart	
+metah					FlowChart	
+metal					FlowChart	
+metal-programming-language					FlowChart	
+metalex					FlowChart	
+metaml					FlowChart	
+metapi					FlowChart	
+metapost					FlowChart	
+metasim					FlowChart	
+metatem					FlowChart	
+metaweb-query-language					FlowChart	
+methodology-description-language					FlowChart	
+METRIC-BASIC					FlowChart	
+mgmt					FlowChart	
+mheg-5					FlowChart	
+michelson					FlowChart	
+MICOL BASIC					FlowChart	
+Micro Focus Open PL/I						Web	
+micro-cpp					FlowChart	
+micro-editor					FlowChart	
+micro-flowcharts					FlowChart	
+micro-mitten					FlowChart	
+micro-prolog					FlowChart	
+microdare					FlowChart	
+microdata					FlowChart	
+microplanner					FlowChart	
+micropython					FlowChart	
+Microscript					FlowChart	
+Microscript II					FlowChart	
+Microsoft BASIC						Both	
+Microsoft BASICA					FlowChart	
+Microsoft FTN					FlowChart	
+Microsoft GW-BASIC					FlowChart	
+Microsoft Level III BASIC					FlowChart	
+Microsoft Macro Assembler						Web	
+Microsoft MACRO-80						Web	
+Microsoft Pascal						Web	
+Microsoft Small Basic						Both	
+Microsoft Visual Basic					FlowChart	
+Microsoft Visual C++						Web	
+microsoft-basic					FlowChart	
+microsoft-macro-assembler					FlowChart	
+microsoft-small-basic					FlowChart	
+microtal					FlowChart	
+Microtec C/C++ (mcc)						Web	
+MicroWorlds						Web	
+MicroWorlds JR						Web	
+midas					FlowChart	
+MIDletPascal						Web	
+miis					FlowChart	
+Mike Cowlishaw						Web	
+MikroC Compiler						Web	
+mime					FlowChart	
+mimic					FlowChart	
+mimix-stream-language					FlowChart	
+min					FlowChart	
+minc					FlowChart	
+Mini ALGOL 68						Web	
+mini-ml					FlowChart	
+Minic					FlowChart	
+minid					FlowChart	
+minihaskell					FlowChart	
+minikanren					FlowChart	
+Minimal BASIC						Web	
+MinimalBASIC					FlowChart	
+miniml					FlowChart	
+miniml_error					FlowChart	
+minion					FlowChart	
+miniprolog					FlowChart	
+Minipy					FlowChart	
+minivital					FlowChart	
+minizinc					FlowChart	
+minopt					FlowChart	
+mint					FlowChart	
+mips					FlowChart	
+mir					FlowChart	
+mirager					FlowChart	
+mirah					FlowChart	
+miranda						Both	
+miranim					FlowChart	
+mirc					FlowChart	
+mirfac					FlowChart	
+mirth					FlowChart	
+miso-framework					FlowChart	
+MIT/GNU Scheme						Web	
+MITS 4K BASIC					FlowChart	
+MITS 8K BASIC					FlowChart	
+miva					FlowChart	
+mizar					FlowChart	
+ML 						Both	
+ML programming language family						Web	
+mlab					FlowChart	
+mlir					FlowChart	
+MLisp						Web	
+mlisp2					FlowChart	
+mlite					FlowChart	
+mlpolyr					FlowChart	
+MLton						Web	
+MMBasic					FlowChart	
+mmix					FlowChart	
+mmsearch					FlowChart	
+mmx					FlowChart	
+Mobile BASIC					FlowChart	
+mobl					FlowChart	
+moby-programming-language					FlowChart	
+mochajs					FlowChart	
+mochi					FlowChart	
+mocklisp					FlowChart	
+mocl						Web	
+Mod parrot						Web	
+Mod perl						Web	
+Mod ruby						Web	
+modcap					FlowChart	
+model-204					FlowChart	
+model-k					FlowChart	
+modelica					FlowChart	
+modl					FlowChart	
+modlisp					FlowChart	
+modsim-iii					FlowChart	
+Modula						Both	
+Modula programming language family						Web	
+modula-2						Both	
+Modula-2+						Web	
+modula-2p					FlowChart	
+Modula-3						Both	
+modula-3-star					FlowChart	
+modula-p					FlowChart	
+modula-r					FlowChart	
+modular-prolog					FlowChart	
+module-management-system					FlowChart	
+moinmoin					FlowChart	
+MOLE Basic					FlowChart	
+molecular-query-language					FlowChart	
+molfile-format					FlowChart	
+molog					FlowChart	
+monaco-editor					FlowChart	
+monesa					FlowChart	
+mongodb					FlowChart	
+Mongrel						Web	
+Monkey					FlowChart	
+Mono						Web	
+monodevelop-editor					FlowChart	
+monte					FlowChart	
+moo					FlowChart	
+mool					FlowChart	
+Moonrock Basic Compiler					FlowChart	
+moonrock-basic-compiler					FlowChart	
+moonscript					FlowChart	
+moose					FlowChart	
+Moose (analysis)						Web	
+morfa					FlowChart	
+morfik					FlowChart	
+Morfik Basic					FlowChart	
+morphe					FlowChart	
+Morphic (software)						Web	
+morphism					FlowChart	
+morse-code					FlowChart	
+MORTRAN						Both	
+motif-software					FlowChart	
+mountain					FlowChart	
+mouse					FlowChart	
+mouse4					FlowChart	
+Movitz						Web	
+moxie					FlowChart	
+moya					FlowChart	
+mp3-format					FlowChart	
+MPD						Web	
+mpgs					FlowChart	
+mpl					FlowChart	
+mps					FlowChart	
+mpsx					FlowChart	
+MPW C						Web	
+mql					FlowChart	
+mqtt					FlowChart	
+mrdb					FlowChart	
+Mruby						Web	
+MS BASIC for Macintosh					FlowChart	
+ms2					FlowChart	
+MSDOS					FlowChart	
+msg-84					FlowChart	
+msl					FlowChart	
+msp430					FlowChart	
+MSWLogo						Web	
+MSX BASIC						Both	
+msx-basic					FlowChart	
+MTBASIC					FlowChart	
+mtml					FlowChart	
+mu					FlowChart	
+muddl					FlowChart	
+mudlle					FlowChart	
+muf					FlowChart	
+mufp					FlowChart	
+mul-t					FlowChart	
+multi-user-basic					FlowChart	
+multiaddr					FlowChart	
+multibase					FlowChart	
+multicodec					FlowChart	
+multics					FlowChart	
+multigame					FlowChart	
+multihash-hash-function					FlowChart	
+MultiLisp						Web	
+mumath					FlowChart	
+mumps					FlowChart	
+mums					FlowChart	
+mun-lang					FlowChart	
+munin					FlowChart	
+muon					FlowChart	
+mupad					FlowChart	
+murmur-hash-function					FlowChart	
+music-sp					FlowChart	
+musicxml					FlowChart	
+musimp					FlowChart	
+musp					FlowChart	
+mustache					FlowChart	
+musys					FlowChart	
+mvel					FlowChart	
+mvl					FlowChart	
+mxml					FlowChart	
+mybb					FlowChart	
+mycroft					FlowChart	
+myghty					FlowChart	
+myia					FlowChart	
+MyOwnLanguage					FlowChart	
+mypy					FlowChart	
+myrddin					FlowChart	
+mysql					FlowChart	
+mythryl					FlowChart	
+N						Web	
+n-prolog					FlowChart	
+n-triples					FlowChart	
+N82-BASIC					FlowChart	
+N88-BASIC					FlowChart	
+NAG Fortran Compiler						Web	
+nail					FlowChart	
+nakl					FlowChart	
+NAME Basic					FlowChart	
+nano-editor					FlowChart	
+napier88					FlowChart	
+napss					FlowChart	
+narpl					FlowChart	
+nasal					FlowChart	
+nasm					FlowChart	
+nassi-shneiderman-charts					FlowChart	
+native-structured-storage					FlowChart	
+nato-phonetic-alphabet					FlowChart	
+natural					FlowChart	
+nawk					FlowChart	
+ncar-command-language					FlowChart	
+ncl					FlowChart	
+ndl					FlowChart	
+nearley					FlowChart	
+neater					FlowChart	
+nebula					FlowChart	
+nectar					FlowChart	
+neeilang					FlowChart	
+neko					FlowChart	
+neliac					FlowChart	
+Nemerle						Both	
+neovim-editor					FlowChart	
+neralie-format					FlowChart	
+nesc					FlowChart	
+nesl					FlowChart	
+ness					FlowChart	
+nested-context-language					FlowChart	
+net-format					FlowChart	
+netbasic					FlowChart	
+netbeans-editor					FlowChart	
+NetBeans, Code::Blocks, Dev-C++, Geany						Web	
+NetCOBOL						Web	
+netform					FlowChart	
+netlib					FlowChart	
+netlinx					FlowChart	
+NetLogo						Both	
+NetRexx						Both	
+netscript					FlowChart	
+Netwide Assembler						Web	
+Network Applied Communication Laboratory						Web	
+network-control-language					FlowChart	
+neuronc					FlowChart	
+neut					FlowChart	
+neutron					FlowChart	
+Nevada BASIC					FlowChart	
+never					FlowChart	
+newclay					FlowChart	
+newick-format					FlowChart	
+NewLISP						Both	
+newp					FlowChart	
+Newspeak 						Both	
+newsqueak					FlowChart	
+newton					FlowChart	
+newtonscript					FlowChart	
+nexml					FlowChart	
+nextflow					FlowChart	
+nexus-format					FlowChart	
+nfql					FlowChart	
+nginx-config					FlowChart	
+ngl-programming-language					FlowChart	
+ngql					FlowChart	
+ngs					FlowChart	
+nhx					FlowChart	
+nial					FlowChart	
+nianiolang					FlowChart	
+nice					FlowChart	
+nickle					FlowChart	
+nikl					FlowChart	
+NIL 						Both	
+nim					FlowChart	
+nimble-pm					FlowChart	
+nimrod					FlowChart	
+ninja					FlowChart	
+nios					FlowChart	
+nirvana					FlowChart	
+nit					FlowChart	
+nix					FlowChart	
+nixos					FlowChart	
+njcl					FlowChart	
+nl					FlowChart	
+nlpl					FlowChart	
+nltk					FlowChart	
+nml					FlowChart	
+noah					FlowChart	
+nodal					FlowChart	
+nodejs					FlowChart	
+noForth						Web	
+Nokogiri						Web	
+nomad-software					FlowChart	
+noms-db					FlowChart	
+none					FlowChart	
+noodle					FlowChart	
+nop-2					FlowChart	
+nord					FlowChart	
+North Star BASIC						Web	
+NorthStar BASIC					FlowChart	
+northstar-basic					FlowChart	
+nosica					FlowChart	
+notation3					FlowChart	
+notepad-editor					FlowChart	
+notepad-plus-plus-editor					FlowChart	
+nova-editor					FlowChart	
+np					FlowChart	
+npl					FlowChart	
+npl-lang					FlowChart	
+npm-pm					FlowChart	
+npy					FlowChart	
+nqc					FlowChart	
+nrl					FlowChart	
+NS Basic						Both	
+ns-basic					FlowChart	
+nsis					FlowChart	
+nsl					FlowChart	
+ntfs					FlowChart	
+ntp					FlowChart	
+Nu 						Both	
+nu-prolog					FlowChart	
+nua-prolog					FlowChart	
+nuBASIC					FlowChart	
+nuget-pm					FlowChart	
+Nuitka						Web	
+nul					FlowChart	
+nulan					FlowChart	
+Numba						Web	
+numbers-app					FlowChart	
+numerica					FlowChart	
+numpy					FlowChart	
+nuprl					FlowChart	
+nut					FlowChart	
+nuua					FlowChart	
+nvdl					FlowChart	
+nwscript					FlowChart	
+nxc					FlowChart	
+nxt-g					FlowChart	
+nydp					FlowChart	
+nylo					FlowChart	
+nymph					FlowChart	
+nyquist					FlowChart	
+O						Both	
+o-matrix					FlowChart	
+o-xml					FlowChart	
+o2					FlowChart	
+o42a					FlowChart	
+oak					FlowChart	
+oaklisp					FlowChart	
+oasis					FlowChart	
+Oasis Basic					FlowChart	
+oasis-operating-system					FlowChart	
+OBASIC					FlowChart	
+Oberon 						Both	
+Oberon programming language family						Web	
+Oberon-2						Both	
+obj-programming-language					FlowChart	
+obj2					FlowChart	
+objdump					FlowChart	
+Object Lisp						Web	
+Object Oberon						Web	
+Object Pascal						Web	
+Object REXX						Web	
+object-definition-language					FlowChart	
+object-oberon					FlowChart	
+Object-Oriented Fortran						Web	
+object-pascal					FlowChart	
+object-query-language					FlowChart	
+object-rexx					FlowChart	
+object-z					FlowChart	
+objectcharts					FlowChart	
+Objective C					FlowChart	
+objective-c					FlowChart	
+Objective-C‎						Web	
+objective-cpp					FlowChart	
+objective-j					FlowChart	
+objective-modula-2					FlowChart	
+ObjectLOGO						Both	
+objectpal					FlowChart	
+objectscript					FlowChart	
+objectworld					FlowChart	
+Objlog						Both	
+ObjVlisp						Both	
+objvprolog					FlowChart	
+Obliq						Both	
+obscure					FlowChart	
+observable-app					FlowChart	
+obsidian					FlowChart	
+OCaml						Both	
+OCaml programming language family						Web	
+occam					FlowChart	
+occam-2					FlowChart	
+occam-pi					FlowChart	
+ocl					FlowChart	
+octave					FlowChart	
+octopus					FlowChart	
+odata					FlowChart	
+odbc					FlowChart	
+oden					FlowChart	
+odin					FlowChart	
+Odra Algol 68						Web	
+odrl					FlowChart	
+oem					FlowChart	
+ofl					FlowChart	
+oforth					FlowChart	
+ofx					FlowChart	
+ogdl					FlowChart	
+ognl					FlowChart	
+ohaskell					FlowChart	
+ohm					FlowChart	
+oil					FlowChart	
+OKI ISLISP						Web	
+oldas					FlowChart	
+ole-protocol					FlowChart	
+olga					FlowChart	
+oli					FlowChart	
+oliver					FlowChart	
+olog					FlowChart	
+omar					FlowChart	
+omega					FlowChart	
+ometa					FlowChart	
+omgrofl					FlowChart	
+Omikron Basic					FlowChart	
+omikron-basic					FlowChart	
+omnimark					FlowChart	
+omnis-studio					FlowChart	
+omnitab					FlowChart	
+omnitab-80					FlowChart	
+omnitab-ii					FlowChart	
+one-man-language					FlowChart	
+onex					FlowChart	
+oniguruma					FlowChart	
+onnx					FlowChart	
+onyx					FlowChart	
+ooc					FlowChart	
+oolp					FlowChart	
+oopal					FlowChart	
+oops					FlowChart	
+oopsilon					FlowChart	
+oopsp					FlowChart	
+OoREXX						Web	
+ooxml					FlowChart	
+opa					FlowChart	
+opal					FlowChart	
+opam-pm					FlowChart	
+Open						Web	
+Open Firmware						Web	
+Open Genera						Web	
+Open Object Rexx						Web	
+Open Programming Language OPL					FlowChart	
+Open Roberta						Web	
+Open Watcom						Web	
+Open Watcom C/C++						Web	
+open-shading-language					FlowChart	
+Open–source & GPL)						Web	
+Open64						Web	
+Open64 (openCC)						Web	
+openada					FlowChart	
+OpenBASIC					FlowChart	
+opencl					FlowChart	
+opencomal					FlowChart	
+openedge-advanced-business-language					FlowChart	
+openexr-format					FlowChart	
+opengl					FlowChart	
+opengraph					FlowChart	
+OpenLisp						Both	
+openmusic					FlowChart	
+OpenOffice Basic						Web	
+openrc-runscript					FlowChart	
+openroad					FlowChart	
+openscad					FlowChart	
+openspice					FlowChart	
+opentype-feature-file					FlowChart	
+openvera					FlowChart	
+operational-control-language					FlowChart	
+operon					FlowChart	
+opl					FlowChart	
+opl-langage-informatique					FlowChart	
+opp					FlowChart	
+ops					FlowChart	
+ops-3					FlowChart	
+ops5					FlowChart	
+optimization-programming-language					FlowChart	
+optimized-systems-software					FlowChart	
+optimj					FlowChart	
+Oracle C compiler						Web	
+Oracle C++ Compiler (CC)						Web	
+Oracle Fortran						Web	
+orange					FlowChart	
+orc-format					FlowChart	
+orc-lang					FlowChart	
+orca					FlowChart	
+orca-lang					FlowChart	
+orca-pl					FlowChart	
+order					FlowChart	
+oregano					FlowChart	
+org					FlowChart	
+orient84-k					FlowChart	
+orlog					FlowChart	
+osiris					FlowChart	
+osl-2					FlowChart	
+osql					FlowChart	
+ottawa-euclid					FlowChart	
+otter					FlowChart	
+Otterkit						Web	
+OWBasic					FlowChart	
+owen-lang					FlowChart	
+owl					FlowChart	
+owl-dl					FlowChart	
+ox					FlowChart	
+Oxygene 						Both	
+Oxygene (formerly Delphi Prism)						Web	
+oxyl					FlowChart	
+oz					FlowChart	
+P						Web	
+p-cl					FlowChart	
+p-prolog					FlowChart	
+p-tac					FlowChart	
+p3l					FlowChart	
+p4					FlowChart	
+p4p					FlowChart	
+Pacific C						Web	
+package-control-pm					FlowChart	
+packagist-pm					FlowChart	
+pacol					FlowChart	
+pact					FlowChart	
+pact-i					FlowChart	
+pact-ia					FlowChart	
+pactolus					FlowChart	
+padl-1					FlowChart	
+pailisp					FlowChart	
+paisley					FlowChart	
+palasm					FlowChart	
+palcode					FlowChart	
+palingol					FlowChart	
+pamela					FlowChart	
+pan					FlowChart	
+pancode					FlowChart	
+pandas					FlowChart	
+pandoc-app					FlowChart	
+pandora					FlowChart	
+panon-1					FlowChart	
+panon-1b					FlowChart	
+Panoramic					FlowChart	
+panther-lang					FlowChart	
+paperalgo					FlowChart	
+papyrus					FlowChart	
+par					FlowChart	
+paragon					FlowChart	
+parallax-propeller					FlowChart	
+parallel-ellpack					FlowChart	
+parallel-pascal					FlowChart	
+paralog-e					FlowChart	
+ParaSail 						Both	
+parasolid					FlowChart	
+parenscript					FlowChart	
+parenthetic					FlowChart	
+pari-gp					FlowChart	
+parlog					FlowChart	
+parmod					FlowChart	
+parquet					FlowChart	
+Parrot assembly language						Web	
+Parrot BASIC					FlowChart	
+Parrot intermediate representation						Web	
+Parrot virtual machine						Web	
+parrot-assembly					FlowChart	
+parrot-basic					FlowChart	
+parrot-internal-representation					FlowChart	
+parrot-vm					FlowChart	
+parse-tree-notation					FlowChart	
+parser					FlowChart	
+Parser Grammar Engine						Web	
+partiql					FlowChart	
+pascal					FlowChart	
+Pascal ‎ (6 C, 15 P)						Web	
+Pascal programming language family‎						Web	
+pascal-abc-dot-net					FlowChart	
+pascal-fc					FlowChart	
+pascal-i					FlowChart	
+pascal-mtp					FlowChart	
+pascal-plus					FlowChart	
+pascal-s					FlowChart	
+pascal-sc					FlowChart	
+pascal-script					FlowChart	
+pascal-xsc					FlowChart	
+Pascal/MT+						Web	
+PascalABC.NET						Web	
+pascals-calculator-machine					FlowChart	
+pasion					FlowChart	
+pasro					FlowChart	
+passambler					FlowChart	
+patchwork					FlowChart	
+path-pascal					FlowChart	
+pathCC						Web	
+PathScale Compiler Suite						Web	
+pawn					FlowChart	
+pawn-scripting-language					FlowChart	
+paxscript					FlowChart	
+PBASIC					FlowChart	
+pbm-format					FlowChart	
+pbt-omega					FlowChart	
+PC-BASIC						Web	
+PC-LISP						Web	
+pclos					FlowChart	
+pcn					FlowChart	
+pcol					FlowChart	
+pcpp					FlowChart	
+pcre					FlowChart	
+Pcregrep						Web	
+pdel					FlowChart	
+pdf					FlowChart	
+pdl					FlowChart	
+pdl-ada					FlowChart	
+PDP-11 COBOL						Web	
+PDP-11 FORTRAN IV						Web	
+PDP-11 FORTRAN-IV-Plus						Web	
+pdp-11-machine					FlowChart	
+PeachPie						Web	
+pear-pm					FlowChart	
+pearl					FlowChart	
+PeayBASIC					FlowChart	
+pebble					FlowChart	
+peg					FlowChart	
+pegasus-autocode					FlowChart	
+pegjs					FlowChart	
+pei					FlowChart	
+Pelles C						Web	
+penguor					FlowChart	
+penrose					FlowChart	
+peoplecode					FlowChart	
+pep					FlowChart	
+pep8					FlowChart	
+perfectscript					FlowChart	
+Perl						Both	
+Perl 5 version history						Web	
+Perl Compatible Regular Expressions						Web	
+Perl control structures						Web	
+Perl Foundation						Web	
+Perl interpreter						Web	
+Perl language structure						Web	
+Perl module						Web	
+Perl Mongers						Web	
+Perl Object-Oriented Persistence						Web	
+Perl OpenGL						Web	
+Perl package manager						Web	
+Perl‎ programming language family						Web	
+Perl virtual machine						Web	
+perl-6					FlowChart	
+perl-data-language					FlowChart	
+Perl::Critic						Web	
+PerlMonks						Web	
+PerlTidy						Web	
+Persistent S-algol						Web	
+Personal C Compiler (PCC)						Web	
+Petit Larceny						Web	
+Petite Chez Scheme						Web	
+petr					FlowChart	
+pfort					FlowChart	
+PForth						Both	
+pfortran					FlowChart	
+PGC++ (pgc++)						Web	
+PGCC						Web	
+pgen					FlowChart	
+PGFORTRAN						Web	
+pgm-format					FlowChart	
+pgolog					FlowChart	
+pgql					FlowChart	
+Phalanger						Web	
+Pharo 						Both	
+phocus					FlowChart	
+Phoenix Object Basic						Both	
+phoenix-object-basic					FlowChart	
+phorth					FlowChart	
+PHP					FlowChart	
+‎PHP‎						Web	
+phpstorm-editor					FlowChart	
+phylip					FlowChart	
+phyloxml-format					FlowChart	
+Physical Etoys						Web	
+physictran					FlowChart	
+pi-calculus					FlowChart	
+pic					FlowChart	
+PIC BASIC					FlowChart	
+PIC BASIC Pro					FlowChart	
+Pic Micro Pascal						Web	
+pic-microcontroller					FlowChart	
+picasso					FlowChart	
+picat					FlowChart	
+PICAXE BASIC					FlowChart	
+piccola					FlowChart	
+Pick_BASIC					FlowChart	
+pick-operating-system					FlowChart	
+pickle-format					FlowChart	
+pico					FlowChart	
+PicoLisp						Both	
+pict					FlowChart	
+pictol					FlowChart	
+picturebalm					FlowChart	
+pie					FlowChart	
+pie-lang					FlowChart	
+piet-programming-language					FlowChart	
+pig					FlowChart	
+pikachu					FlowChart	
+pike					FlowChart	
+pikelet					FlowChart	
+pikt					FlowChart	
+pilib					FlowChart	
+pilot					FlowChart	
+pin					FlowChart	
+pinto					FlowChart	
+Pip					FlowChart	
+pipelines					FlowChart	
+pisc					FlowChart	
+pit					FlowChart	
+pixin					FlowChart	
+Pizza 						Both	
+pl-0					FlowChart	
+pl-11					FlowChart	
+pl-as					FlowChart	
+pl-c					FlowChart	
+pl-exus					FlowChart	
+pl-i					FlowChart	
+pl-i-formac					FlowChart	
+pl-ll					FlowChart	
+pl-m					FlowChart	
+pl-p					FlowChart	
+pl-s					FlowChart	
+pl-s-ii					FlowChart	
+pl-sql					FlowChart	
+pl-x					FlowChart	
+PL/0						Web	
+PL/8						Web	
+PL/C						Web	
+PL/I						Web	
+PL/I preprocessor						Web	
+PL/I programming language family						Web	
+PL/M						Web	
+PL/P						Web	
+PL/SQL						Web	
+pl360					FlowChart	
+pl4					FlowChart	
+placa					FlowChart	
+plaid-programming-language					FlowChart	
+plain					FlowChart	
+Plain Old Documentation						Web	
+plain-english					FlowChart	
+plam					FlowChart	
+plan2d					FlowChart	
+planguage					FlowChart	
+planit					FlowChart	
+plankalkul					FlowChart	
+planner					FlowChart	
+planner-73					FlowChart	
+plantuml					FlowChart	
+plasma					FlowChart	
+PlayBASIC					FlowChart	
+playground					FlowChart	
+plb					FlowChart	
+please					FlowChart	
+Pledgie						Web	
+plex					FlowChart	
+plexil					FlowChart	
+pliant					FlowChart	
+plink-bed-format					FlowChart	
+plink-bim-format					FlowChart	
+plink-fam-format					FlowChart	
+plink-map-format					FlowChart	
+plink-ped-format					FlowChart	
+plist					FlowChart	
+plot					FlowChart	
+plot-lang					FlowChart	
+plpgsql					FlowChart	
+pluk					FlowChart	
+plum					FlowChart	
+plumb					FlowChart	
+plunk					FlowChart	
+Plus 						Both	
+plz					FlowChart	
+pm2					FlowChart	
+png-format					FlowChart	
+Pnuts						Both	
+po					FlowChart	
+Pocket Smalltalk						Web	
+pocket-smalltalk					FlowChart	
+PocketStudio						Web	
+pod					FlowChart	
+pogol					FlowChart	
+pogoscript					FlowChart	
+pointless					FlowChart	
+polac					FlowChart	
+polly					FlowChart	
+poly					FlowChart	
+polyglot-compiler					FlowChart	
+polylith					FlowChart	
+polymath					FlowChart	
+polymorphic-programming-language					FlowChart	
+polyp					FlowChart	
+polytoil					FlowChart	
+pony					FlowChart	
+POP-11						Both	
+pop-2					FlowChart	
+pop-pl					FlowChart	
+pop-protocol					FlowChart	
+popasm					FlowChart	
+popcorn-linux					FlowChart	
+poplog					FlowChart	
+popr					FlowChart	
+popsy					FlowChart	
+port-alg					FlowChart	
+Portable C Compiler						Web	
+Portable Standard Lisp						Web	
+portable-standard-lisp					FlowChart	
+Portable.NET						Web	
+portal-langage					FlowChart	
+pose					FlowChart	
+post-canonical-system					FlowChart	
+post-x					FlowChart	
+postcss					FlowChart	
+postgresql					FlowChart	
+postscript					FlowChart	
+potential					FlowChart	
+potion					FlowChart	
+potion-programming-language					FlowChart	
+pov-ray-sdl					FlowChart	
+Power J						Web	
+power-bi-app					FlowChart	
+power-query-m					FlowChart	
+PowerBASIC						Both	
+PowerBASIC (formerly Turbo Basic)						Web	
+powerbuilder					FlowChart	
+powerhouse-programming-language					FlowChart	
+powerIsa					FlowChart	
+powerlanguage					FlowChart	
+powerloom-knowledgeBase					FlowChart	
+powerpc					FlowChart	
+PowerShell						Both	
+powershell-gallery-pm					FlowChart	
+ppm-format					FlowChart	
+pqq					FlowChart	
+praxis					FlowChart	
+praxis-lang					FlowChart	
+preferred-executable-format					FlowChart	
+preforth					FlowChart	
+presto					FlowChart	
+PRIME-LISP						Web	
+principle-of-sufficient-reason					FlowChart	
+prism					FlowChart	
+prisma-schema-language					FlowChart	
+priz					FlowChart	
+pro-star-c					FlowChart	
+probevue					FlowChart	
+proc-procedure-language					FlowChart	
+Processing						Both	
+Processor Technology					FlowChart	
+processor-technology					FlowChart	
+procol					FlowChart	
+prodel					FlowChart	
+ProDev WorkShop						Web	
+Profan					FlowChart	
+Professional Development System					FlowChart	
+profit					FlowChart	
+progol					FlowChart	
+Programming Ruby						Web	
+prograph					FlowChart	
+progres					FlowChart	
+progsbase					FlowChart	
+proiv					FlowChart	
+Prolog						Both	
+Prolog programming language family						Web	
+Prolog syntax and semantics						Web	
+prolog-d-linda					FlowChart	
+prolog-elf					FlowChart	
+prolog-iii					FlowChart	
+prolog-kr					FlowChart	
+prolog-linda					FlowChart	
+prolog-pack-pm					FlowChart	
+Prolog++						Both	
+Prolog32						Both	
+prologpp					FlowChart	
+promal					FlowChart	
+Prometheus 						Both	
+prompter					FlowChart	
+promql					FlowChart	
+property-specification-language					FlowChart	
+prophet					FlowChart	
+proplan					FlowChart	
+proset					FlowChart	
+prosper					FlowChart	
+protel					FlowChart	
+proteus-programming-language					FlowChart	
+protium					FlowChart	
+proto-gnosis					FlowChart	
+protobuf					FlowChart	
+protos-l					FlowChart	
+protosynthex					FlowChart	
+proverif-lang					FlowChart	
+ProvideX						Both	
+prow					FlowChart	
+proxy					FlowChart	
+Pry						Web	
+ps-algol					FlowChart	
+psather					FlowChart	
+psg					FlowChart	
+psi					FlowChart	
+psl					FlowChart	
+PSX Chipmunk BASIC					FlowChart	
+psyche					FlowChart	
+psyche-c					FlowChart	
+Psyco 						Both	
+pt					FlowChart	
+PTC ApexAda						Web	
+PTC ObjectAda						Web	
+ptx					FlowChart	
+public-key-file					FlowChart	
+pufft					FlowChart	
+pug					FlowChart	
+pumpkin					FlowChart	
+punched-tape					FlowChart	
+Punie						Web	
+punycode					FlowChart	
+puppet					FlowChart	
+pure					FlowChart	
+PureBasic 						Both	
+puredata					FlowChart	
+purescript					FlowChart	
+pursuit-pm					FlowChart	
+pv-wave					FlowChart	
+pvs					FlowChart	
+py					FlowChart	
+PyBASIC					FlowChart	
+pycharm-editor					FlowChart	
+pygmalion					FlowChart	
+Pyjs						Web	
+pyke					FlowChart	
+pypi-pm					FlowChart	
+PyPy						Web	
+pyret					FlowChart	
+pyrex					FlowChart	
+Pyth					FlowChart	
+Python						Both	
+Python programming language family						Web	
+python-cl-compiler					FlowChart	
+python-for-s60					FlowChart	
+python-format-spec					FlowChart	
+pytorch					FlowChart	
+Q 						Both	
+q-equational-programming-language					FlowChart	
+q-gert					FlowChart	
+q-sharp					FlowChart	
+qa4					FlowChart	
+Qalb 						Both	
+qas					FlowChart	
+QB64						Both	
+QBasic						Both	
+qbe					FlowChart	
+qcl					FlowChart	
+qed-lang					FlowChart	
+qfx					FlowChart	
+qif					FlowChart	
+qlisp					FlowChart	
+qmake					FlowChart	
+qml					FlowChart	
+qore					FlowChart	
+qr-code					FlowChart	
+Qrpff						Web	
+qt					FlowChart	
+QtRuby						Web	
+qtscript					FlowChart	
+quadril					FlowChart	
+quaint-lang					FlowChart	
+quake					FlowChart	
+quakec					FlowChart	
+quanta					FlowChart	
+quel					FlowChart	
+query-by-example					FlowChart	
+QuestionMarkQuestionMarkQuestionMark					FlowChart	
+quexal					FlowChart	
+Quick Basic					FlowChart	
+quick-macros					FlowChart	
+QuickBASIC						Both	
+QuickC						Web	
+quicklisp-pm					FlowChart	
+quicksight-app					FlowChart	
+quikscript					FlowChart	
+QUIKTRAN						Both	
+quilt					FlowChart	
+Quite BASIC					FlowChart	
+quorum					FlowChart	
+qute					FlowChart	
+quty					FlowChart	
+R						Both	
+R  programming language family						Web	
+r-markdown-format					FlowChart	
+R++						Web	
+r2ml					FlowChart	
+r4					FlowChart	
+ra					FlowChart	
+rack					FlowChart	
+Racket 						Both	
+raco-pm					FlowChart	
+RaftLib						Web	
+ragel					FlowChart	
+rails					FlowChart	
+Rails Day						Web	
+rainbow					FlowChart	
+Rake						Web	
+raku					FlowChart	
+ralph					FlowChart	
+ramen					FlowChart	
+ramis-software					FlowChart	
+raml					FlowChart	
+rand-abel					FlowChart	
+Rank						Web	
+rant					FlowChart	
+rapid					FlowChart	
+rapidbatch					FlowChart	
+rapidgen-rpl					FlowChart	
+RapidQ						Both	
+rapidwrite					FlowChart	
+Rapira						Both	
+raptor					FlowChart	
+raptorjit					FlowChart	
+rascal					FlowChart	
+rascalmpl					FlowChart	
+rason					FlowChart	
+rasp					FlowChart	
+Ratfiv						Both	
+Ratfor						Both	
+ratsno					FlowChart	
+Ravenscar profile						Web	
+ravenscar-profile					FlowChart	
+rbasic					FlowChart	
+rbs					FlowChart	
+RBScript					FlowChart	
+rc					FlowChart	
+RC Basic					FlowChart	
+rcpp					FlowChart	
+rdata-format					FlowChart	
+rdf					FlowChart	
+rdf-schema					FlowChart	
+rdfa					FlowChart	
+rdml					FlowChart	
+rdoc					FlowChart	
+rds-format					FlowChart	
+react-native					FlowChart	
+Read						Web	
+readable					FlowChart	
+readable-lisp					FlowChart	
+real-time-cmix					FlowChart	
+real-time-concurrent-c					FlowChart	
+real-time-euclid					FlowChart	
+real-time-mentat					FlowChart	
+REALbasi)						Web	
+REALbasic					FlowChart	
+RealView Compilation Tools (armcc)						Web	
+Reason 						Both	
+rebeca-modeling-language					FlowChart	
+Rebmu					FlowChart	
+rebol					FlowChart	
+rebus					FlowChart	
+rec-sm					FlowChart	
+recfiles					FlowChart	
+recol					FlowChart	
+red					FlowChart	
+red-lang					FlowChart	
+redcode					FlowChart	
+redis					FlowChart	
+redpanda-app					FlowChart	
+redprl					FlowChart	
+redscript					FlowChart	
+reduce					FlowChart	
+ref-arf					FlowChart	
+refal					FlowChart	
+refer					FlowChart	
+refined-c					FlowChart	
+reflex-framework					FlowChart	
+reflisp					FlowChart	
+reforth					FlowChart	
+regent					FlowChart	
+regex					FlowChart	
+regina					FlowChart	
+Regina Rexx						Web	
+regulus					FlowChart	
+reia					FlowChart	
+reia-programming-language					FlowChart	
+rel					FlowChart	
+rel-english					FlowChart	
+rel-lang					FlowChart	
+relational-data-file					FlowChart	
+relational-production-language					FlowChart	
+relationlog					FlowChart	
+relax					FlowChart	
+relaxng					FlowChart	
+relfun					FlowChart	
+relix					FlowChart	
+remix					FlowChart	
+RemObjects C#						Web	
+RemObjects Gold						Web	
+ren-c					FlowChart	
+ren-notation					FlowChart	
+renderman-shading-language					FlowChart	
+renderscript					FlowChart	
+renpy					FlowChart	
+report-writer-language					FlowChart	
+ReportMaster						Web	
+resharper-editor					FlowChart	
+Resource					FlowChart	
+rest					FlowChart	
+restructuredtext					FlowChart	
+Retro Forth						Web	
+retroforth					FlowChart	
+reuse-description-language					FlowChart	
+Revelation BASIC					FlowChart	
+reverse-polish-notation					FlowChart	
+revit-app					FlowChart	
+revolution-programming-language					FlowChart	
+rexon					FlowChart	
+Rexx						Both	
+Rexx programming language family						Web	
+rf-maple					FlowChart	
+rfc					FlowChart	
+RFO Basic!					FlowChart	
+rgb-format					FlowChart	
+rhet					FlowChart	
+rhine					FlowChart	
+rhoscript					FlowChart	
+rhtml					FlowChart	
+rider-editor					FlowChart	
+rigal					FlowChart	
+Rinda						Web	
+ring					FlowChart	
+rio					FlowChart	
+risc-v					FlowChart	
+rise					FlowChart	
+Ritchie C Compiler (PDP-11)						Web	
+rlab					FlowChart	
+rlisp					FlowChart	
+rlmeta					FlowChart	
+RM Basic					FlowChart	
+rmac						Web	
+rmarkdown					FlowChart	
+robic					FlowChart	
+robomind					FlowChart	
+robot-battle					FlowChart	
+robotalk					FlowChart	
+RobotBASIC					FlowChart	
+robotc					FlowChart	
+robotframework					FlowChart	
+rocket					FlowChart	
+rockstar					FlowChart	
+rockstar-rkt					FlowChart	
+Rocky Mountain BASIC						Both	
+rocky-mountain-basic					FlowChart	
+roff					FlowChart	
+roku-brightscript					FlowChart	
+rol					FlowChart	
+rol2					FlowChart	
+roman-abacus-machine					FlowChart	
+roman-numerals					FlowChart	
+ron					FlowChart	
+roop					FlowChart	
+root-format					FlowChart	
+root-lib					FlowChart	
+ros-msg					FlowChart	
+roscoe					FlowChart	
+rosetta-smalltalk					FlowChart	
+rosette					FlowChart	
+rosette-lang					FlowChart	
+rosie					FlowChart	
+Roslyn						Web	
+roslyn-compiler					FlowChart	
+rouge					FlowChart	
+roy					FlowChart	
+rpg-ii					FlowChart	
+rpg-iii					FlowChart	
+RPL 						Both	
+rpl-lang					FlowChart	
+rpm-package-manager					FlowChart	
+rpm-spec					FlowChart	
+rpp					FlowChart	
+rpscript					FlowChart	
+rpython					FlowChart	
+RScheme						Web	
+rsharp					FlowChart	
+rsl					FlowChart	
+rstudio-editor					FlowChart	
+rt-aslan					FlowChart	
+rt-cdl					FlowChart	
+rt-z					FlowChart	
+rtl-2					FlowChart	
+rtp-protocol					FlowChart	
+ru					FlowChart	
+Rubinius						Web	
+Ruby						Both	
+Ruby Central						Web	
+Ruby MRI						Web	
+Ruby programming language family						Web	
+Ruby Version Manager						Web	
+ruby-document-format					FlowChart	
+ruby-mine-editor					FlowChart	
+RubyCocoa						Web	
+RubyForge						Web	
+rubygems-pm					FlowChart	
+RubyKaigi						Web	
+RubyMine						Web	
+RubyMotion						Web	
+RubySpec						Web	
+ruleml					FlowChart	
+Run BASIC						Both	
+run-basic					FlowChart	
+runcible					FlowChart	
+runescript					FlowChart	
+runic					FlowChart	
+runiq					FlowChart	
+runoff					FlowChart	
+runrev					FlowChart	
+ruri					FlowChart	
+russell					FlowChart	
+Rust					FlowChart	
+Rust compilers						Web	
+rust-hir					FlowChart	
+rust-mir					FlowChart	
+rustc						Web	
+ruth					FlowChart	
+RyuJIT						Web	
+S						Both	
+S_Fortran						Both	
+s-algol					FlowChart	
+S-BASIC						Both	
+s-expressions					FlowChart	
+s-lang					FlowChart	
+s-plus					FlowChart	
+s-sl					FlowChart	
+s-snobol					FlowChart	
+s2					FlowChart	
+S3 						Both	
+sa					FlowChart	
+sa-c-programming-language					FlowChart	
+saal					FlowChart	
+SabreTalk						Web	
+sac-1					FlowChart	
+sac-2					FlowChart	
+sac-programming-language					FlowChart	
+sagemath					FlowChart	
+SAILBOAT					FlowChart	
+sako					FlowChart	
+sale					FlowChart	
+salem					FlowChart	
+Salford C++ Compiler						Web	
+salsa					FlowChart	
+saltstack					FlowChart	
+SAM BASIC					FlowChart	
+sam-coupe					FlowChart	
+sam-format					FlowChart	
+sam76					FlowChart	
+saml					FlowChart	
+sampletalk					FlowChart	
+saol					FlowChart	
+sapphire					FlowChart	
+sartex					FlowChart	
+sas					FlowChart	
+SAS/C						Web	
+SAS/C C++						Web	
+sasl-programming-language					FlowChart	
+sass					FlowChart	
+Sass (style sheet language)						Web	
+sassy					FlowChart	
+sather					FlowChart	
+sather-k					FlowChart	
+saustall					FlowChart	
+sawzall					FlowChart	
+SAX Basic					FlowChart	
+sb-one					FlowChart	
+sba					FlowChart	
+SBAS					FlowChart	
+sbasic					FlowChart	
+sbcl					FlowChart	
+sbml					FlowChart	
+sbol					FlowChart	
+Scala 						Both	
+scala-js					FlowChart	
+scalajs					FlowChart	
+scalpel					FlowChart	
+scaml					FlowChart	
+scan					FlowChart	
+scat					FlowChart	
+SCELBAL						Web	
+scenic					FlowChart	
+schemal					FlowChart	
+schemaorg					FlowChart	
+schematron					FlowChart	
+Scheme 						Both	
+Scheme 48						Web	
+school					FlowChart	
+schoonschip					FlowChart	
+Schwartzian transform						Web	
+Scieneer Common Lisp						Web	
+scieneer-common-lisp					FlowChart	
+scikit-learn					FlowChart	
+scil-vp					FlowChart	
+scilab					FlowChart	
+scipy					FlowChart	
+SCL 						Both	
+Sclipting					FlowChart	
+SCM 						Both	
+scoop					FlowChart	
+scopes					FlowChart	
+score					FlowChart	
+SCORE Ada						Web	
+SCORE C (tcc)						Web	
+SCORE C++ (tpp)						Web	
+Scratch 						Both	
+scratchpad					FlowChart	
+scratchpad-ii					FlowChart	
+screamer					FlowChart	
+scribble					FlowChart	
+scribe					FlowChart	
+scrimshaw					FlowChart	
+script					FlowChart	
+Script.NET						Web	
+ScriptBasic						Both	
+scriptease					FlowChart	
+scriptol					FlowChart	
+scriptx					FlowChart	
+scroll					FlowChart	
+scsh					FlowChart	
+scss					FlowChart	
+sdf					FlowChart	
+sdf-format					FlowChart	
+sdl					FlowChart	
+sdlBasic					FlowChart	
+sdms					FlowChart	
+SDS BASIC						Web	
+sdtm					FlowChart	
+search					FlowChart	
+Seaside (software)						Web	
+secure-operations-language					FlowChart	
+sed					FlowChart	
+Seed (programming)						Web	
+seed7					FlowChart	
+SEGA BASIC					FlowChart	
+SEGGER Compiler						Web	
+segras					FlowChart	
+self					FlowChart	
+semanol					FlowChart	
+semi-thue-system					FlowChart	
+semver					FlowChart	
+send-standard					FlowChart	
+Sense (programming)						Web	
+sensetalk					FlowChart	
+sentient					FlowChart	
+seph					FlowChart	
+seph-programming-language					FlowChart	
+sepi					FlowChart	
+seq					FlowChart	
+seque					FlowChart	
+sequel-2					FlowChart	
+sequencel					FlowChart	
+sequential-function-chart					FlowChart	
+sequential-pascal					FlowChart	
+Seriously					FlowChart	
+service-modeling-language					FlowChart	
+sespath					FlowChart	
+sespool					FlowChart	
+set-builder-notation					FlowChart	
+setl					FlowChart	
+setlog					FlowChart	
+setlx					FlowChart	
+setun					FlowChart	
+seval					FlowChart	
+seymour					FlowChart	
+SFL						Web	
+Sftran						Both	
+sgml					FlowChart	
+sh					FlowChart	
+sha-1-hash-function					FlowChart	
+sha-2-hash-function					FlowChart	
+sha-3-hash-function					FlowChart	
+shadama					FlowChart	
+shade					FlowChart	
+shaderlab					FlowChart	
+shadow					FlowChart	
+shakespeare					FlowChart	
+shakespeare-programming-language					FlowChart	
+shakti					FlowChart	
+sham					FlowChart	
+shapefile					FlowChart	
+shapeup					FlowChart	
+shared-prolog					FlowChart	
+Sharp BASIC					FlowChart	
+SharpDevelop						Web	
+sharpscript					FlowChart	
+Shed Skin						Web	
+sheep					FlowChart	
+sheep-lang					FlowChart	
+sheerpower-4gl					FlowChart	
+sheerpower4gl					FlowChart	
+shen					FlowChart	
+shex					FlowChart	
+shift					FlowChart	
+shill					FlowChart	
+shiv					FlowChart	
+shml					FlowChart	
+shoe					FlowChart	
+short-code-computer-language					FlowChart	
+shrdlu					FlowChart	
+si					FlowChart	
+si-library					FlowChart	
+sibelius-software					FlowChart	
+SICK					FlowChart	
+sidopsp					FlowChart	
+sierra					FlowChart	
+sieve					FlowChart	
+Sieve C++ Parallel Programming System						Web	
+sigma-76					FlowChart	
+signal					FlowChart	
+sil					FlowChart	
+sile					FlowChart	
+silk					FlowChart	
+sill					FlowChart	
+siman					FlowChart	
+siman-iv					FlowChart	
+simcal					FlowChart	
+simcode					FlowChart	
+simdis					FlowChart	
+simfactory					FlowChart	
+simit					FlowChart	
+simkin-programming-language					FlowChart	
+siml-i					FlowChart	
+simnet					FlowChart	
+simodula					FlowChart	
+Simons BASIC					FlowChart	
+simons-basic					FlowChart	
+simpas					FlowChart	
+simpl					FlowChart	
+simple					FlowChart	
+Simple BASIC					FlowChart	
+simplescript					FlowChart	
+SIMPOL					FlowChart	
+simpp					FlowChart	
+simscript					FlowChart	
+simul					FlowChart	
+simula					FlowChart	
+simula-67					FlowChart	
+simulink					FlowChart	
+sina					FlowChart	
+Sinclair BASIC						Both	
+sinclair-basic					FlowChart	
+sing-sharp					FlowChart	
+singular					FlowChart	
+siphash-hash-function					FlowChart	
+siprol					FlowChart	
+siri					FlowChart	
+sisal					FlowChart	
+SISC 						Both	
+sixten					FlowChart	
+sizzle					FlowChart	
+sketchpad					FlowChart	
+sketchpad-iii					FlowChart	
+skew					FlowChart	
+skil					FlowChart	
+skip					FlowChart	
+skookumscript					FlowChart	
+skulpt					FlowChart	
+sky					FlowChart	
+sl					FlowChart	
+sl5					FlowChart	
+slam-ii					FlowChart	
+slang					FlowChart	
+slash					FlowChart	
+sleuth					FlowChart	
+slice					FlowChart	
+slim					FlowChart	
+slim-lang					FlowChart	
+slim-pl					FlowChart	
+slip					FlowChart	
+slips					FlowChart	
+slog					FlowChart	
+slpl					FlowChart	
+smalgol					FlowChart	
+smali					FlowChart	
+small					FlowChart	
+Small Basic					FlowChart	
+Small Device C Compiler						Web	
+Small-C 						Both	
+small-euclid					FlowChart	
+small-x					FlowChart	
+SmallBASIC						Both	
+Smalltalk						Both	
+Smalltalk MT						Web	
+Smalltalk programming language family						Web	
+smalltalk-76					FlowChart	
+smalltalk-80					FlowChart	
+smalltalk-mt					FlowChart	
+smalltalk-v					FlowChart	
+smalltalk-yx					FlowChart	
+smalltalkhub-pm					FlowChart	
+smallvdm					FlowChart	
+smart					FlowChart	
+smart BASIC					FlowChart	
+SmartBASIC					FlowChart	
+SmartEiffel						Web	
+smarts					FlowChart	
+smartsheet-app					FlowChart	
+smarty					FlowChart	
+smdl					FlowChart	
+smile					FlowChart	
+SmileBASIC					FlowChart	
+smiles-format					FlowChart	
+smoke					FlowChart	
+smolcs					FlowChart	
+smpl					FlowChart	
+smsl					FlowChart	
+smt					FlowChart	
+smtp					FlowChart	
+smx-computer-language					FlowChart	
+snakemake					FlowChart	
+snap					FlowChart	
+Snap!						Web	
+snaptag					FlowChart	
+snit					FlowChart	
+snobat					FlowChart	
+SNOBOL						Both	
+SNOBOL programming language family						Web	
+snobol4					FlowChart	
+snoop					FlowChart	
+Snostorm						Both	
+Snowball						Web	
+snowball-programming-language					FlowChart	
+snql					FlowChart	
+soap					FlowChart	
+soaplang					FlowChart	
+soar-ml					FlowChart	
+SOBS					FlowChart	
+social-networks-query-language					FlowChart	
+socialite					FlowChart	
+Softworks Basic					FlowChart	
+solaris					FlowChart	
+solaris-pm					FlowChart	
+solid					FlowChart	
+solidity					FlowChart	
+solmar					FlowChart	
+son					FlowChart	
+Sony BASIC					FlowChart	
+soql					FlowChart	
+soql-lang					FlowChart	
+sora					FlowChart	
+sorca					FlowChart	
+sort-merge-generator					FlowChart	
+sosl					FlowChart	
+souffle					FlowChart	
+soul					FlowChart	
+souper					FlowChart	
+sourcelair-editor					FlowChart	
+sourcepawn					FlowChart	
+Southampton BASIC System						Web	
+southampton-basic-system					FlowChart	
+sox					FlowChart	
+soy					FlowChart	
+SP-Forth						Web	
+sp-k					FlowChart	
+SP/k						Web	
+spade					FlowChart	
+sparc					FlowChart	
+SPARK						Both	
+spark-pm					FlowChart	
+sparqcode					FlowChart	
+sparql					FlowChart	
+spatial					FlowChart	
+speakeasy					FlowChart	
+spec					FlowChart	
+spec-sharp					FlowChart	
+SpecBAS					FlowChart	
+specl					FlowChart	
+specol					FlowChart	
+specrtl					FlowChart	
+Spectacle BASIC					FlowChart	
+speedcoding					FlowChart	
+spf-standard					FlowChart	
+Spice Lisp						Web	
+spice-lisp					FlowChart	
+spil					FlowChart	
+spill					FlowChart	
+spin					FlowChart	
+spip					FlowChart	
+spir					FlowChart	
+spir-v					FlowChart	
+spiral					FlowChart	
+SPITBOL						Both	
+spl					FlowChart	
+splaw					FlowChart	
+spline-font-database					FlowChart	
+split-c					FlowChart	
+sporth					FlowChart	
+Spree Commerce						Web	
+sprint					FlowChart	
+spry					FlowChart	
+sps					FlowChart	
+spss					FlowChart	
+spyder-editor					FlowChart	
+SQABasic					FlowChart	
+SQL					FlowChart	
+sql-92					FlowChart	
+sql-psm					FlowChart	
+sqlar-format					FlowChart	
+sqlite					FlowChart	
+sqlite-storage-format					FlowChart	
+SQLLite					FlowChart	
+sqlmp					FlowChart	
+sqlpl					FlowChart	
+sqr					FlowChart	
+square					FlowChart	
+Squeak						Both	
+squiggle					FlowChart	
+squirrel					FlowChart	
+squoze					FlowChart	
+squrl					FlowChart	
+SR 						Both	
+SR programming language family						Web	
+sr-programming-language					FlowChart	
+srecode-template					FlowChart	
+srl					FlowChart	
+srv					FlowChart	
+ssc-pm					FlowChart	
+ssharp					FlowChart	
+ssi					FlowChart	
+ssl					FlowChart	
+ssl-lang					FlowChart	
+ST BASIC					FlowChart	
+stacklang					FlowChart	
+stackless-python					FlowChart	
+StaDyn						Web	
+stage2					FlowChart	
+Stalin 						Both	
+stan					FlowChart	
+Standard ML						Web	
+Standard ML of New Jersey						Web	
+standard-lisp					FlowChart	
+standard-ml					FlowChart	
+staple					FlowChart	
+star-prolog					FlowChart	
+StarBasic					FlowChart	
+starlark					FlowChart	
+StarLogo						Both	
+StarOffice Basic					FlowChart	
+staroffice-basic					FlowChart	
+starpial					FlowChart	
+stata					FlowChart	
+statebox					FlowChart	
+statemate					FlowChart	
+static-typescript					FlowChart	
+status-quo-function					FlowChart	
+status-quo-script					FlowChart	
+Steel Bank Common Lisp						Web	
+stella					FlowChart	
+stencil					FlowChart	
+StepTalk						Web	
+STklos						Web	
+stl					FlowChart	
+stockholm-format					FlowChart	
+STOIC						Web	
+stoical					FlowChart	
+ston					FlowChart	
+stonecutter					FlowChart	
+stoneknifeforth					FlowChart	
+storyscript					FlowChart	
+STOS BASIC						Both	
+stos-basic					FlowChart	
+Strand						Both	
+strand-programming-language					FlowChart	
+strat					FlowChart	
+stratego					FlowChart	
+strcmacs					FlowChart	
+streamit					FlowChart	
+strema					FlowChart	
+stress					FlowChart	
+string-diagrams-notation					FlowChart	
+stringbean					FlowChart	
+STRINGCOMP						Both	
+stripe					FlowChart	
+strips					FlowChart	
+Strongtalk						Both	
+Structure and Interpretation of Computer Programs, JavaScript Edition						Web	
+structured-audio-orchestra-language					FlowChart	
+structured-storage					FlowChart	
+structured-text					FlowChart	
+strudel					FlowChart	
+strudl					FlowChart	
+struql					FlowChart	
+stutter-lang					FlowChart	
+stx					FlowChart	
+stylus					FlowChart	
+sub					FlowChart	
+sublime-editor					FlowChart	
+sublime-syntax					FlowChart	
+sublime-syntax-test					FlowChart	
+Submarine BASIC					FlowChart	
+subrip-text					FlowChart	
+subscript					FlowChart	
+subtext					FlowChart	
+subversion					FlowChart	
+subx					FlowChart	
+sue					FlowChart	
+sugarj					FlowChart	
+sugarss					FlowChart	
+sugartex					FlowChart	
+summer					FlowChart	
+sun-raster-format					FlowChart	
+suneido					FlowChart	
+SUPER BASIC						Web	
+Super Game System BASIC					FlowChart	
+SuperBASIC						Both	
+SuperCharger Disk BASIC					FlowChart	
+supercollider					FlowChart	
+supermac					FlowChart	
+SuperPascal						Web	
+supertalk					FlowChart	
+superxpp					FlowChart	
+surge					FlowChart	
+SV extended BASIC					FlowChart	
+svg					FlowChart	
+svgbob					FlowChart	
+svl					FlowChart	
+sw2					FlowChart	
+swagger					FlowChart	
+sweave					FlowChart	
+sweet-expressions					FlowChart	
+SWI-Prolog						Both	
+Swift					FlowChart	
+swift-il					FlowChart	
+SwiftForth						Web	
+Swiki						Web	
+swizzle					FlowChart	
+swrl					FlowChart	
+sxf90 / sxmpif90						Web	
+sybyl-notation					FlowChart	
+symbal					FlowChart	
+symbmath					FlowChart	
+symbol					FlowChart	
+symbolic-assembly					FlowChart	
+Symbolics Ada						Web	
+Symbolics C						Web	
+Symbolics Fortran						Web	
+Symbolics Pascal						Web	
+sympl					FlowChart	
+sympy					FlowChart	
+synapse					FlowChart	
+synchronized-multimedia-integration-language					FlowChart	
+syndicate					FlowChart	
+synergist					FlowChart	
+Synergy DBL						Web	
+synglish					FlowChart	
+synon					FlowChart	
+synproc					FlowChart	
+syntex					FlowChart	
+syntol					FlowChart	
+sysml					FlowChart	
+system-v-abi					FlowChart	
+System/34 BASIC						Web	
+SystemC						Web	
+systemverilog					FlowChart	
+systemz					FlowChart	
+T 						Both	
+T-BASIC					FlowChart	
+t-lang					FlowChart	
+t2b					FlowChart	
+t3x					FlowChart	
+tab					FlowChart	
+tablam					FlowChart	
+tablatal					FlowChart	
+tableau-app					FlowChart	
+tablog					FlowChart	
+tabsol					FlowChart	
+tabtran					FlowChart	
+tac					FlowChart	
+tacl					FlowChart	
+tacpol-programming-language					FlowChart	
+tactics					FlowChart	
+tads					FlowChart	
+taf					FlowChart	
+taichi					FlowChart	
+taktentus					FlowChart	
+tal					FlowChart	
+tale					FlowChart	
+Talk						Web	
+tall					FlowChart	
+tamgu					FlowChart	
+tampio					FlowChart	
+Tandem Ada						Web	
+Tandem Application Language (TAL)						Web	
+Tandem BASIC						Web	
+Tandem C						Web	
+Tandem C++						Web	
+Tandem COBOL						Web	
+Tandem Fortran						Web	
+Tandem Pascal[71]						Web	
+tangledown					FlowChart	
+tao					FlowChart	
+tao3d					FlowChart	
+tap					FlowChart	
+tap-code					FlowChart	
+taql					FlowChart	
+tarmac					FlowChart	
+tarot					FlowChart	
+Tasking						Web	
+tasm					FlowChart	
+taxa					FlowChart	
+taxis					FlowChart	
+TBASIC					FlowChart	
+tbox-lib					FlowChart	
+tcc					FlowChart	
+Tcl						Both	
+Tcl programming language family						Web	
+Tclsh						Web	
+TclX						Web	
+tcoz					FlowChart	
+tcp					FlowChart	
+tcsh					FlowChart	
+tcsp					FlowChart	
+tdfl					FlowChart	
+tdms					FlowChart	
+tea					FlowChart	
+tea-pl					FlowChart	
+TeaScript					FlowChart	
+teco					FlowChart	
+tefkat					FlowChart	
+Tektronix					FlowChart	
+tela					FlowChart	
+TELCOMP						Both	
+telefile-assembly					FlowChart	
+telnet-protocol					FlowChart	
+telos					FlowChart	
+telsim					FlowChart	
+templar					FlowChart	
+template-attribute-language					FlowChart	
+Template:Ruby programming language						Web	
+tempo					FlowChart	
+temporal-prolog					FlowChart	
+ten					FlowChart	
+TenDRA (tcc)						Web	
+tengo					FlowChart	
+tensorflow					FlowChart	
+Terminal-BASIC					FlowChart	
+tern					FlowChart	
+ternary-notation					FlowChart	
+terra					FlowChart	
+terse					FlowChart	
+Test Anything Protocol						Web	
+Test::More						Web	
+tetra					FlowChart	
+tetruss-app					FlowChart	
+tex					FlowChart	
+texpr					FlowChart	
+text-executive-programming-language					FlowChart	
+textadept-editor					FlowChart	
+texti					FlowChart	
+textile					FlowChart	
+textmate-editor					FlowChart	
+texy					FlowChart	
+tfl					FlowChart	
+The Hessling Editor						Web	
+The SubC Compiler						Web	
+the-message-system					FlowChart	
+THEOS Multi-User Basic					FlowChart	
+theos-multi-user-basic					FlowChart	
+thinBasic 						Both	
+thinglab					FlowChart	
+THINK C, Lightspeed C						Web	
+think-c					FlowChart	
+Thomas Johnsson						Web	
+thorn					FlowChart	
+threaded-lists					FlowChart	
+Threading Building Blocks						Web	
+thrift					FlowChart	
+tht					FlowChart	
+thue-programming-language					FlowChart	
+thune					FlowChart	
+thymeleaf					FlowChart	
+TI BASIC						Both	
+TI Extended BASIC						Both	
+ti-89-basic					FlowChart	
+TI-BASIC					FlowChart	
+TI-BASIC 83						Web	
+ti-basic-assembly					FlowChart	
+Tibbo Basic					FlowChart	
+tibbo-basic					FlowChart	
+tibet					FlowChart	
+tick-c					FlowChart	
+tics					FlowChart	
+tiddlywiki					FlowChart	
+tidyverse					FlowChart	
+tiff-format					FlowChart	
+Tiger-BASIC					FlowChart	
+tiledb					FlowChart	
+tilton					FlowChart	
+timber-programming-language					FlowChart	
+timed-csp					FlowChart	
+tinkertoy					FlowChart	
+Tiny BASIC						Both	
+Tiny C Compiler						Web	
+tiny-basic					FlowChart	
+tinyc-compiler					FlowChart	
+tinygo-compiler					FlowChart	
+TinyScheme						Web	
+titan					FlowChart	
+titanium					FlowChart	
+Tk						Web	
+tl					FlowChart	
+tla					FlowChart	
+tls					FlowChart	
+tmg					FlowChart	
+TML BASIC					FlowChart	
+tmlanguage					FlowChart	
+TMS 9900 assembler						Web	
+toadskin					FlowChart	
+toi					FlowChart	
+tom					FlowChart	
+tom-oopl					FlowChart	
+tomal					FlowChart	
+toml					FlowChart	
+toolbus					FlowChart	
+toontalk					FlowChart	
+topaz					FlowChart	
+topshell					FlowChart	
+torchscript					FlowChart	
+tornado					FlowChart	
+tosh					FlowChart	
+touchdevelop					FlowChart	
+toy-lang					FlowChart	
+tpdl-star					FlowChart	
+trac					FlowChart	
+trace					FlowChart	
+trafola-h					FlowChart	
+traits					FlowChart	
+tramp					FlowChart	
+tranquil					FlowChart	
+transact-sql					FlowChart	
+transaction-language-1					FlowChart	
+transcode					FlowChart	
+transforma					FlowChart	
+translang					FlowChart	
+tree-annotation-operator					FlowChart	
+treelang					FlowChart	
+treet					FlowChart	
+trellis					FlowChart	
+tremor-query					FlowChart	
+trex					FlowChart	
+tridash					FlowChart	
+trig-syntax					FlowChart	
+trio					FlowChart	
+triple					FlowChart	
+triroff					FlowChart	
+troff					FlowChart	
+TRS-80 Level I BASIC					FlowChart	
+TRS-80 Level II BASIC					FlowChart	
+TRS-80 Model 100 BASIC					FlowChart	
+trs-80-color-computer					FlowChart	
+truck					FlowChart	
+True BASIC						Both	
+true-basic						Both	
+TruffleRuby						Web	
+ts					FlowChart	
+tscript					FlowChart	
+tsl					FlowChart	
+tsql2					FlowChart	
+tsquery					FlowChart	
+tsv					FlowChart	
+ttcn					FlowChart	
+ttm					FlowChart	
+ttsneo					FlowChart	
+tuple-space					FlowChart	
+tuplemarkup					FlowChart	
+Turbo Assembler						Web	
+Turbo Basic					FlowChart	
+Turbo C (Borland)						Web	
+Turbo C++ (tcc)						Web	
+Turbo Pascal						Web	
+Turbo Pascal for Windows						Web	
+turbo-assembler					FlowChart	
+turbo-basic					FlowChart	
+Turbo-BASIC XL						Both	
+turbo-basic-xl					FlowChart	
+turbo-pascal					FlowChart	
+Turbo51						Web	
+turing					FlowChart	
+turing-plus					FlowChart	
+turnstile					FlowChart	
+turnstile-plus					FlowChart	
+turtle					FlowChart	
+Turtlestitch						Web	
+tutor					FlowChart	
+tutorial-d					FlowChart	
+Tweak programming environment						Web	
+twelf					FlowChart	
+twig					FlowChart	
+two-d					FlowChart	
+twoducks					FlowChart	
+TxBasic					FlowChart	
+txl					FlowChart	
+txr					FlowChart	
+txt2tags					FlowChart	
+txtzyme					FlowChart	
+tyco					FlowChart	
+Tymshare SuperBasic					FlowChart	
+tymshare-superbasic					FlowChart	
+tynker					FlowChart	
+type-language					FlowChart	
+typecobol					FlowChart	
+typedefs					FlowChart	
+TypeScript						Both	
+typographical-number-theory					FlowChart	
+tyruba					FlowChart	
+U						Web	
+u-datalog					FlowChart	
+uan					FlowChart	
+UBASIC						Both	
+ubercode					FlowChart	
+ubik					FlowChart	
+ubjson					FlowChart	
+uc					FlowChart	
+UCBLogo						Web	
+ucg					FlowChart	
+ucl					FlowChart	
+Uconv						Web	
+ucsd-pascal					FlowChart	
+udp					FlowChart	
+udp-protocol					FlowChart	
+ufl					FlowChart	
+ufo					FlowChart	
+ugnis					FlowChart	
+uiml					FlowChart	
+ujml					FlowChart	
+ulisp					FlowChart	
+ultralisp-pm					FlowChart	
+uml					FlowChart	
+uml2-sp					FlowChart	
+Umple						Both	
+umta					FlowChart	
+Unary Filesystem					FlowChart	
+uncol					FlowChart	
+underlay					FlowChart	
+UniBASIC					FlowChart	
+unicode					FlowChart	
+unicode-lang					FlowChart	
+Unicon 						Both	
+unicon-adl					FlowChart	
+unicorn					FlowChart	
+uniface					FlowChart	
+unified-parallel-c					FlowChart	
+unisim					FlowChart	
+unison					FlowChart	
+unity					FlowChart	
+Unity build						Web	
+unity-engine					FlowChart	
+unity3d-asset					FlowChart	
+UniVerse					FlowChart	
+unix					FlowChart	
+unlambda					FlowChart	
+unlws					FlowChart	
+uno					FlowChart	
+unql					FlowChart	
+unql-lang					FlowChart	
+unravel					FlowChart	
+unrealscript					FlowChart	
+unseemly					FlowChart	
+upic					FlowChart	
+Uppsala-BASIC					FlowChart	
+Ur						Web	
+urbiscript					FlowChart	
+url					FlowChart	
+urn					FlowChart	
+urweb					FlowChart	
+usb-standard					FlowChart	
+uscript					FlowChart	
+uscript2					FlowChart	
+ussa					FlowChart	
+Utah BASIC					FlowChart	
+utc-format					FlowChart	
+utf-8					FlowChart	
+utopia-84					FlowChart	
+V						Both	
+V (DJMcMayhem)					FlowChart	
+v-lang					FlowChart	
+v-promela					FlowChart	
+v-visual-language					FlowChart	
+v8					FlowChart	
+v8torque					FlowChart	
+val					FlowChart	
+val-ii					FlowChart	
+vala					FlowChart	
+Vala						Web	
+Variant type						Web	
+varlist					FlowChart	
+VAX BASIC					FlowChart	
+VBA					FlowChart	
+VBCC						Web	
+VBS					FlowChart	
+VBScript						Both	
+vcard					FlowChart	
+vcf-format					FlowChart	
+vcl					FlowChart	
+vcpkg-pm					FlowChart	
+vdm-sl					FlowChart	
+Vector Pascal						Web	
+vector-pascal					FlowChart	
+VectorC						Web	
+vega-editor-app					FlowChart	
+venus					FlowChart	
+verifpal					FlowChart	
+verilog					FlowChart	
+verona					FlowChart	
+versioned-text-markup-language					FlowChart	
+verve					FlowChart	
+VFX Forth						Web	
+vga-standard					FlowChart	
+VHDL						Both	
+vhdl-ams					FlowChart	
+vi-editor					FlowChart	
+video					FlowChart	
+vienna-definition-language					FlowChart	
+vienna-fortran					FlowChart	
+View history						Web	
+Vilnius BASIC						Both	
+vilnius-basic					FlowChart	
+vim-editor					FlowChart	
+vim-script					FlowChart	
+vim-scripts-pm					FlowChart	
+Vintage BASIC					FlowChart	
+viptran					FlowChart	
+viron					FlowChart	
+virt					FlowChart	
+Virtual Pascal						Web	
+visavis					FlowChart	
+visdown					FlowChart	
+vissim					FlowChart	
+visual					FlowChart	
+Visual Basic 						Both	
+Visual Basic .NET						Web	
+Visual Basic (.NET)						Web	
+Visual Basic for Applications						Both	
+Visual Basic NET					FlowChart	
+Visual Basic Script					FlowChart	
+Visual Basic Scripting Edition					FlowChart	
+Visual C#						Web	
+Visual C# Express						Web	
+Visual C++ (cl)						Web	
+Visual COBOL						Web	
+Visual FoxPro						Web	
+Visual J Sharp						Web	
+Visual Objects						Web	
+Visual Prolog						Both	
+Visual Smalltalk Enterprise						Web	
+Visual Studios Net Basic					FlowChart	
+Visual Test					FlowChart	
+visual-basic					FlowChart	
+visual-basic-dot-net					FlowChart	
+visual-dataflex					FlowChart	
+visual-dialogscript					FlowChart	
+visual-eiffel					FlowChart	
+visual-foxpro					FlowChart	
+visual-logic					FlowChart	
+visual-objects					FlowChart	
+visual-occam					FlowChart	
+visual-paradigm-app					FlowChart	
+visual-prolog					FlowChart	
+visual-smalltalk-enterprise					FlowChart	
+visual-studio-code-editor					FlowChart	
+visual-studio-editor					FlowChart	
+visual-studio-marketplace-pm					FlowChart	
+visual-test					FlowChart	
+VisualAge						Web	
+VisualWorks 						Both	
+viva					FlowChart	
+vivaldi					FlowChart	
+viz					FlowChart	
+vlibtemplate					FlowChart	
+vml					FlowChart	
+volt					FlowChart	
+voxml					FlowChart	
+vpl					FlowChart	
+vrml					FlowChart	
+VS Fortran						Web	
+VS/9 Fortran IV						Web	
+VSI BASIC for OpenVMS						Both	
+VSI Pascal						Web	
+vspl					FlowChart	
+vsxu					FlowChart	
+vtl					FlowChart	
+vtl-lang					FlowChart	
+vtml					FlowChart	
+vuejs					FlowChart	
+vulcan					FlowChart	
+vvvv					FlowChart	
+VX-REXX						Web	
+vyper					FlowChart	
+Vyxal					FlowChart	
+W						Both	
+W (A)					FlowChart	
+wah					FlowChart	
+walt					FlowChart	
+Wang BASIC						Web	
+wart					FlowChart	
+Wasabi					FlowChart	
+wasm					FlowChart	
+wasmer					FlowChart	
+wasp-lang					FlowChart	
+wast					FlowChart	
+watbol					FlowChart	
+watcom					FlowChart	
+Watcom Basic					FlowChart	
+Watcom C/C++,						Web	
+water					FlowChart	
+Waterbed theory						Web	
+Waterloo BASIC					FlowChart	
+WATFIV						Both	
+WATFOR						Both	
+Watir						Web	
+wats					FlowChart	
+wavefront-material					FlowChart	
+wavefront-object					FlowChart	
+wcl					FlowChart	
+wcps					FlowChart	
+wddx					FlowChart	
+wdf					FlowChart	
+wdl					FlowChart	
+web-idl					FlowChart	
+webdna					FlowChart	
+webgl					FlowChart	
+webl					FlowChart	
+webp-format					FlowChart	
+webql					FlowChart	
+WEBrick						Web	
+webstorm-editor					FlowChart	
+wescheme					FlowChart	
+wgsl					FlowChart	
+whack					FlowChart	
+whalecalf					FlowChart	
+whiley					FlowChart	
+whirl					FlowChart	
+whirlwind					FlowChart	
+White Camel award						Web	
+whitespace					FlowChart	
+whois-protocol					FlowChart	
+Why the lucky stiff						Web	
+Why's (poignant) Guide to Ruby						Web	
+WikiTalk						Web	
+Win32Forth						Web	
+winbatch					FlowChart	
+Wind River (Diab) Compiler						Web	
+windev					FlowChart	
+Windows						Web	
+windows-powershell					FlowChart	
+windows-registry-entries					FlowChart	
+WinWrap Basic						Both	
+winwrap-basic				FlowChart	
+winxed					FlowChart	
+wireless-markup-language		FlowChart	
+wirth-syntax-notation			FlowChart	
+Wish					Web	
+wisp					FlowChart	
+wiswesser-line-notation			FlowChart	
+wizml					FlowChart	
+wizor					FlowChart	
+wlanguage				FlowChart	
+wml					FlowChart	
+wmlscript				FlowChart	
+woe					FlowChart	
+wol					FlowChart	
+wolfram					FlowChart	
+wolontis-bell-interpreter		FlowChart	
+woofjs					FlowChart	
+WordBASIC				Both	
+wordpress				FlowChart	
+work-flow-language			FlowChart	
+world					FlowChart	
+world-of-warcraft-addon-data		FlowChart	
+worst					FlowChart	
+wren					FlowChart	
+writeacourse				FlowChart	
+wsdl					FlowChart	
+wsfn-programming-language		FlowChart	
+wxBasic					FlowChart	
+wylbur					FlowChart	
+wyvern					FlowChart	
+X					Web	
+x-basic					FlowChart	
+x-bitmap				FlowChart	
+x-bitmap-format				FlowChart	
+x-font-directory-index			FlowChart	
+x-klaim					FlowChart	
+x-pixmap				FlowChart	
+x10					FlowChart	
+X11-Basic				FlowChart	
+X64					FlowChart	
+x86-64-isa				FlowChart	
+x86-assembly				FlowChart	
+x86-isa					FlowChart	
+xadl					FlowChart	
+xaml					FlowChart	
+XBase					Both	
+XBase programming language family	Web	
+XBase++					Web	
+xbasepp					FlowChart	
+XBasic					Both	
+xbel					FlowChart	
+xbl					FlowChart	
+XBLite					Both	
+xbrl					FlowChart	
+xc					FlowChart	
+xcard					FlowChart	
+xcas					FlowChart	
+xcompose				FlowChart	
+xcore					FlowChart	
+xcy					FlowChart	
+xdr					FlowChart	
+xduce					FlowChart	
+xe					FlowChart	
+XEDIT					Web	
+XENBLN					FlowChart	
+xetex					FlowChart	
+xgboost-model				FlowChart	
+xgmml					FlowChart	
+XHarbour				Web	
+xhtml					FlowChart	
+xl					FlowChart	
+XL C, XL C/C++				Web	
+XL C/C++ (xlc++)			Web	
+XL Fortran				Web	
+xl-lang					FlowChart	
+xl-programming-language			FlowChart	
+XLISP					Web	
+XLispStat				Web	
+xlwings-editor				FlowChart	
+xmi					FlowChart	
+xml					FlowChart	
+xml-gl					FlowChart	
+xml-ql					FlowChart	
+xml-query-algebra			FlowChart	
+xmpp-protocol				FlowChart	
+xmtc					FlowChart	
+xoc-compiler				FlowChart	
+xodio					FlowChart	
+Xojo					Both	
+XOTcl					Both	
+xpages					FlowChart	
+xpath					FlowChart	
+XPL					Both	
+xpl0					Both	
+xpm-format				FlowChart	
+xpop					FlowChart	
+xproc					FlowChart	
+xprofan					FlowChart	
+xql					FlowChart	
+xql-lang				FlowChart	
+xquery					FlowChart	
+XRuby					Web	
+xs					FlowChart	
+XS (Perl)				Web	
+xs-lang					FlowChart	
+XSB					Both	
+xsd					FlowChart	
+XSharp					Both	
+xsim					FlowChart	
+xslt					FlowChart	
+xsv-app					FlowChart	
+xt3d					FlowChart	
+xtclang					FlowChart	
+xtend					FlowChart	
+xtext					FlowChart	
+xtran					FlowChart	
+xuml					FlowChart	
+xupdate					FlowChart	
+xxl					FlowChart	
+Y					Both	
+y-lang					FlowChart	
+yab					FlowChart	
+Yabasic					Both	
+yacas					FlowChart	
+yacc					FlowChart	
+yaml					FlowChart	
+yang					FlowChart	
+YAP					FlowChart	
+YAP (Prolog)				Web	
+yap-prolog				FlowChart	
+yara					FlowChart	
+YARV					Both	
+yasl					FlowChart	
+yasnippet				FlowChart	
+yawl					FlowChart	
+yBasic					FlowChart	
+ycp					FlowChart	
+Yet Another Perl Conference		Web	
+yeti					FlowChart	
+YHC					Web	
+yii					FlowChart	
+yinyang					FlowChart	
+yoga					FlowChart	
+yoix					FlowChart	
+yorick					FlowChart	
+YS MegaBasic				Web	
+Yukihiro Matsumoto			Web	
+yum-pm					FlowChart	
+z-expressions				FlowChart	
+z-lang					FlowChart	
+z-machine				FlowChart	
+z-notation				FlowChart	
+z-shell					FlowChart	
+z2					FlowChart	
+z80					FlowChart	
+z80_8080				FlowChart	
+Z80golf					FlowChart	
+Zahlen					FlowChart	
+Zammad					Web	
+ZBasic					FlowChart	
+Zbasic					FlowChart	
+zccs					FlowChart	
+zed					FlowChart	
+Zedcor					FlowChart	
+zeno					FlowChart	
+zenscript				FlowChart	
+zephir					FlowChart	
+zephyr-asdl				FlowChart	
+Zeus Assembler				Web	
+Zeus_Basic				FlowChart	
+zgrass					FlowChart	
+zig					FlowChart	
+Zig cc					Web	
+zigzag					FlowChart	
+zil					FlowChart	
+zim-format				FlowChart	
+zimbu					FlowChart	
+zimpl					FlowChart	
+zip-format				FlowChart	
+zl					FlowChart	
+zlang					FlowChart	
+ZOC					Web	
+zolang					FlowChart	
+zone					FlowChart	
+Zonnon					Both	
+zope					FlowChart	
+zopl					FlowChart	
+zpl					FlowChart	
+zpp					FlowChart	
+zz					FlowChart	
+ΛProlog					Web	
